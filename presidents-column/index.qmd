@@ -1,0 +1,10 @@
+---
+title: "President's Column"
+listing:
+  contents: posts
+  type: default
+  sort: "date desc"
+  categories: false
+---
+
+Regular columns from the EADM President.

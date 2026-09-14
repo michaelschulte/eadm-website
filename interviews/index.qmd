@@ -1,0 +1,10 @@
+---
+title: "EADM Interview"
+listing:
+  contents: posts
+  type: default
+  sort: "date desc"
+  categories: false
+---
+
+A recurring series of interviews with EADM members.

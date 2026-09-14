@@ -1,0 +1,10 @@
+---
+title: "News"
+listing:
+  contents: posts
+  type: default
+  sort: "date desc"
+  categories: false
+---
+
+Announcements and updates from EADM.
