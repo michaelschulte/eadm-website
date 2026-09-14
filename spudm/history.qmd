@@ -10,160 +10,42 @@ Abstract
 The start-up in 1969 and the next 28 years are described of the international research conference on Subjective Probability, Utility and Decision Making, whose 23rd biennial manifestation took place in London, August 2011. SPUDM began in Hamburg on April 10-12, 1969, as a Research Conference on Subjective Probability and Related Fields. It adopted its current name at the third conference in Uxbridge, UK. As a distinctly European response to the growing literature, SPUDM was just another expression of the big wave of research interests in decision models, methods and processes, which rolled on in the 1950s and 1960s. A description is given of SPUDM’s inception around 1969 and its thriving development since then. The important role of Ward Edwards’ early decision-theoretic reviews is highlighted, as are the inspiring roles of Bruno De Finetti and Masanao Toda. SPUDM’s gradual expansion and differentiation are discussed, and its thematic developments between 1969 and 1997 are surveyed. Typical quotations are given and some pictures of SPUDM inspirators and activists are provided. A postscript anno 2012 gives a more distant look back on later developments, and some suggestions for SPUDM in its fifth decade.
 
 Locations, Programs and Members of the Organizing Committees of SPUDM Conferences through the years:
-<table border="0" width="429" cellspacing="0" cellpadding="0"><colgroup> <col width="39" /> <col width="91" /> <col width="299" /></colgroup>
-<tbody>
-<tr>
-<td align="right" width="39" height="29"><strong><a href="/files/2024/05/Program2023.pdf">2025</a></strong></td>
-<td width="91"><strong>Lucca</strong></td>
-<td width="299">Sibilla Di Guida</td>
-</tr>
-<tr>
-<td align="right" width="39" height="29"><strong><a href="/files/2024/05/Program2023.pdf">2023</a></strong></td>
-<td width="91"><strong>Vienna</strong></td>
-<td width="299">Susann Fiedler</td>
-</tr>
-<tr>
-<td align="right" width="39" height="29"><strong><a href="/files/2014/05/SPUDM_26_Program.pdf">2021</a></strong></td>
-<td width="91"><strong>Warwick</strong></td>
-<td width="299">Elliot Ludvig, Daniel Read, Andrea Isoni, Carol Gardner, Emily Jamieson, Marcus Tonge</td>
-</tr>
-<tr>
-<td align="right" width="39" height="29"><strong><a href="/files/2014/05/SPUDM_26_Program.pdf">2019</a></strong></td>
-<td width="91"><strong>Amsterdam</strong></td>
-<td width="299">Shaul Shalvi</td>
-</tr>
-<tr>
-<td align="right" width="39" height="29"><strong><a href="/files/2014/05/SPUDM_26_Program.pdf">2017</a></strong></td>
-<td width="91"><strong>Haifa</strong></td>
-<td width="299">Ido Erev, Shahar Ayal</td>
-</tr>
-<tr>
-<td align="right" width="39" height="29"><strong><a href="/files/2014/05/Abstract_book_FINAL.pdf">2015</a></strong></td>
-<td width="91"><strong>Budapest</strong></td>
-<td width="299">Richárd Szántó</td>
-</tr>
-<tr>
-<td align="right" width="39" height="29"><strong><a href="/files/2014/10/SPUDM_24_2013reduced.pdf">2013</a></strong></td>
-<td width="91"><strong>Barcelona</strong></td>
-<td width="299">Elena Reustkaja, Mario Capizzani, Franz Heukamp, Robin Hogarth</td>
-</tr>
-<tr>
-<td align="right" width="39" height="21"><strong><a href="/files/2014/10/SPUDM_23_2011.pdf">2011</a></strong></td>
-<td width="91"><strong>Kingston</strong></td>
-<td width="299">Gaëlle Villejoubert</td>
-</tr>
-<tr>
-<td align="right" width="39" height="29"><strong><a href="/files/2014/10/SPUDM_22_2009.pdf">2009</a></strong></td>
-<td width="91"><strong>Rovereto</strong></td>
-<td width="299">Nicolao Bonini, Dinos Hadjichristidis, Rob Ranyard, Elke Weber, Gaëlle Villejoubert</td>
-</tr>
-<tr>
-<td align="right" width="39" height="29"><strong><a href="/files/2014/10/2007.pdf">2007</a></strong></td>
-<td width="91"><strong>Warsaw</strong></td>
-<td width="299">Joanna Sokolowska, Tomasz Zaleskiewicz, Craig Fox, Nicolao Bonini</td>
-</tr>
-<tr>
-<td align="right" width="39" height="43"><strong><a href="/files/2014/10/SPUDM_20_2005.pdf">2005</a></strong></td>
-<td width="91"><strong>Stockholm</strong></td>
-<td width="299">Tommy Gärling, Henry Montgomery, Lisa Ordonez, Joanna Sokolowska, Danielle Timmermans</td>
-</tr>
-<tr>
-<td align="right" width="39" height="29"><strong><a href="/files/2014/10/SPUDM_19_2003.pdf">2003</a></strong></td>
-<td width="91"><strong>Zürich</strong></td>
-<td width="299">Roland Scholz, Renate Schubert, David Budescu, Tommy Gärling</td>
-</tr>
-<tr>
-<td align="right" width="39" height="29"><strong><a href="/files/2014/10/SPUDM_18_2001.pdf">2001</a></strong></td>
-<td width="91"><strong>Amsterdam</strong></td>
-<td width="299">Pieter Koele, Joop van der Pligt, Jeryl Mumpower, Renate Schubert</td>
-</tr>
-<tr>
-<td align="right" width="39" height="29"><strong><a href="/files/2014/10/SPUDM_17_1999.pdf">1999</a></strong></td>
-<td width="91"><strong>Mannheim</strong></td>
-<td width="299">Martin Weber, José Kerstholt, Joop van der Pligt, George Wu</td>
-</tr>
-<tr>
-<td align="right" width="39" height="29"><strong><a href="/files/2014/10/1997.pdf">1997</a></strong></td>
-<td width="91"><strong>Leeds</strong></td>
-<td width="299">John Maule, Rob Ranyard, Martin Weber, Eric Johnson</td>
-</tr>
-<tr>
-<td align="right" width="39" height="29"><strong><a href="/files/2014/10/SPUDM_15_1995.pdf">1995</a></strong></td>
-<td width="91"><strong>Jerusalem</strong></td>
-<td width="299">Maya Bar-Hillel, Ruth Beyth-Marom, David Budescu, John Maule, Richard Thaler</td>
-</tr>
-<tr>
-<td align="right" width="39" height="43"><strong><a href="/files/2014/10/1993.pdf">1993</a></strong></td>
-<td width="91"><strong>Aix-en-Provence</strong></td>
-<td width="299">Jean-Paul Caverni, Maya Bar-Hillel, Hutton Barron, Oswald Huber, Helmut Jungermann, Helen Moshkovich, Joop van der Pligt</td>
-</tr>
-<tr>
-<td align="right" width="39" height="43"><strong><a href="/files/2014/10/1991.pdf">1991</a></strong></td>
-<td width="91"><strong>Fribourg</strong></td>
-<td width="299">Oswald Huber, Katrin Borcherding, Klara Farago, Oleg Larichev, Jeryl Mumpower, Joop van der Pligt</td>
-</tr>
-<tr>
-<td align="right" width="39" height="29"><strong><a href="/files/2014/10/SPUDM_12_1989.pdf">1989</a></strong></td>
-<td width="91"><strong>Moscow</strong></td>
-<td width="299">Oleg Larichev, Katrin Borcherding, Istvan Kiss, David Messick, Stephen Watson</td>
-</tr>
-<tr>
-<td align="right" width="39" height="43"><strong><a href="/files/2014/10/SPUDM_11_1987_plus_history.pdf">1987</a></strong></td>
-<td width="91"><strong>Cambridge</strong></td>
-<td width="299">Stephen Watson, Istvan Kiss, Lola Lopes, Bernd Rohrmann, Willem-Albert Wagenaar, Stuart Wooler</td>
-</tr>
-<tr>
-<td align="right" width="39" height="43"><strong><a href="/files/2014/10/SPUDM_10_1985.pdf">1985</a></strong></td>
-<td width="91"><strong>Helsinki</strong></td>
-<td width="299">Guje Sevón, Berndt Brehmer, Helmut Jungermann, Oleg Larichev, Peter Lourens, Gordon Pitz</td>
-</tr>
-<tr>
-<td align="right" width="39" height="43"><strong><a href="/files/2014/10/1983.pdf">1983</a></strong></td>
-<td width="91"><strong>Groningen</strong></td>
-<td width="299">Charles Vlek, Katrin Borcherding, Berndt Brehmer, Baruch Fischhoff, Pieter Koele, Peter Lourens, Anna Vári</td>
-</tr>
-<tr>
-<td align="right" width="39" height="43"><strong><a href="/files/2014/10/SPUDM_08_1981.pdf">1981</a></strong></td>
-<td width="91"><strong>Budapest</strong></td>
-<td width="299">Tibor Engländer, Anna Vári, Patrick Humphreys, Ola Svenson, Willem A. Wagenaar, Detlov von Winterfeldt</td>
-</tr>
-<tr>
-<td align="right" width="39" height="29"><strong><a href="/files/2014/10/1979.pdf">1979</a></strong></td>
-<td width="91"><strong>Göteborg</strong></td>
-<td width="299">Lennart Sjöberg, Lee Roy Beach, Patrick Humphreys, Ola Svenson, Tadeusz Tyszka</td>
-</tr>
-<tr>
-<td align="right" width="39" height="43"><strong><a href="/files/2014/10/1977revised.pdf">1977</a></strong></td>
-<td width="91"><strong>Warsaw</strong></td>
-<td width="299">Józef Kozielecki, Wojciech Gasparski, Helmut Jungermann, Lennart Sjöberg, James Wise, Gerard de Zeeuw</td>
-</tr>
-<tr>
-<td align="right" width="39" height="29"><strong><a href="/files/2014/10/SPUDM_05_1975.pdf">1975</a></strong></td>
-<td width="91"><strong>Darmstadt</strong></td>
-<td width="299">Helmut Jungermann, Józef Kozielecki, Sarah Lichtenstein, Gerard de Zeeuw</td>
-</tr>
-<tr>
-<td align="right" width="39" height="29"><strong><a href="/files/2014/10/1973revised1.pdf">1973</a></strong></td>
-<td width="91"><strong>Rome</strong></td>
-<td width="299">Bruno de Finetti, Gernot Kleiter, Carl-Axel Staël von Holstein, Charles Vlek, Dirk Wendt</td>
-</tr>
-<tr>
-<td align="right" width="39" height="29"><strong><a href="/files/2014/10/SPUDM_03_1971.pdf">1971</a></strong></td>
-<td width="91"><strong>Uxbridge </strong></td>
-<td width="299">Larry Phillips, John Kidd, Sandy Lovie</td>
-</tr>
-<tr>
-<td align="right" width="39" height="29"><strong><a href="/files/2014/10/SPUDM_02_1970.pdf">1970</a></strong></td>
-<td width="91"><strong>Amsterdam</strong></td>
-<td width="299">Gerard de Zeeuw, Charles Vlek, Willem Albert Wagenaar, Kiek van der Meer</td>
-</tr>
-<tr>
-<td align="right" width="39" height="28"><strong><a href="/files/2014/10/1969.pdf">1969</a></strong></td>
-<td width="91"><strong>Hamburg</strong></td>
-<td width="299">Dirk Wendt, Carl-Axel Staël von Holstein, Charles Vlek</td>
-</tr>
-</tbody>
-</table>
-Thanks to the following people who helped putting this list and the conference programs together up to 2011: Tommy Gärling, Oswald Huber, Helmut Jungermann, Eugenie Kalteis, Judith Kas, Pieter Koele, John Maule, Henry Montgomery, Joop van der Pligt, Joanna Sokolowska, Barbara Summers, <span style="color: #000000;">Gaëlle Villejoubert</span>
+
+| Year | Location | Organization Committee |
+|------|----------|------------------------|
+| [2025](/files/2025/11/program2025.pdf) | Lucca | Sibilla Di Guida |
+| [2023](/files/2024/05/Program2023.pdf) | Vienna | Susann Fiedler |
+| [2021](/files/2021/08/Program2021.pdf) | Warwick | Elliot Ludvig, Daniel Read, Andrea Isoni, Carol Gardner, Emily Jamieson, Marcus Tonge |
+| [2019](/files/2019/06/Program2019.pdf) | Amsterdam | Shaul Shalvi |
+| [2017](/files/2014/05/SPUDM_26_Program.pdf) | Haifa | Ido Erev, Shahar Ayal |
+| [2015](/files/2014/05/Abstract_book_FINAL.pdf) | Budapest | Richárd Szántó |
+| [2013](/files/2014/10/SPUDM_24_2013reduced.pdf) | Barcelona | Elena Reutskaja, Mario Capizzani, Franz Heukamp, Robin Hogarth |
+| [2011](/files/2014/10/SPUDM_23_2011.pdf) | Kingston | Gaëlle Villejoubert |
+| [2009](/files/2014/10/SPUDM_22_2009.pdf) | Rovereto | Nicolao Bonini, Dinos Hadjichristidis, Rob Ranyard, Elke Weber, Gaëlle Villejoubert |
+| [2007](/files/2014/10/2007.pdf) | Warsaw | Joanna Sokolowska, Tomasz Zaleskiewicz, Craig Fox, Nicolao Bonini |
+| [2005](/files/2014/10/SPUDM_20_2005.pdf) | Stockholm | Tommy Gärling, Henry Montgomery, Lisa Ordonez, Joanna Sokolowska, Danielle Timmermans |
+| [2003](/files/2014/10/SPUDM_19_2003.pdf) | Zürich | Roland Scholz, Renate Schubert, David Budescu, Tommy Gärling |
+| [2001](/files/2014/10/SPUDM_18_2001.pdf) | Amsterdam | Pieter Koele, Joop van der Pligt, Jeryl Mumpower, Renate Schubert |
+| [1999](/files/2014/10/SPUDM_17_1999.pdf) | Mannheim | Martin Weber, José Kerstholt, Joop van der Pligt, George Wu |
+| [1997](/files/2014/10/1997.pdf) | Leeds | John Maule, Rob Ranyard, Martin Weber, Eric Johnson |
+| [1995](/files/2014/10/SPUDM_15_1995.pdf) | Jerusalem | Maya Bar-Hillel, Ruth Beyth-Marom, David Budescu, John Maule, Richard Thaler |
+| [1993](/files/2014/10/1993.pdf) | Aix-en-Provence | Jean-Paul Caverni, Maya Bar-Hillel, Hutton Barron, Oswald Huber, Helmut Jungermann, Helen Moshkovich, Joop van der Pligt |
+| [1991](/files/2014/10/1991.pdf) | Fribourg | Oswald Huber, Katrin Borcherding, Klara Farago, Oleg Larichev, Jeryl Mumpower, Joop van der Pligt |
+| [1989](/files/2014/10/SPUDM_12_1989.pdf) | Moscow | Oleg Larichev, Katrin Borcherding, Istvan Kiss, David Messick, Stephen Watson |
+| [1987](/files/2014/10/SPUDM_11_1987_plus_history.pdf) | Cambridge | Stephen Watson, Istvan Kiss, Lola Lopes, Bernd Rohrmann, Willem-Albert Wagenaar, Stuart Wooler |
+| [1985](/files/2014/10/SPUDM_10_1985.pdf) | Helsinki | Guje Sevón, Berndt Brehmer, Helmut Jungermann, Oleg Larichev, Peter Lourens, Gordon Pitz |
+| [1983](/files/2014/10/1983.pdf) | Groningen | Charles Vlek, Katrin Borcherding, Berndt Brehmer, Baruch Fischhoff, Pieter Koele, Peter Lourens, Anna Vári |
+| [1981](/files/2014/10/SPUDM_08_1981.pdf) | Budapest | Tibor Engländer, Anna Vári, Patrick Humphreys, Ola Svenson, Willem A. Wagenaar, Detlov von Winterfeldt |
+| [1979](/files/2014/10/1979.pdf) | Göteborg | Lennart Sjöberg, Lee Roy Beach, Patrick Humphreys, Ola Svenson, Tadeusz Tyszka |
+| [1977](/files/2014/10/1977revised.pdf) | Warsaw | Józef Kozielecki, Wojciech Gasparski, Helmut Jungermann, Lennart Sjöberg, James Wise, Gerard de Zeeuw |
+| [1975](/files/2014/10/SPUDM_05_1975.pdf) | Darmstadt | Helmut Jungermann, Józef Kozielecki, Sarah Lichtenstein, Gerard de Zeeuw |
+| [1973](/files/2014/10/1973revised1.pdf) | Rome | Bruno de Finetti, Gernot Kleiter, Carl-Axel Staël von Holstein, Charles Vlek, Dirk Wendt |
+| [1971](/files/2014/10/SPUDM_03_1971.pdf) | Uxbridge | Larry Phillips, John Kidd, Sandy Lovie |
+| [1970](/files/2014/10/SPUDM_02_1970.pdf) | Amsterdam | Gerard de Zeeuw, Charles Vlek, Willem Albert Wagenaar, Kiek van der Meer |
+| [1969](/files/2014/10/1969.pdf) | Hamburg | Dirk Wendt, Carl-Axel Staël von Holstein, Charles Vlek |
+
+: {.spudm-conferences tbl-colwidths="[10,20,70]"}
+
+Thanks to the following people who helped putting this list and the conference programs together up to 2011: Tommy Gärling, Oswald Huber, Helmut Jungermann, Eugenie Kalteis, Judith Kas, Pieter Koele, John Maule, Henry Montgomery, Joop van der Pligt, Joanna Sokolowska, Barbara Summers, Gaëlle Villejoubert
 
 &nbsp;

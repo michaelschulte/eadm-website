@@ -8,7 +8,7 @@ Members of the Organizing Committees of SPUDM Conferences:
 <tr>
 <td align="right" width="39" height="29"><strong>2013</strong></td>
 <td width="91"><strong>Barcelona</strong></td>
-<td width="299">Elena Reustkaja, Mario Capizzani, Franz Heukamp, Robin Hogarth</td>
+<td width="299">Elena Reutskaja, Mario Capizzani, Franz Heukamp, Robin Hogarth</td>
 </tr>
 <tr>
 <td align="right" width="39" height="21"><strong>2011</strong></td>

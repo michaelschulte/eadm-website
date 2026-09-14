@@ -189,6 +189,14 @@ main.content table {
   }
 }
 
+// SPUDM conference tables: the year column links to each programme PDF.
+// Quarto lets links inside tables break anywhere, which splits "2025" into
+// "202/5" on phones, so keep the years whole.
+.spudm-conferences td:first-child a {
+  word-break: normal;
+  white-space: nowrap;
+}
+
 // On phones, tighten cells and let anything still too wide scroll inside
 // the table instead of pushing the whole page sideways.
 @include media-breakpoint-down(sm) {
