@@ -1,13 +1,366 @@
+// Shared rules for both colour modes. The $eadm-* variables are defined
+// per mode in styles-light.scss / styles-dark.scss.
+
 /*-- scss:rules --*/
 
-.navbar {
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+// ---------------------------------------------------------------------------
+// Logo artwork
+// ---------------------------------------------------------------------------
+
+// The original logo is a JPG on white. In dark mode it sits on a small
+// white panel so the artwork (including its black tagline) stays intact.
+@mixin eadm-logo-panel($pad-y, $pad-x, $radius) {
+  @if $eadm-dark {
+    background-color: #ffffff;
+    padding: $pad-y $pad-x;
+    border-radius: $radius;
+  }
 }
+
+// ---------------------------------------------------------------------------
+// Navbar
+// ---------------------------------------------------------------------------
+
+.navbar {
+  border-bottom: 3px solid $eadm-red;
+  box-shadow: 0 2px 14px rgba(0, 0, 0, 0.06);
+  padding-top: 0.55rem;
+  padding-bottom: 0.55rem;
+}
+
+.navbar .navbar-brand {
+  margin-right: 1.5rem;
+  flex-shrink: 0; // never crop the logo when space is tight
+}
+
+.navbar img.navbar-logo {
+  height: 36px;
+  max-height: none;
+  width: auto;
+  @include eadm-logo-panel(4px, 8px, 6px);
+}
+
+.navbar .nav-link {
+  font-weight: 500;
+}
+
+@include media-breakpoint-up(lg) {
+  .navbar .navbar-nav .nav-link {
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    border-radius: 0.4rem;
+  }
+
+  .navbar .navbar-nav .nav-link.active {
+    box-shadow: inset 0 -2px 0 $eadm-red;
+    border-radius: 0;
+  }
+}
+
+// Collapsed navbar on phones: hamburger, logo and the toggle/search icons
+// share one row, so the logo must be smaller.
+@include media-breakpoint-down(sm) {
+  .navbar .navbar-brand {
+    margin-right: 0.5rem;
+  }
+
+  .navbar img.navbar-logo {
+    height: 26px;
+  }
+}
+
+// Between the collapse breakpoint and xl the six menus plus logo only just
+// fit, so tighten spacing and shrink the logo a little.
+@include media-breakpoint-between(lg, xl) {
+  .navbar .navbar-brand {
+    margin-right: 0.75rem;
+  }
+
+  .navbar img.navbar-logo {
+    height: 30px;
+  }
+
+  .navbar .navbar-nav .nav-link {
+    padding-left: 0.45rem;
+    padding-right: 0.45rem;
+  }
+}
+
+.navbar .dropdown-menu {
+  border: 1px solid $eadm-border;
+  border-radius: 0.6rem;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12);
+  padding: 0.35rem;
+}
+
+.navbar .dropdown-item {
+  border-radius: 0.4rem;
+  padding: 0.45rem 0.8rem;
+
+  &:hover,
+  &:focus {
+    background-color: $eadm-surface;
+    color: $navbar-hl;
+  }
+}
+
+// Dark mode's link red (#ff6b62) is too light behind white button text, so
+// filled buttons use the logo red instead (white on #d03030 is 5.1:1).
+@if $eadm-dark {
+  .btn-primary {
+    @include button-variant(
+      $eadm-red,
+      $eadm-red,
+      $color: #ffffff,
+      $hover-background: shade-color($eadm-red, 12%),
+      $hover-border: shade-color($eadm-red, 12%),
+      $hover-color: #ffffff,
+      $active-background: shade-color($eadm-red, 20%),
+      $active-border: shade-color($eadm-red, 20%),
+      $active-color: #ffffff
+    );
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Typography & page chrome
+// ---------------------------------------------------------------------------
 
 main.content {
   padding-top: 1.5rem;
 }
 
-.quarto-listing .listing-item {
-  border-radius: 0.5rem;
+#title-block-header {
+  margin-bottom: 1.75rem;
+
+  .title {
+    font-weight: 700;
+    letter-spacing: -0.01em;
+  }
+
+  // A short red rule under each page title, echoing the logo's blocks.
+  &::after {
+    content: "";
+    display: block;
+    width: 3rem;
+    height: 4px;
+    margin-top: 0.9rem;
+    border-radius: 2px;
+    background-color: $eadm-red;
+  }
+}
+
+main.content h2 {
+  border-bottom: 1px solid $eadm-border;
+  padding-bottom: 0.35rem;
+  margin-top: 2.25rem;
+}
+
+main.content a {
+  text-underline-offset: 0.18em;
+  text-decoration-thickness: 1px;
+
+  &:hover {
+    text-decoration-thickness: 2px;
+  }
+}
+
+main.content img {
+  max-width: 100%;
+  height: auto;
+}
+
+// ---------------------------------------------------------------------------
+// Tables (migrated WordPress content uses raw, unclassed HTML tables)
+// ---------------------------------------------------------------------------
+
+main.content table {
+  max-width: 100%;
+  border-collapse: collapse;
+
+  td,
+  th {
+    vertical-align: top;
+  }
+
+  tr + tr > td,
+  tr + tr > th {
+    border-top: 1px solid $eadm-border;
+  }
+}
+
+// On phones, tighten cells and let anything still too wide scroll inside
+// the table instead of pushing the whole page sideways.
+@include media-breakpoint-down(sm) {
+  main.content table {
+    display: block;
+    overflow-x: auto;
+    font-size: 0.9rem;
+
+    td,
+    th {
+      padding: 0.5rem 0.45rem;
+    }
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Listings (News, EADM Interview, President's Column)
+// ---------------------------------------------------------------------------
+
+.quarto-listing-default .quarto-post {
+  border: 1px solid $eadm-border;
+  border-radius: 0.75rem;
+  padding: 1.25rem 1.4rem;
+  margin-bottom: 1rem;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+
+  &:hover {
+    border-color: rgba($eadm-red, 0.55);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.07);
+  }
+
+  .listing-title {
+    color: $eadm-ink;
+    font-weight: 600;
+  }
+
+  .listing-date {
+    color: $eadm-muted;
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Home page
+// ---------------------------------------------------------------------------
+
+// The home page has no title; its heading is the logo <h1>. Quarto still
+// emits an empty title block, which would otherwise show the red rule.
+.eadm-home {
+  #title-block-header:not(:has(*)) {
+    display: none;
+  }
+
+  h1:has(> .eadm-hero-logo) {
+    margin: 0.5rem 0 1.75rem;
+    line-height: 0;
+  }
+}
+
+main.content img.eadm-hero-logo {
+  display: block;
+  width: 100%;
+  max-width: 36rem;
+  height: auto;
+  @include eadm-logo-panel(0.9rem, 1.1rem, 0.75rem);
+}
+
+.eadm-hero {
+  margin-bottom: 2.75rem;
+
+  .eadm-lead {
+    font-size: 1.15rem;
+    line-height: 1.7;
+    max-width: 44rem;
+  }
+
+  // Pandoc wraps the two buttons in a <p>, so that is the flex container.
+  .eadm-actions > p {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin: 1.5rem 0 0;
+
+    .btn {
+      font-weight: 600;
+      padding: 0.6rem 1.2rem;
+      border-radius: 0.5rem;
+      text-decoration: none;
+    }
+  }
+}
+
+.eadm-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  gap: 1rem;
+  margin: 1.25rem 0 1rem;
+}
+
+.eadm-card {
+  position: relative;
+  border: 1px solid $eadm-border;
+  border-top: 4px solid $eadm-red;
+  border-radius: 0.75rem;
+  padding: 1.1rem 1.25rem 1.2rem;
+  background-color: $eadm-surface;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+
+  h3 {
+    font-size: 1.2rem;
+    margin: 0 0 0.4rem;
+
+    a {
+      color: $eadm-ink;
+      text-decoration: none;
+
+      // Make the whole card clickable.
+      &::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+      }
+    }
+  }
+
+  p {
+    margin: 0;
+    color: $eadm-muted;
+    font-size: 0.95rem;
+  }
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.09);
+
+    h3 a {
+      color: $navbar-hl;
+    }
+  }
+
+  &:focus-within {
+    outline: 2px solid $eadm-red;
+    outline-offset: 2px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .eadm-card,
+  .quarto-listing-default .quarto-post {
+    transition: none;
+  }
+
+  .eadm-card:hover {
+    transform: none;
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Footer
+// ---------------------------------------------------------------------------
+
+.nav-footer {
+  border-top: 3px solid $eadm-red;
+  padding-top: 1.1rem;
+  padding-bottom: 1.1rem;
+
+  // Line the footer text up with the navbar logo above.
+  @include media-breakpoint-up(md) {
+    padding-left: 1.9rem;
+    padding-right: 1.9rem;
+  }
+
+  a {
+    color: #f6f5f3;
+  }
 }

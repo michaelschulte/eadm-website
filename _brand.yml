@@ -2,32 +2,75 @@ meta:
   name: EADM
   link: https://eadm.eu
 
+# Artwork is cropped from the original EADM logo (the WordPress site's
+# header image, uploads/2013/08/cropped-EADM_logo_normal_PlusFrame31.jpg),
+# not redrawn: "mark" drops the tagline for the navbar, "icon" is the
+# rising arrow out of the black decision-path box.
+logo:
+  images:
+    mark:
+      path: images/brand/eadm-mark.png
+      alt: EADM
+    full:
+      path: images/brand/eadm-logo.jpg
+      alt: "EADM — The European Association for Decision Making"
+    icon: images/brand/favicon.png
+  small: icon
+  medium: mark
+  large: full
+
+# The palette is sampled from that logo: the red "eadm" blocks, the black
+# decision-path box and the off-white/gray of the original page. Links use
+# a deeper (light) or softer (dark) red so text/link pairs meet WCAG AA.
 color:
   palette:
-    eadm-blue: "#1f4e79"
-    eadm-slate: "#33424f"
-    eadm-gray: "#5a6570"
-  primary: eadm-blue
-  secondary: eadm-slate
-  foreground: eadm-gray
-  background: "#ffffff"
+    eadm-red: "#d03030"
+    eadm-red-deep: "#b3261e"
+    eadm-red-soft: "#ff6b62"
+    eadm-ink: "#1d1d1f"
+    eadm-charcoal: "#3a3a3d"
+    eadm-gray: "#5f5f63"
+    eadm-paper: "#f6f5f3"
+    eadm-night: "#151517"
+    eadm-night-raised: "#1f1f22"
+    eadm-mist: "#e6e4e1"
+    eadm-mist-muted: "#a8a6a3"
+    red: eadm-red
+  primary:
+    light: eadm-red-deep
+    dark: eadm-red-soft
+  secondary:
+    light: eadm-gray
+    dark: eadm-mist-muted
+  danger: eadm-red
+  foreground:
+    light: eadm-charcoal
+    dark: eadm-mist
+  background:
+    light: "#ffffff"
+    dark: eadm-night
 
 typography:
   fonts:
     - family: Inter
       source: google
       weight: [400, 500, 600, 700]
-    - family: "Source Serif 4"
+      style: [normal, italic]
+    # Geometric sans echoing the lettering of the logo's tagline.
+    - family: Outfit
       source: google
-      weight: [400, 600]
+      weight: [500, 600, 700]
   base:
     family: Inter
     size: 1rem
-    line-height: 1.6
+    line-height: 1.65
   headings:
-    family: "Source Serif 4"
+    family: Outfit
     weight: 600
-    line-height: 1.25
+    line-height: 1.2
+    color:
+      light: eadm-ink
+      dark: eadm-mist
   link:
     color: primary
     weight: 500

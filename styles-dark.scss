@@ -1,0 +1,19 @@
+// Dark-mode palette. Hex values mirror _brand.yml's palette; they are
+// repeated here because Sass defaults can't reference brand variables
+// (the brand layer is compiled after this file's defaults).
+
+/*-- scss:defaults --*/
+
+$eadm-dark: true;
+$eadm-red: #d03030;
+$eadm-ink: #e6e4e1;
+$eadm-muted: #a8a6a3;
+$eadm-surface: #1f1f22;
+$eadm-border: #2e2e32;
+
+$navbar-bg: #1b1b1e;
+$navbar-fg: #e6e4e1;
+$navbar-hl: #ff6b62;
+
+$footer-bg: #0f0f11;
+$footer-fg: #b5b3b0;
