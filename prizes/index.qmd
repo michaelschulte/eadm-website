@@ -3,3 +3,7 @@ title: "Prizes"
 ---
 
 EADM recognizes outstanding contributions to the field through the following prizes and awards.
+
+- [De Finetti Award](de-finetti-prize.qmd)
+- [Jane Beattie Scientific Recognition Award](jane-beattie-award.qmd)
+- [Lifetime Contribution Award](eadm-lifetime-contribution-award.qmd)
