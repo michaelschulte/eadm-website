@@ -65,13 +65,23 @@ def check_sources():
     return broken
 
 
+def is_mangled_data_uri(ref: str) -> bool:
+    """True for a data URI with a path glued in front of it.
+
+    Quarto listings emit 'posts/data:image/png;base64,...' when a post's
+    auto-picked thumbnail is an inline base64 image: it resolves the data
+    URI as if it were a relative file path. Browsers then request a
+    nonexistent file and show a broken image, so this counts as broken.
+    """
+    return not ref.startswith("data:") and "data:" in ref and ";base64," in ref
+
+
 def _is_internal(href: str) -> bool:
     """True for same-origin references worth resolving on disk.
 
     Excludes absolute URLs (any scheme, including mailto:/data:),
-    protocol-relative //host/path, pure in-page fragments, inline data
-    URIs (including the 'posts/data:image/...;base64,' form Quarto emits
-    when a listing thumbnail comes from an inline base64 image), and
+    protocol-relative //host/path, pure in-page fragments, data URIs
+    (mangled ones are reported separately, see is_mangled_data_uri), and
     schemeless external links like 'www.python.org'.
     """
     if not href or href.startswith("#") or href.startswith("//"):
@@ -99,6 +109,10 @@ def check_rendered_html():
         text = html.read_text(errors="replace")
         for match in HTML_REF_RE.finditer(text):
             raw = html_lib.unescape(match.group(1).strip())
+            if is_mangled_data_uri(raw):
+                # Report just the prefix; the base64 payload can be huge.
+                broken.append((str(html.relative_to(SITE_ROOT)), raw[:60] + "..."))
+                continue
             if not _is_internal(raw):
                 continue
             # Strip query/fragment, then percent-decode to a real path.

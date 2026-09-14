@@ -2,6 +2,10 @@
 title: "Lifetime achievement award to Robin M. Hogarth"
 date: 2023-08-26
 categories: ["News"]
+# Explicit listing thumbnail: without it Quarto prefers the inline base64
+# charts below over this photo and emits a broken "posts/data:..." src.
+image: /images/2023/08/IMG_3047-scaled.jpeg
+image-alt: "Lifetime achievement award lecture"
 ---
 
 <strong>Reflections on judgmental ability
