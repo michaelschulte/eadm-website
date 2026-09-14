@@ -110,7 +110,7 @@ website:
         text: Newsletter Archive
       - href: interviews/index.qmd
         text: "EADM Interview"
-  footer: "[Contact](contact.qmd)"
+  page-footer: "[Contact](contact.qmd)"
 
 format:
   html:
@@ -1348,7 +1348,7 @@ footer:
       - icon: github
         href: "<the URL printed above>"
         aria-label: GitHub repository
-  footer: "[Contact](contact.qmd) · [Source on GitHub](<the URL printed above>)"
+  page-footer: "[Contact](contact.qmd) · [Source on GitHub](<the URL printed above>)"
 ```
 
 Re-render (`quarto render`), then commit and push:
