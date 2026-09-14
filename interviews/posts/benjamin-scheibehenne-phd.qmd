@@ -1,0 +1,19 @@
+---
+title: "Benjamin Scheibehenne"
+---
+
+<a href="/images/2014/05/Portrait1_small.noShadow.jpg"><img class="aligncenter size-full wp-image-840" src="/images/2014/05/Portrait1_small.noShadow.jpg" alt="Portrait1_small.noShadow" width="2362" height="1413" /></a>
+<p style="text-align: justify;"><strong>Who are you, and what do you do?</strong></p>
+<p style="text-align: justify;">I'm a researcher at the University of Basel and I'm interested in how people make decisions that are relevant in their daily lives. I'm particularly interested in how people make consumer choices and how they choose food. To address these questions, I like to build mathematical models of choice that I then test and compare by applying hierarchical Bayesian methods. To convince others to invest time and effort into these somewhat laborious methods, I actively advertise its use as an alternative to null-hypothesis significance testing and I occasionally give workshop on hierarchical Bayesian methods.</p>
+<p style="text-align: justify;"><strong>What do you consider your most important research tool(s) on your computer?</strong></p>
+<p style="text-align: justify;">When I click on the Windows Start Button in the lower left corner of my screen, the 'top' ranked programs are: Word, <a href="http://www.rstudio.com/">R-Studio</a>, Powerpoint, <a href="http://www.skype.com/">Skype</a>, and <a href="https://www.apple.com/itunes/">Itunes</a>. I guess I should add Gmail and the Google calender to this list (as these present major parts of my outsourced mind). On an average day at the office, the stuff I "stare" on the most is probably R-code (that needs to be debugged) and manuscript texts (that also need to be debugged).</p>
+<p style="text-align: justify;"><strong>What do you consider your most important research tool(s) outside of your computer?</strong></p>
+<p style="text-align: justify;">I have a two-year old daughter, so the three most important research tools outside my computer are childcare, childcare, and childcare.</p>
+<p style="text-align: justify;"><strong>What is your favorite tip for getting writing done?</strong></p>
+<p style="text-align: justify;">I can definitely point out the worst thing for getting research done: It's the German news website <a href="www.spiegel-online.de">spiegel-online.de</a>. Without this website, I think I could have written (at least!) three dozens papers more by now. I experimented with a parent-filter to get it blocked, but it didn't help for very long. While I like to think of myself as a libertarian, I'd very much appreciate it if someone could shut this website down.</p>
+<p style="text-align: justify;">Other than that, I found that external pressure (deadlines), social pressure (co-authors), and existential pressure due to the fear of losing one's livelihood (the German academic system) "help" to getting things done, perhaps sadly so.</p>
+<a href="http://scheibehenne.de" target="_blank">Curriculum vitae Benjamin Scheibehenne</a>
+
+Benjamin's favorite paper:
+
+<a href="http://dx.doi.org/10.1086/651235" target="_blank">Scheibehenne, B., Greifeneder, R. &amp; Todd, P.M. (2010). Can There Ever be Too Many Options? A Meta-Analytic Review of Choice Overload. Journal of Consumer Research, 37 (3), 409-425.</a>

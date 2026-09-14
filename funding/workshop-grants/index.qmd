@@ -17,4 +17,15 @@ The workshop has to meet the following requirements:
 
 Direct your application for funding a workshop to the <a href="mailto:treasurer@eadm.eu">Treasurer</a> via email. <strong>Deadline for applications</strong> is January, 31st . A decision will be communicated after the board meeting mid-March of the same year. 
 
-Applications should include the title of the workshop/event, provisional date, location, organisers, background, aims and objectives, provisional schedule, itemised budget, additional sources of support, references. 
+Applications should include the title of the workshop/event, provisional date, location, organisers, background, aims and objectives, provisional schedule, itemised budget, additional sources of support, references.
+
+## Past workshops
+
+- [Workshop 2008: Decision-making in Football](decision-making-in-football.qmd)
+- [Workshop 2009: Environmental Decisions: Risks and Uncertainties](environmental-decisions-risks-and-uncertainties.qmd)
+- [Workshop 2010: Intuition: Methods and Recent Findings](intuition-methods-and-recent-findings.qmd)
+- [Workshop 2012: EGPROC, Bolton](european-group-of-process-tracing-studies.qmd)
+- [Workshop 2013: JDM workshop for young researchers](jdm-workshop-2013.qmd)
+- [Workshop 2016: EGPROC, Bonn](egproc-bonn-2016.qmd)
+- [Workshop 2019: Determinants and Consequences of Poverty](workshop-grants-2019.qmd)
+- [Workshop 2025: Psychological and Economic Perspectives of Economic Inequality](workshop-2025-economic-inequality.qmd)

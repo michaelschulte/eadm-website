@@ -2,4 +2,5 @@
 title: "SPUDM Images"
 ---
 
-<a href="http://gallery.eadm.eu"></a>
+Photographs from past EADM and SPUDM conferences are collected in the
+[EADM/SPUDM photo gallery](http://gallery.eadm.eu).

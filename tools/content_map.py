@@ -17,17 +17,16 @@ DROP_IDS = {
     331: "About EADM (about-eadm-2) -- byte-identical duplicate of page 93",
     404: "EADM (about-eadm) -- near-duplicate draft of page 93",
     1075: "EADM Summer Schools -- stale subset of page 167's fuller list",
-    # 15 bio pages under the private 'The EADM Interview' parent (id 800),
+    # 11 bio pages under the private 'The EADM Interview' parent (id 800),
     # each word-for-word identical to a published 'EADM Interview' post.
+    # (The 4 other bio pages under that parent -- Dhami, Peer, Scheibehenne,
+    # Gilchrist -- have NO corresponding post, so they are kept: see
+    # PAGE_OVERRIDES below.)
     903: "duplicate of EADM Interview post (Adele Diederich)",
-    838: "duplicate of EADM Interview post (Benjamin Scheibehenne)",
     918: "duplicate of EADM Interview post (Bernadette Kamleitner)",
     1079: "duplicate of EADM Interview post (Bettina von Helversen)",
     983: "duplicate of EADM Interview post (Cornelia Betsch)",
     1106: "duplicate of EADM Interview post (Dirk Wulff)",
-    828: "duplicate of EADM Interview post (Eyal Peer)",
-    843: "duplicate of EADM Interview post (Iain D. Gilchrist)",
-    740: "duplicate of EADM Interview post (Mandeep K. Dhami)",
     997: "duplicate of EADM Interview post (Nathaniel Phillips)",
     1108: "duplicate of EADM Interview post (Peter Wakker)",
     913: "duplicate of EADM Interview post (Robin Hogarth)",
@@ -74,6 +73,13 @@ PAGE_OVERRIDES = {
     316: ("spudm", "past-conferences"),
     23: ("spudm", "spudm-2013"),
     25: ("spudm", "images"),
+    # Interviewee bio pages with no corresponding 'EADM Interview' post.
+    # Filed under interviews/posts so Quarto's listing on
+    # interviews/index.qmd picks them up alongside the real interview posts.
+    740: ("interviews/posts", "mandeep-k-dhami-phd"),
+    828: ("interviews/posts", "eyal-peer-phd"),
+    838: ("interviews/posts", "benjamin-scheibehenne-phd"),
+    843: ("interviews/posts", "iain-d-gilchrist-professor"),
 }
 
 # Post category name -> blog section, in priority order (first match wins;
@@ -105,6 +111,14 @@ def resolve_target(item, categories_by_post_id):
         return PAGE_OVERRIDES[item["id"]]
     categories = categories_by_post_id.get(item["id"], set())
     for name, section in POST_CATEGORY_SECTION:
-        if name in categories:
-            return (f"{section}/posts", item["slug"])
+        if name not in categories:
+            continue
+        # ~10 conference announcements ("SPUDM 2021 Call for Papers",
+        # "EADM tweets now! @EADM_1993", ...) carry the 'EADM Interview'
+        # category by mistake. Only route to interviews/ when the title
+        # really is an interview; otherwise fall through to the next
+        # category in priority order, then to the News default.
+        if name == "EADM Interview" and "interview" not in item.get("title", "").lower():
+            continue
+        return (f"{section}/posts", item["slug"])
     return (f"{DEFAULT_POST_SECTION}/posts", item["slug"])

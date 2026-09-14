@@ -4,7 +4,7 @@ title: "EADM Summer School Reports"
 
 <a href="/files/2025/03/EADMSummerSchool_NussbergerWulff_LLMBehavioralScience2024.pdf">2024 Summer School Berlin</a>
 
-<a href="/funding/summer-school/2018-salzburg">2018 Summer School Salzburg</a>
+<a href="/funding/summer-school/2018-salzburg.qmd">2018 Summer School Salzburg</a>
 
 <a href="/files/2013/06/EADM_SummerSchool_2016_Report.pdf">2016 Summer School Amsterdam</a>
 

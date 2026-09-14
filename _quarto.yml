@@ -1,6 +1,20 @@
 project:
   type: website
   brand: _brand.yml
+  # docs/ holds the migration's internal spec and plan (provenance, not
+  # site content), so it must not be rendered or indexed for search.
+  # The include globs must list both extensions: a bare "*.qmd" would
+  # silently stop rendering CONTENT_AUDIT.md, and a render list of only
+  # negations ("!docs/") makes Quarto render nothing at all.
+  render:
+    - "*.qmd"
+    - "*.md"
+    - "!docs/"
+  # All 73 PDF attachments are vendored into files/ deliberately, including
+  # ones no kept page links to. Quarto only copies *referenced* resources,
+  # so without this 22 of them would sit in the repo but never deploy.
+  resources:
+    - files/
 
 website:
   title: "EADM"

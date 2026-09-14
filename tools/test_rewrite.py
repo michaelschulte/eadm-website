@@ -36,6 +36,25 @@ class TestRewrite(unittest.TestCase):
         )
         self.assertIn('/images/2014/07/AdeleDiederich-1024x682.jpg', result)
 
+    def test_rewrite_wp_uploads_links_replaces_a_wrong_host_entirely(self):
+        # The export contains uploads URLs on stale hosts. The whole
+        # scheme://host/path must be replaced, not just the path tail,
+        # or the result is http://transfer.eadm.eu/images/... -- neither
+        # the original URL nor a working local reference.
+        self._make_upload("2013/08/JDM-Workshop.png")
+        for host in ("http://transfer.eadm.eu", "http://eadm.abcde.biz"):
+            with self.subTest(host=host):
+                content = f'<img src="{host}/wp-content/uploads/2013/08/JDM-Workshop.png">'
+                result = rewrite_wp_uploads_links(
+                    content, self.uploads_root, self.images_out, self.files_out
+                )
+                self.assertEqual(
+                    result, '<img src="/images/2013/08/JDM-Workshop.png">'
+                )
+                self.assertNotIn(host, result)
+                self.assertNotIn("eadm.eu", result)
+                self.assertNotIn("wp-content", result)
+
     def test_rewrite_wp_uploads_links_leaves_unresolved_refs_untouched(self):
         content = '<img src="http://eadm.eu/wp-content/uploads/2099/01/gone.jpg">'
         result = rewrite_wp_uploads_links(
@@ -55,11 +74,27 @@ class TestRewrite(unittest.TestCase):
         )
         self.assertIn('<a href="/files/2013/06/Report2024.pdf"', result)
 
+    def test_rewrite_attachment_links_with_no_space_before_rel(self):
+        # wp-att-1138 in the export has zero spaces between the href
+        # attribute's closing quote and rel=.
+        self._make_upload("2013/06/SummerSchool.pdf")
+        content = (
+            '<a href="https://eadm.eu/some/pretty/permalink/"'
+            'rel="attachment wp-att-1138">3rd EADM Summer School</a>'
+        )
+        attachment_files = {1138: "2013/06/SummerSchool.pdf"}
+        result = rewrite_attachment_links(
+            content, attachment_files, self.uploads_root, self.images_out, self.files_out
+        )
+        self.assertIn('<a href="/files/2013/06/SummerSchool.pdf"', result)
+        self.assertNotIn("wp-att-1138", result)
+
     def test_rewrite_internal_links_rewrites_known_slug(self):
         slug_to_path = {"membership": "membership/index"}
         content = 'See <a href="http://eadm.eu/membership/">Membership</a>.'
         result = rewrite_internal_links(content, slug_to_path)
-        self.assertIn('href="/membership/index"', result)
+        # The .qmd suffix is required for the href to resolve once rendered.
+        self.assertIn('href="/membership/index.qmd"', result)
 
     def test_rewrite_internal_links_leaves_unknown_slug_untouched(self):
         slug_to_path = {"membership": "membership/index"}

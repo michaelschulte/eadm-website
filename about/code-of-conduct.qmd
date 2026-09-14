@@ -21,7 +21,7 @@ During EADM-sponsored events, members are reminded that they are prohibited from
 </ul>
 
 EADM encourages reporting of all perceived (and actual) incidents of harassment, discrimination, retaliation, or other prohibited behaviors occurring in conjunction with EADM-sponsored events
-Each EADM-sponsored event will have a personal consultant appointed by the event organizer whose role will be to treat all cases of code of conduct violations or concerns regarding harassment absolutely confidentially. The name of the personal consultant will be available in the event program. Concerns can also be directed towards the EADM's Executive Committee (whose names appear in <a href="/about/executive-board">http://eadm.eu/executive-board/</a>).
+Each EADM-sponsored event will have a personal consultant appointed by the event organizer whose role will be to treat all cases of code of conduct violations or concerns regarding harassment absolutely confidentially. The name of the personal consultant will be available in the event program. Concerns can also be directed towards the EADM's Executive Committee (whose names appear in <a href="/about/executive-board.qmd">http://eadm.eu/executive-board/</a>).
 
 Note that reports can be made anonymously. If there is immediate danger, individuals should contact local emergency services.
 <h2>Consequences of Prohibited Behavior</h2>

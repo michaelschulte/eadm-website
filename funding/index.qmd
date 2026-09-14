@@ -2,4 +2,8 @@
 title: "EADM Funding"
 ---
 
+EADM supports its members through travel scholarships, workshop grants, and summer schools.
 
+## Related
+
+- [Small Group Meeting: Efficient Science 2013](small-group-meeting-efficient-science-2013.qmd)

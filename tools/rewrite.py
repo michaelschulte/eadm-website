@@ -7,10 +7,16 @@ import re
 
 from media import copy_and_get_url
 
+# The host prefix matches ANY scheme://host, not just eadm.eu: the export
+# contains uploads URLs on stale hosts (transfer.eadm.eu, eadm.abcde.biz).
+# Matching only the path tail would leave the wrong host in front of the
+# rewritten local path, producing e.g. http://transfer.eadm.eu/images/...
 _WP_UPLOAD_RE = re.compile(
-    r"(?:https?://eadm\.eu)?/wp-content/uploads/(\d{4}/\d{2}/[^\"'\s)>]+)"
+    r"(?:https?://[^/\"'\s]+)?/wp-content/uploads/(\d{4}/\d{2}/[^\"'\s)>]+)"
 )
-_ATTACHMENT_LINK_RE = re.compile(r'<a\s+href="[^"]*"\s+rel="attachment wp-att-(\d+)"')
+# \s* not \s+: at least one real attachment link (wp-att-1138) has no space
+# between the href attribute's closing quote and rel=.
+_ATTACHMENT_LINK_RE = re.compile(r'<a\s+href="[^"]*"\s*rel="attachment wp-att-(\d+)"')
 _INTERNAL_LINK_RE = re.compile(r'href="https?://eadm\.eu/([a-zA-Z0-9\-_/]+)/?"')
 
 
@@ -59,7 +65,11 @@ def rewrite_internal_links(content, slug_to_path):
     def replace(match):
         slug = match.group(1).rstrip("/").split("/")[-1]
         if slug in slug_to_path:
-            return f'href="/{slug_to_path[slug]}"'
+            # The .qmd suffix is required: a root-relative href with no
+            # extension resolves to nothing once rendered. Quarto maps a
+            # root-relative .qmd reference to the rendered .html at any
+            # page depth (same as _quarto.yml's /contact.qmd footer link).
+            return f'href="/{slug_to_path[slug]}.qmd"'
         return match.group(0)
 
     return _INTERNAL_LINK_RE.sub(replace, content)
