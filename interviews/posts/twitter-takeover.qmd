@@ -1,0 +1,12 @@
+---
+title: "Twitter takeover"
+date: 2021-12-16
+categories: ["EADM Interview"]
+---
+
+EADM has an active twitter account which has been taken over by a variety of researchers recently.
+While this might sound alarming it is a process where a user gets access to a twitter account (mostly) for a week to tweet about research (and other stuff) ...
+
+There have been some conversations about emotions, open science, music, philosophy and coffee and beer (so not all is science at the end) ... 
+
+Feel free to jump in and follow <a href="https://twitter.com/EADM_1993">@EADM_1993</a>

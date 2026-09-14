@@ -1,0 +1,101 @@
+---
+title: "De Finetti Award"
+---
+
+The European Association for Decision Making’s de Finetti Award has, since 1995, recognized outstanding research by PhD students in the area of decision making. The winner will receive a prize of 750 Euros and a certificate, and will be asked to make a presentation at the upcoming SPUDM conference.
+
+Eligibility is limited to PhD students who had not completed their PhD by the time of the previous SPUDM conference. The student must be the sole or first author, and the work should primarily represent the student’s contribution. For co-authored papers, a signed statement (PDF) from the co-author(s) is required, confirming that the student is the primary source of ideas and the main author of this paper. Both published and unpublished papers are eligible for submission. However, dissertation format will not be considered, though articles based on a dissertation are encouraged. Each applicant may submit only one paper
+
+Submission requirements: 
+
+(a) The paper, (b) a statement (400 words or less) outlining the candidate’s academic status and containing a brief summary of the scientific contribution of the submitted paper, (c) a letter from co-authors (if applicable)
+
+
+
+<h1></h1>
+<h1><strong>Former Winners</strong></h1>
+<table border="0" cellpadding="5">
+<tbody>
+<tr>
+<td>2023</td>
+<td>Christian T. Elbæk</td>
+<td>Aarhus University, Denmark</td>
+</tr>
+<tr>
+<td>2021</td>
+<td>Mark Himmelstein</td>
+<td>Fordham University, USA</td>
+</tr>
+<tr>
+<td>2019</td>
+<td>Christina Leuker</td>
+<td>Max Planck Institute for Human Development, Berlin, Germany</td>
+</tr>
+<tr>
+<td>2017</td>
+<td>Johann Majer</td>
+<td>Leuphana University, Germany</td>
+</tr>
+<tr>
+<td>2015</td>
+<td>Jared Hotaling</td>
+<td>University of Basel, Switzerland</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Dan Raphael Schley</td>
+<td>Ohio State University, USA</td>
+</tr>
+<tr>
+<td>2011</td>
+<td>Shoham Choshen-Hillel</td>
+<td>Hebrew University of Jerusalem, Israel</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Benjamin Scheibehenne</td>
+<td>University of Basel, Switzerland</td>
+</tr>
+<tr>
+<td>2007</td>
+<td>Xianchi Dai</td>
+<td>INSEAD, France</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Loran Nordgren</td>
+<td>Universiteit van Amsterdam, The Netherlands</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Greg Barron</td>
+<td>Technion - Israel Institute of Technology, Israel</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Martijn Willemsen</td>
+<td>Eindhoven Technical University, The Netherlands</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Nicola Bown</td>
+<td>University of Leeds, United Kingdom</td>
+</tr>
+<tr>
+<td>1999</td>
+<td>Mandeep K. Dhami</td>
+<td>City University London, United Kingdom</td>
+</tr>
+<tr>
+<td>1997</td>
+<td>Johanna Kordes-de Vaal</td>
+<td>Vrije Universiteit Amsterdam, The Netherlands</td>
+</tr>
+<tr>
+<td>1995</td>
+<td>Peter Roelofsma</td>
+<td>Vrije Universiteit Amsterdam, The Netherlands</td>
+</tr>
+</tbody>
+</table>
+&nbsp;

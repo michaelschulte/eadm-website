@@ -1,0 +1,13 @@
+---
+title: "Mailing List"
+---
+
+EADM maintains a mailing list for its members.
+
+You can subscribe to the list by sending a request via this <a href="mailto:Eadm.imu.request@lists.unibe.ch?subject=subscribe no digest address=">link</a>. Please ensure that the subject line in your email reads: <br><code>subscribe nodigest address="YOUR EMAIL ADDRESS"</code> <br> (with your email address within quotation marks!).
+
+You must provide a valid institutional email address. Your request will be manually checked by the <a href='mailto"michael@eadm.eu'>webmaster</a>, so it can take a minute, before you are subscribed!
+
+If you want to send an email to the list do so via <a href="mailto:eadm.imu@lists.unibe.ch">eadm.imu@lists.unibe.ch</a>. Given that you are subscribed this email will be distributed immediately. If you are not subscribed it will be stored for moderation.
+
+&nbsp;

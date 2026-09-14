@@ -1,0 +1,73 @@
+---
+title: "What’s my motivation? Presidential column Barbara Summers"
+date: 2017-08-16
+categories: ["President's Column"]
+---
+
+<p style="text-align: center;"><em>“Before you criticize someone, you should walk a mile in their shoes.”</em></p>
+If we want to understand others’ behavior we need to understand their motivation. In English we say we need to try to put ourselves in their shoes.
+
+There can sometimes be difficulties in understanding motivations in the real-world. In applied research you often have to make sure you have understood someone’s motivation rather than just observed and come up with an explanation for their behavior – if you don’t understand their model of the world then any ideas for interventions might not have the effect you expect, or might not be generalizable.
+
+I first came across the problems of understanding others’ motivations at the start of my academic career, when studying trade credit. This is a big thing economically – the opening words of my thesis were “trade credit is pervasive in the global economy” and apart from being one of the best phrases I’ve come up with (don’t come up with them often) it’s also true. At the time I did this work the late payment of commercial debt was a major issue in the UK, and some of this work was supplying evidence to government on what might help.
+
+Trade credit is primarily about sales between organizations. When one organization buys goods and services from another usually an invoice is sent and the recipient pays it. Typically in the UK invoices give customers 30 days to pay, either from the invoice date or from the end of the month. The time the customer is given to pay is known as the credit terms.
+
+Although 30 day terms are common, some organizations do try to incentivize people to pay sooner, for example offering a discount of 2% if the invoice is paid in 10 days. This might not sound a lot, but if you don’t take the discount you are paying a lot for the extra days of credit – the equivalent annual interest rate is around 40%! Based on this the literature (largely US based) saw firms that did not take early payment discount as in financial difficulty.
+
+HOWEVER, when we look at framing or talk to firms it is not this easy. Although the implicit interest rate is high if the discount is not taken, the actual value of the price reduction can be small, and firms might find it uneconomic to take it. Also there is the issue of costs – someone might have to arrange payment in a small firm, and there may be a cost for making a payment from a business bank account (there certainly was in those days in the UK)
+
+<strong>SO:</strong>
+<strong> here the motivation of the individuals in the situation isn’t what was thought (indeed they didn’t generally make use of the academic finance theory model of the situation or even see implicit interest as an issue) so the meaning of their behaviour was different to that expected</strong>
+
+Another area I’ve done work in is pensions. Auto-enrolment in the UK started in 2012 and I did work with NEST (the pension provider set up by the government to make sure everyone had access to a pension provider when auto-enrolment was introduced) in the run up to it.
+
+NEST wanted to understand their potential customers – how did they view pension saving and what was the best way to communicate the ideas to people? What aspects might cause them concern?
+
+The general view of these potential pension scheme members was that they were “risk averse” and worried by pension investment. NEST’s research looked into this – checking what people actually thought in a series of deliberative focus groups and interviews. People very much see pensions as associated with being prudent and conservative - it is implicitly about safety and securing the future. A common metaphor used was a penny rolling down the hill:
+<p style="text-align: center;"><em>‘It’s like a snowball at the top of a hill, by the time it rolls down to the bottom…it started with £10 at the top [per month payments] and halfway down it has turned to £40 [per month], and it’s huge by the time it gets to the bottom…perhaps a 65-year old man at the bottom?’</em></p>
+Given this characterization (which would be a prevention focus in regulatory focus terms) the current trend in pensions is problematic. The UK, along with many developed economies, has seen changes in pension provision in recent times; there has been a reduction in what are called Defined Benefit (DB) schemes, where people get a pension based on their salary and the years they have worked, and an increase in Defined Contribution (DC) schemes, where people make contributions into a pension “pot” which they can use later in life to support them in retirement. This gives individuals uncertainty at two levels; how much will their “pot” grow during their working life, and what sort of level of income would they be able to have to cover their years in retirement?
+
+Another problem was that not everyone realizes pension contributions are invested, and people generally felt that pensions and investment just shouldn’t mix. This seemed to link to the idea that some products were suitable for some purposes but not others and linked to regulatory focus. People just felt that pensions were about making things secure in old age and investments were not a “safe” approach. This could link to the problems people have with probabilistic outcomes – they didn’t feel the “best chance” of a good outcome was a good way to make decisions in such an important area, and with a lot of money.
+
+This uncertainty is more of a problem for those who are less well off. Here’s an example of their thoughts:
+<p style="text-align: center;"><em>‘I’d like to be secure; I don’t like taking risks unnecessarily. Maybe if I had the money and could put a bit aside and take a risk on that I’d do it, but I need to have security’</em></p>
+People felt interim losses to their pension investments represented a failure by the provider, rather than being expected sometimes when money is invested. For those living on tight budgets losses and opportunity costs are particularly salient, and taking a risk with money, given the opportunity costs, is hard for some:
+<p style="text-align: center;"><em>‘In my mind I'd love to put away a certain amount a month or whatever for rainy days or future but there's just never enough, there's always something to go out on.’</em></p>
+<strong>SO:</strong>
+<strong> although these individuals can be described as “loss averse”, their circumstances do make losses and opportunity costs more salient than for some other sections of the population: there seems to be more than just a preference behind their behavior</strong>
+
+As a final example, let’s look at tax avoidance. Tax is an interesting area with there being two different approaches people can take to not paying it; tax avoidance and tax evasion. Tax evasion is illegal, but tax avoidance finds ways to not pay tax within the “letter of the law”, say by looking for interpretations of the legal wording that might support a lower tax payment. In jurisdictions like the UK where the exact meaning of law is often unclear, knowledge of what will be found acceptable or unacceptable in law sometimes requires a court case to reach a decision (just look up tax and Jaffa Cakes on the internet to see an example!), so this is a viable approach.
+
+Attitudes to tax avoidance have changed a lot over time. As a UK example, take this quote from Lord Clyde in 1929:
+<p style="text-align: center;"><em>“No man in this country is under the smallest obligation, moral or other, so to arrange his legal relations to his business or to his property as to enable the Inland Revenue to put the largest possible shovel into his stores.”</em></p>
+In recent times tax avoidance has been an issue that raises public concern in many countries. In the UK there has been particular concern about the tax paid by corporations, and there have even been demonstrations about tax loopholes and companies that don’t pay tax. People have increasingly taken the view that companies and rich individuals should pay their “fair share of tax” and this has been discussed as an ethical issue. This issue is being taken seriously by governments with the G20 initiating a project with the OECD (BEPS – base erosion &amp; profit shifting) in 2012 to look at the ways multinationals exploit differences in tax rules across countries and with bodies like the UK’s Public Accounts Committee in 2015 arguing for new offenses to penalize those advising companies and individuals on avoiding tax.
+
+So is there an ethical dimension to tax? If there is, where does this leave the tax practitioner? The fact that there are calls for individuals and firms to behave differently in some way to something that might be considered legal suggests that the law is not fully embodying what is required for moral behavior. The fact that law is interpretable in jurisdictions like the UK certainly leaves this possibility open. Calls for different behavior in tax payers on moral grounds mean that taxpayers and their advisers are being asked to view tax law through a particular moral lens and interpret it accordingly. Even if one accepts the moral duty to pay tax how should one decide how much to pay if not by inspecting the law?
+
+A main issue for tax practitioners is that they act as agents with a professional duty to their client. In this context would it be moral to not advise a client on tax minimization on the basis that the practitioner would see paying more than minimal tax as the ethical course? Would they have to make it clear to the client that they are doing this, or is it acceptable to use omission to push the client in what is the “right” direction (in their opinion)? Is the decision on morality in the hands of the tax payer, with the tax practitioner’s role being to help them make an informed decision? How should practitioners react when things move outside what is clear in law?
+
+<strong>SO:</strong>
+<strong> here we have a situation where an additional motivation comes in that we might not usually consider – here professional obligation can limit options. This can have a stronger influence where there is a more complex and unclear situation</strong>
+
+And finally, I quite like this addition to the old saying…
+
+“Before you criticize someone, you should walk a mile in their shoes.”
+
+“That way when you criticize them, you are a mile away from them and you have their shoes.”
+(James Handey)
+
+<strong>Barbara Summers (August, 2017)</strong>
+
+&nbsp;
+
+Thanks to those who worked with me on the research behind this article (although all errors and omissions remain mine):
+Elaine Doyle
+Darren Duxbury
+Jane Frecknall-Hughes
+John Maule
+Peter Moizer
+Alan Pearman
+Nicholas Wilson
+Staff at NEST, Opinion Leader,
+&amp; TNS BMRB

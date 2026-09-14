@@ -1,0 +1,27 @@
+---
+title: "Mission Statement"
+---
+
+The purpose of the Association is the advancement and diffusion of knowledge about human judgement and decision making and providing support for the exchange of information relating to this subject between the members and other associations throughout the world, as well as between members and other interested institutions and/or individuals. The Association is a non-profit organisation made up of interested researchers.
+
+The Association aims to reach the goals mentioned above by:
+<ul>
+	<li>the organisation and/or facilitation of meetings, workshops, summer-schools and conferences.</li>
+	<li>the promotion of scientific communication and research collaboration between members and between members and other scientists, policy makers, practitioners, and stakeholders.</li>
+	<li>the promotion of all (lawful) activities among members to help advise non-members (institutions and individuals) in accordance with the main goals of the Association.</li>
+	<li>co-operation with other associations and institutions within and outside Europe.</li>
+</ul>
+The specific activities of the EADM are:
+<ul>
+	<li>the organisation of biannual conferences on Subjective Probability, Utility and Decision Making (SPUDM).</li>
+	<li>sponsoring the de Finetti Prize for promising PhD students.</li>
+	<li>sponsoring the Jane Beattie mid-career award in recognition of “innovation in decision research”, as broadly understood.</li>
+	<li>sponsoring the Wagenaar Award for travel to SPUDM</li>
+	<li>sponsoring the EADM/SJDM Jane Beattie travel award for travel to the SJDM annual conference.</li>
+	<li>supporting small-scale workshops.</li>
+	<li>organizing a bi-annual Summer-school on judgment and decision-making.</li>
+	<li>maintaining an electronic mailing list for EADM members.</li>
+	<li>maintaining a website featuring news and information for members and non-members</li>
+	<li>supporting the open access scientific journal Judgment and Decision Making, the journal of the Society for Judgment and Decision Making (SJDM) and the European Association for Decision Making (EADM).</li>
+	
+</ul>

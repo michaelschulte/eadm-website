@@ -1,0 +1,12 @@
+---
+title: "Presidential address SPUDM 2023"
+date: 2024-05-03
+categories: ["President's Column"]
+---
+
+Based on <a href="https://www.google.com/search?client=safari&rls=en&q=eldad+eyechiam&ie=UTF-8&oe=UTF-8">Eldad Yechiam</a>'s presidential address at SPUDM 2024 in Vienna, a paper was published in the JDM journal:
+
+Abstract: Recent meta-analyses suggest that certain drugs act as cognitive enhancers and can increase attentional investment and performance even for healthy adults. The current review examines the potential of behavioral economics enhancers (BEEs) for similarly improving cognitive performance and judgments. Traditionally, behavioral economics theory has adopted a skeptical approach regarding the notion of whether individuals can overcome judgment biases through variables that increase cognitive effort. We focus mostly on the effects of two BEEs: incentivization and losses. Summarizing results from different meta-analyses, we find a small but robust positive effect size for BEEs, with comparable effect sizes to those found in studies of pharmacological cognitive enhancers.
+
+Yechiam, E. (2024). Behavioral economics enhancers. <i>Judgment and Decision Making, 19</i>, e12. DOI: <a href="https://doi.org/10.1017/jdm.2024.12">https://doi.org/10.1017/jdm.2024.12</a>
+

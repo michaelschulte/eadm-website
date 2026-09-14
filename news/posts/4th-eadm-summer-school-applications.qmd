@@ -1,0 +1,33 @@
+---
+title: "4th EADM Summer School - applications"
+date: 2018-01-17
+categories: ["Summer School"]
+---
+
+<span style="font-weight: 400;">We are pleased to invite applications for the 4th EADM Summer School!</span>
+
+<b>Date: July 9th – 15th, 2018
+</b><b>Location: University of Salzburg, Department of Psychology, Austria
+</b><b>Theme: Open Science in Decision Making Research</b>
+
+<span style="font-weight: 400;">The program will cover workshops on mousetracking (<strong><a href="https://pascalkieslich.github.io/">Pascal Kieslich</a></strong>), decisions from experience/description (<strong><a href="https://dwulff.github.io/about/">Dirk Wulff</a></strong>) and fMRI (<strong><a href="https://ccns.sbg.ac.at/people/hawelka/">Stefan Hawelka</a></strong>) with an overarching theme on Open Science (<strong><a href="https://www.tue.nl/en/university/departments/industrial-engineering-innovation-sciences/the-department/staff/detail/ep/e/d/ep-uid/20176208/">Anne Scheel</a></strong>), how to use osf.io and where decision research might turn to in the next 20 years.</span>
+
+<span style="font-weight: 400;">Additionally to the workshops we are excited to announce four keynote speakers:
+</span><a href="https://www.coll.mpg.de/team/page/susann_fiedler"><b>Susann Fiedler</b></a><span style="font-weight: 400;"> (Max Planck Institute for Research on Collective Goods, Bonn)
+</span><a href="https://www.mpib-berlin.mpg.de/en/staff/ralph-hertwig"><b>Ralph Hertwig</b></a><span style="font-weight: 400;"> (Max Planck Institute for Human Development, Berlin)
+</span><a href="https://www.harding-center.mpg.de/en/persons/mirjam-jenny-0"><b>Mirjam Jenny</b></a><span style="font-weight: 400;"> (Harding Center for Risk Literacy, Berlin)
+</span><a href="https://www.wbs.ac.uk/about/person/neil-stewart"><b>Neil Stewart</b></a><span style="font-weight: 400;"> (Warwick Business School, Warwick)</span>
+
+<span style="font-weight: 400;">The EADM Summer School covers lunches and coffee breaks. The participants have to cover travel costs + accommodation in Salzburg themselves (we will provide suggestions for affordable accommodation in due time)!</span>
+
+<span style="font-weight: 400;">For your <strong>application</strong> please send us one .pdf file with the following information:</span>
+<ul>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;"><strong>CV</strong> (1 page): including information on your education, former + current supervisors, publications and a link to additional online resources</span></li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;"><strong>Interests</strong> (1 page): describe two current or future research interests (what keeps you up at night?) </span></li>
+</ul>
+<span style="font-weight: 400;">Submit the file <a href="https://goo.gl/forms/IcVBDGCUlIoggQOg1">here</a></span><span style="font-weight: 400;"><a href="https://goo.gl/forms/iUN47KU8nQBUD8U73">
+</a></span>Deadline for registration is: <strong>February, 28th, 2018</strong>
+
+<span style="font-weight: 400;">We are looking forward to your applications!</span>
+
+<strong>Feel free to contact us at: <a href="mailto:summerschool2018@eadm.eu">summerschool2018@eadm.eu</a> or on Twitter <a href="https://twitter.com/eadmsummer">@eadmsummer</a></strong>

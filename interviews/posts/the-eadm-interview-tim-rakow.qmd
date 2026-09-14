@@ -1,0 +1,35 @@
+---
+title: "The EADM Interview: Tim Rakow"
+date: 2014-12-29
+categories: ["EADM Interview"]
+---
+
+<strong><strong><a href="/images/2014/11/60-sec-Tim-Rakow-April-12.jpg"><img class="aligncenter size-full wp-image-991" src="/images/2014/11/60-sec-Tim-Rakow-April-12.jpg" alt="Tim Rakow" width="3072" height="2304" /></a></strong></strong>
+
+<strong>Who ar</strong><strong>e you, and what d</strong><strong>o you do?</strong>
+
+I am Tim Rakow, and I have been teaching and researching in the Department of Psychology at the University of Essex since 2000. Much of my teaching focuses on methods for psychological research. I particularly enjoy teaching statistics to psychology students, and have – over the years – taught statistics at each level of our undergraduate and postgraduate programmes. I have worked my way around a number of different JDM research topics over the years: from a PhD on medical decision making in paediatric heart surgery; via research on probabilistic inference from cues (e.g., Take The Best), and the deliberation-without-attention effect; to recent investigations of valuation, risk communication, and risky choice (especially decisions from experience). I have attended each SPUDM since 1999.
+
+<strong>What do you consider your most important research tools on your computer?</strong>
+
+Probably <a href="http://www.xojo.com/index_xojo.php">Real Studio</a> (for Real/Visual-Basic), which I use to implement most of my computer-based studies. I see myself as more of an experimenter than a theoretician, so having a nice flexible tool that I can use to run a wide variety of studies is essential to my research.
+
+<strong>What do you consider your most important research tool(s) outside of your computer?</strong>
+
+My collaborators.
+
+<strong>What is your favorite tip for getting writing done?</strong>
+
+<em>Do it with someone else</em>. I see a number of benefits to this. First, I feel that I get more done when working to deadlines agreed with my co-authors than when working to deadlines that I set for myself on individual writing projects. I think this tells me that anticipated guilt is a better motivator than anticipated self-loathing. Second, the emotional component of writing (responding to reviews, making that difficult cut to the text) becomes much easier when there is someone else who on the project who can adopt a different role, or see things from a different angle. Third, writing with others just makes the whole process more interesting, and more fun. I’ve learned or developed some of my favourite paper-writing words (“prosaic”, “intriguing”), phrases (“in doing so” is a new one for me) and sentence constructions (I love using first-person plural) from writing with others. Some of my favourite writing experiences are when I get to write alongside a co-author (at the same computer). In particular, a few of my projects with long-term collaborator Ben Newell have been completed this way … gently wrestling the computer mouse and keyboard from each other, or dictating small sections of text to one another … turning what could be a rather solitary endeavour into something more sociable is a treat. You can learn a great deal from your co-authors, and I certainly feel that they need not be senior to you for this to be so.
+
+<a href="http://www.essex.ac.uk/psychology/staff/profile.aspx?ID=2435" target="_blank">Tim's webpage</a>
+
+Tim's favorite paper:
+
+<a href="http://dx.doi.org/10.1016/j.obhdp.2008.02.001" target="_blank">Rakow, T., Demes, K.A., &amp; Newell, B.R. (2008). Biased samples not mode of presentation: Re-examining the apparent underweighting of rare events in experience-based choice. <em>Organizational Behavior and Human Decision Processes, 106, </em>168-179.</a>
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;

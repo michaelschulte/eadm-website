@@ -1,0 +1,31 @@
+---
+title: "The EADM Interview: Sabine Scholl"
+date: 2015-01-28
+categories: ["EADM Interview"]
+---
+
+<a href="/images/2014/11/Sabine-Scholl.jpg"><img class="aligncenter size-full wp-image-995" src="/images/2014/11/Sabine-Scholl.jpg" alt="Sabine Scholl" width="3648" height="2736" /></a><strong>Who are you, and what do you do?</strong>
+
+My name is Sabine G. Scholl and I’m a researcher working at the University of Mannheim, Germany. In my recent research, I’m particularly interested in advice giving situations. In this context, I focus primarily on intertemporal decisions, risk assessments, and decisions about preventive medical examinations. So far, I’m concentrating on the underlying cognitive processes but I plan to combine the laboratory data with behavioral data from real world settings.
+
+Additionally, my research focuses on consumer decisions (financial and investment decisions and decisions involving risk), intuition in judgment and decision making, randomness judgments as well as the influence of cognitive feelings in judgment and decision making (including direct effects on judgments and decisions, and indirect effects on cognitive processes).
+
+<strong>What do you consider your most important research tool(s) on your computer?</strong>
+
+My most important tools are <a href="http://psycnet.apa.org/index.cfm?fa=search.defaultSearchForm">PsychInfo</a> and <a href="http://www.google.com">Google</a>, which help in getting an overview of all those interesting research articles in the internet. I can’t imagine how difficult it must have been some years ago when a search for literature was far more complicated and most papers were only available in libraries. However, the disadvantage is that my “to read-” folder increases tremendously every week and that I don’t manage to keep up with reading. Next to diving into the literature, I love analyzing data and writing software programs for my experiments. Therefore, <a href="http://www-01.ibm.com/software/analytics/spss/">SPSS</a> and <a href="https://msdn.microsoft.com/en-us/library/fx6bk1f4(v=vs.71).aspx">Visual Basic.Net</a> are also very important for me. For instance, programming my own one-armed bandit or experimental software that reacts to participants’ responses during an experiment provides me with all the freedom I need for conducting my research. Last but not least, I would not survive without <a href="https://products.office.com/en-us/word">Microsoft Word</a> and <a href="http://www.dropbox.com">Dropbox</a>, which help me to organize my thoughts and my incredibly numerous documents that I have accumulated over the last years.
+
+<strong>What do you consider your most important research tool(s) outside of your computer?</strong>
+
+One important „research tool“ outside of my computer is my daily train ride during which in the morning I use a calendar and a notebook to organize my day and to write down my thoughts. In the evening I review my day and start to redirect my thoughts away from work. But the most important research “tool“ is my husband who provides very valuable and important feedback on all the more or less elaborated thoughts and future research projects that go through my head.
+
+<strong>What is your favorite tip for getting writing done?</strong>
+
+What helped me a lot when I started my PhD was a „writing club“. In a kick-off meeting, my colleagues and I committed to a certain amount of writing time per day for the next month (e.g., 2 hours on 4 days per week). Additionally, person A was named as a reviewer for person B who served as a reviewer for person C. These roles changed every month. Such a „writing club“ with the self- and public commitment for a particular writing schedule helps to get used to writing (even in short time slots) and to improve writing skills. Today, it is important for me to write in a quiet place characterized by organized chaos, equipped with lots of food and drink so that I can work as long as I’m productive, to have deadlines, and to be committed towards collaborators.
+
+<a href="/files/2014/11/Scholl-Sabine-CV.pdf">Scholl, Sabine - CV</a>
+
+Sabine's favorite paper:
+
+<a href="http://journal.sjdm.org/11/101105/jdm101105.pdf">Scholl, S. G. &amp; Greifeneder, R. (2011). Disentangling the effects of alternation rate and maximum run length on judgments of randomness. <em>Judgment and Decision Making, 6, </em>531-541.</a>
+
+&nbsp;

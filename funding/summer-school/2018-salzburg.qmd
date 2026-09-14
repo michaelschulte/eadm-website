@@ -1,0 +1,72 @@
+---
+title: "2018 Summer School Salzburg"
+---
+
+<b>EADM Summer School 2018 - Report</b>
+
+<span style="font-weight: 400;">Authors: Bilovich A., Hoyer, Liu, D., McCaughey, L., K., Schödler, C. G., Zhu-Schuetz, F., Kühberger, A., &amp; Schulte-Mecklenbeck, M.</span>
+
+<span style="font-weight: 400;">From Monday the 9th until Saturday the 14th of July, 20 early-career researchers participated in the EADM summer school 2018 in Salzburg, Austria. The summer school was hosted by Anton </span><a href="https://ccns.sbg.ac.at/people/kuehberger/"><span style="font-weight: 400;">Kühberger</span></a><span style="font-weight: 400;"> (</span><span style="font-weight: 400;">University of Salzburg, Department of Psychology)</span><span style="font-weight: 400;"> and Michael </span><a href="http://www.schulte-mecklenbeck.com/"><span style="font-weight: 400;">Schulte-Mecklenbeck</span></a><span style="font-weight: 400;"> (University of Bern, Max Planck Institute for Human Development), and consisted of several interactive workshops, keynotes and ‘meet the scientist’ sessions. The theme of this year’s summer school was </span><i><span style="font-weight: 400;">Open Science in Decision Making Research.</span></i>
+
+<span style="font-weight: 400;">I</span><span style="font-weight: 400;">ts aim was twofold: 1) to get to know process tracing, and 2) to “unfuck” psychological science.  </span>
+
+<b>Workshops</b>
+
+<span style="font-weight: 400;">Participants did most of the tasks in small groups of 4 - foremost they participated in a mouse-tracking workshop (run by Pascal </span><a href="https://pascalkieslich.github.io/"><span style="font-weight: 400;">Kieslich</span></a><span style="font-weight: 400;"> and Dirk </span><a href="https://dwulff.github.io/about/"><span style="font-weight: 400;">Wulff</span></a><span style="font-weight: 400;">) that included </span><span style="font-weight: 400;">designing, building (in Open Sesame), pre-registering (at <a href="https://osf.io/qzvfy/">OSF</a>), running, and analyzing (with the R-package Mousetrap) a mouse-tracking experiment. From the <a href="https://osf.io/qzvfy/">main project</a> each group forked their own project and pre-registered their study.</span>
+
+<span style="font-weight: 400;">Here are summaries of the 5 studies run</span><span style="font-weight: 400;">:</span>
+
+<span style="font-weight: 400;">Group 1: The study compared participants’ food choices between healthy and unhealthy foods after being primed with thin (‘healthy’) or wide (‘unhealthy’) body silhouettes, or neutral stimuli (rectangles with horizontal stripes). Primes were flashed briefly (for 150ms) before each mouse-tracking trial. If priming had an effect on participants’ decision-making, mouse trajectories should show greater deviations from a straight path from start to the healthier choice when presented with an unhealthy prime, and similarly for unhealthier choice when presented with a healthy prime. No significant differences were observed in choices or mean mouse trajectory deviations across priming conditions.</span>
+
+<span style="font-weight: 400;">Group 2: This study investigated the role of ambiguity attitude in risky choice. Subjects made choices between an ambiguous lottery and a risky lottery. Through a mouse-tracking experiment, it was found that when the probabilities of the risky lottery were close to an individual’s switching point (point of indifference between risky and ambiguous option), the conflict between the two options was biggest. There was no significant difference between high outcome and low outcome lotteries; while there was a marginally significant difference between gain and loss. The magnitude of the outcome moderated the effect.   </span>
+
+<span style="font-weight: 400;">Group 3: The study looked at intertemporal choices between healthy and unhealthy food. Participants were asked to state their preference between two types of food either for immediate consumption, or for consumption in a week’s time. The main hypothesis was that immediate consumption choices will be more unhealthy (reflecting impulsive decisions) while choices for the future will be more healthy. Mouse tracking failed in showing this.</span>
+
+<span style="font-weight: 400;">Group 4: This mouse-tracking experiment examined participants’ binary choices between healthy and unhealthy snacks when calorie information was present versus when it was absent. The pre-registered hypothesis was that providing calorie information would increase the number of healthy options made. In addition, it was hypothesised that for healthy snack choices, calorie information would decrease the amount of conflict/uncertainty (as measured by the maximum absolute deviation), while for unhealthy choices, calorie information would increase the amount of conflict.</span>
+
+<span style="font-weight: 400;">Group 5: The study examined how people respond to true, false, and paradoxical statements in a mouse-tracking experiment. A previous study (Rudnicki and Lukowski, in prep.) found that people show similar EEG patterns when exposed to false statements (‘This sentence is in Spanish’) and to a liar’s paradox (‘This sentence is wrong’). Based on the hand-movement paradigm (Spivey et al., 2005), we hypothesized that this EEG pattern should replicate in a mouse-tracking experiment. The pre-registered hypotheses stated that the false and paradoxical statements will each result in a greater mean average deviation (MAD) than the true statements. Our results indicate indeed a similar pattern of MAD to EEG.</span>
+
+&nbsp;
+
+<span style="font-weight: 400;">Three additional workshops introduced concepts of open science and reproducibility (Anne M. Scheel), eye-tracking (Stephan Hawelka), and decisions from experience (Dirk Wulff).</span>
+
+<b>Keynotes</b>
+
+<span style="font-weight: 400;">1) </span><a href="https://www.wbs.ac.uk/about/person/neil-stewart"><span style="font-weight: 400;">Neil Stewart</span></a><span style="font-weight: 400;"> - Naturalistic multiattribute choice</span>
+
+<span style="font-weight: 400;">We study how people evaluate and aggregate the attributes of naturalistic choice objects, such as movies and food items. Our approach applies theories of object representation in semantic memory research to large-scale crowd-sourced data, to recover multiattribute representations for common choice objects. We then use standard choice experiments to test the predictive power of various decision rules for weighting and aggregating these multiattribute representations. Our experiments yield three novel conclusions: (1) Existing multiattribute decision rules, applied to object representations trained on crowd-sourced data, predict participant choice behavior with a high degree of accuracy; (2) contrary to prior work on multiattribute choice, weighted additive decision rules outperform heuristic rules in out-of- sample predictions; and (3) the best performing decision rules utilize rich object representations with a large number of underlying attributes. Our results have important implications for the study of multiattribute choice.</span>
+
+<span style="font-weight: 400;">2) </span><a href="https://www.coll.mpg.de/team/page/susann_fiedler"><span style="font-weight: 400;">Susann Fiedler</span></a><span style="font-weight: 400;"> - Prosocial preferences in intergroup decision-making</span>
+
+<span style="font-weight: 400;">Ingroup favoritism and discrimination against the outgroup are pervasive in social interactions. I will present a set of studies using eye-tracking technology to uncover the cognitive processes underlying the decision to be more generous to members of their own group relative to out-group members. In two studies, we find systematic differences in information search effort, specifically increased response times and number of fixations, and more inspected information when facing in-group vs. outgroup members, especially among ‘pro-social’ individuals who value others’ outcomes more rather than less. Whereas individualistic decision makers invested relatively less effort into information search when decisions involved out-group members, those with pro-social value orientations showed more similar effort for in- and outgroup decisions. Implications for intergroup research and resolutions for intergroup conflict will be discussed.</span>
+
+<span style="font-weight: 400;">3) </span><a href="https://www.mpib-berlin.mpg.de/en/staff/ralph-hertwig"><span style="font-weight: 400;">Ralph Hertwig</span></a><span style="font-weight: 400;"> - Human rationality: Three gaps and no funeral</span>
+
+<span style="font-weight: 400;">In this talk, I am concerned with three seemingly conflicting sets of findings, interpretations and conclusions in research on behavioral decision making. Beginning with the description-experience gap in contemporary research on human choice, I argue that experienced-based decisions result, at least to some extent, in systematically different behaviors than description-based decisions. Taking advantage of this distinction, I then turn to what one may call a gap in human (bounded) rationality that emerges once two research programs are compared: the intuitive statistician program and the heuristics-and-biases program. Finally, I propose that this rationality gap has given rise to two distinct approaches to public policy interventions, based on behavioral science evidence demonstrating people’s decision making competences or lack thereof: the nudging and the boosting approach. In my view, there are good reasons and evidence for the respective intellectual positions — that is to say, no funeral is being proposed — but it is important to understand these sustained and profound different portrayals of the human mind and their methodological and theoretical origins.</span>
+
+<span style="font-weight: 400;">4) </span><a href="https://www.mpib-berlin.mpg.de/en/staff/mirjam-jenny"><span style="font-weight: 400;">Mirjam Jenny</span></a><span style="font-weight: 400;"> - Empowering patients and doctors to make better decisions</span>
+
+<span style="font-weight: 400;">The main goal of the Harding Center for Risk Literacy is to help people in their struggle to understand and assess the risks they face and to make sound decisions under uncertainty. Our main focus is on health and medicine. By conducting studies, experiments, and surveys, we investigate people's problems with understanding numbers and dealing with uncertainty and find solutions to these. In my talk, I will discuss some of our experimental work as well as some of our collaborations with different health care institutions (e.g., health insurances) to demonstrate how we can help doctors and patients make sense of health statistics and improve their decision making. I will also present ready-to-use evidence-based and data-driven decision tools for doctors and patients that empower both experts and lay-people to make better medical decisions.</span>
+
+<span style="font-weight: 400;">In small groups, participants had the opportunity to ‘meet’ the keynote speakers directly after their talks in order to continue the discussion or to pry some valuable career advice. This setting turned out to be very conducive to a personal exchange between the keynote speakers and the participants, and seemed to attain its aim of giving participants an opportunity to approach their respective keynote speaker. It was very well received by the early-career researchers.</span>
+
+<span style="font-weight: 400;">The whole group in front of the University of Salzburg entrance</span><span style="font-weight: 400;"><a href="/images/2018/09/0iuXVmoT0mQFMQfOfF2w_thumb_2202.jpg"><img class="aligncenter size-full wp-image-1225" src="/images/2018/09/0iuXVmoT0mQFMQfOfF2w_thumb_2202.jpg" alt="" width="1025" height="767" /></a></span>
+
+<span style="font-weight: 400;">Group building</span>
+
+<a href="/images/2018/09/UNADJUSTEDNONRAW_thumb_21cb.jpg"><img class="aligncenter size-full wp-image-1226" src="/images/2018/09/UNADJUSTEDNONRAW_thumb_21cb.jpg" alt="" width="1024" height="768" /></a><a href="/images/2018/09/UNADJUSTEDNONRAW_thumb_21e8.jpg"><img class="aligncenter size-full wp-image-1227" src="/images/2018/09/UNADJUSTEDNONRAW_thumb_21e8.jpg" alt="" width="1024" height="768" /></a>
+
+<span style="font-weight: 400;">Pascal Kieslich and Dirk Wulff talking mousetracking</span>
+
+<a href="/images/2018/09/UNADJUSTEDNONRAW_thumb_21ea.jpg"><img class="aligncenter size-full wp-image-1228" src="/images/2018/09/UNADJUSTEDNONRAW_thumb_21ea.jpg" alt="" width="768" height="1024" /></a><span style="font-weight: 400;">Susann Fiedler talking eye-tracking and fairness (with pre-registration!)</span><a href="/images/2018/09/UNADJUSTEDNONRAW_thumb_21d2.jpg"><img class="aligncenter size-full wp-image-1229" src="/images/2018/09/UNADJUSTEDNONRAW_thumb_21d2.jpg" alt="" width="768" height="1024" /></a><span style="font-weight: 400;">Neil Stewart talking lots of data</span>
+
+<a href="/images/2018/09/UNADJUSTEDNONRAW_thumb_21f0.jpg"><img class="aligncenter size-full wp-image-1230" src="/images/2018/09/UNADJUSTEDNONRAW_thumb_21f0.jpg" alt="" width="1024" height="768" /></a>
+
+<span style="font-weight: 400;">Anne Scheel talking open science (and R)</span>
+
+<a href="/images/2018/09/UNADJUSTEDNONRAW_thumb_21f7.jpg"><img class="aligncenter size-full wp-image-1231" src="/images/2018/09/UNADJUSTEDNONRAW_thumb_21f7.jpg" alt="" width="1024" height="768" /></a>
+
+<span style="font-weight: 400;">Ralph Hertwig talking about the world</span>
+
+<a href="/images/2018/09/UNADJUSTEDNONRAW_thumb_21fb.jpg"><img class="aligncenter size-full wp-image-1232" src="/images/2018/09/UNADJUSTEDNONRAW_thumb_21fb.jpg" alt="" width="1024" height="768" /></a>
+<span style="font-weight: 400;">Mirjam Jenny talking Harding Center</span>

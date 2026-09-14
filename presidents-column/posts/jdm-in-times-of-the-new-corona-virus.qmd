@@ -1,0 +1,19 @@
+---
+title: "JDM in times of the new corona virus"
+date: 2020-03-20
+categories: ["President's Column"]
+---
+
+Ido Erev has a piece in the New York Times entitle "<span class="balancedHeadline"><a href="https://www.nytimes.com/2020/03/19/health/coronavirus-panic-anxiety.html">Complacency, Not Panic, Is the Real Danger</a>" - it will serve as a piece for the presidential column. </span>
+
+Stay safe!
+
+Said piece got published now in the JDM Journal:
+
+Money makes the world go round, and basic research can help
+
+<a href="http://journal.sjdm.org/19/191126/jdm191126.pdf" target="_blank" rel="noopener noreferrer">http://journal.sjdm.org/19/191126/jdm191126.pdf</a>
+
+As the adage goes, “money makes the world go round” – but which direction does it spin? This analysis considers how basic decision research can help us work out how to answer this question. It suggests that the difficulty of deriving clear predictions based on existing decision research is at least partly rooted in two restrictive conventions. The first is the focus on deviations from rational choice, and the effort to capture observed deviations by assuming subjective value functions. While it is difficult to reject the hypothesis that choice behavior reflects the weighting of subjective values, it is not clear that it advances the derivation of useful predictions. A second restrictive convention is the focus on objective hypothesis testing, which favors analyses that evaluate small refinements of the popular models. The potential benefits of relaxing these conventions are considered, with reference to recent choice prediction competitions that facilitate the exploration of distinct assumptions and model development techniques. The winners in these competitions assume very different decision processes than those assumed by the popular “subjective functions” models. The relationship of the results to the big data revolution is discussed.
+
+https://www.nytimes.com/2020/03/19/health/coronavirus-panic-anxiety.html

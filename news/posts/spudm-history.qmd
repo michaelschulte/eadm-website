@@ -1,0 +1,11 @@
+---
+title: "SPUDM History"
+date: 2014-05-14
+categories: ["SPUDM"]
+---
+
+We added a new page to our website featuring the programs of all SPUDM conferences between 1969 and 2013:
+
+<a href="/spudm/history">http://eadm.eu/spudm_history/</a>
+
+Enjoy the journey!

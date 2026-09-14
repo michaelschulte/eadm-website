@@ -1,0 +1,51 @@
+---
+title: "2nd EADM JDM Summer School "
+date: 2014-02-06
+categories: ["Uncategorized"]
+---
+
+The European Association for Decision Making (EADM) is pleased to announce its second Judgment and Decision Making (JDM) Summer School for PhD Students. It will take place from
+<p align="center"><strong>Friday 15 August to Saturday 23 August 2014</strong></p>
+<p align="center">at the</p>
+<p align="center"><strong>Max Planck Institute for Research on Collective Goods in Bonn, Germany.</strong></p>
+The Summer School will consist of a weeklong program of courses covering issues of methodology in Judgment and Decision Making (JDM) research including hands on courses on:
+<table border="1">
+<tbody>
+<tr>
+<td><strong><em>Methodology in JDM Research</em></strong> <small>(Frank Renkewitz, University of Erfurt)</small><br>Current methodological debate, efficient research design &amp; theory evaluation.</td>
+</tr>
+<tr>
+<td><em><strong>Cognitive Modelling </strong></em> <small>(Andreas Glöckner, University of Göttingen)</small><br>Understanding, implementing, and testing cognitive models of choice.</td>
+</tr>
+<tr>
+<td><em><strong>Bayesian Approaches to JDM</strong>  </em> <small>(Benjamin Scheibehenne, University of Basel)</small><br>Bayesian models for judgment and choice, Bayesian statistics and model comparison for JDM research.</td>
+</tr>
+<tr>
+<td><em><strong>Anti-social Decision Making and Cheating </strong> </em><small>(Shaul Shalvi, Ben Gurion University)</small><br>Investigating what and how JDM research can teach us about people's (im)moral behaviors.</td>
+</tr>
+<tr>
+<td><em><strong>Introduction to Eye-tracking </strong></em> <small>(Susann Fiedler, MPI Bonn)</small><br>Eye-tracking as a tool for investigating cognitive processes in JDM including hands on experience with the technology.</td>
+</tr>
+<tr>
+<td><em><strong>Social Decision Making</strong>  </em> <small>(Carsten De Dreu, University of Amsterdam)</small><br>Investigating the basic structures of social dilemmas as they emerge in (small) groups of people and how this translates into (i) social decision, and (ii) negotiating agreement. Special attention will be given to cooperative choice and negotiation strategies among representatives who navigate personal interests, those of their constituents (in-group), and those of the rivaling out-group.</td>
+</tr>
+</tbody>
+</table>
+
+
+Accepted participants take part at the Summer School free of charge due to the generous funding by the EADM. Accommodation, food and travel costs are not covered.
+
+To apply for the Summer School the following materials are required:
+
+<em>(a) 2-page CV that gives details of your academic achievements,</em>
+
+<em>(b) summary of your PhD research (800-1000 words),</em>
+
+<em>(c) short letter of recommendation (maximum of one page) from an academic with knowledge of your research (e.g., supervisor).</em>
+
+
+<p align="center">Please email your application in pdf format to: <a title="summerschool2014@eadm.eu" href="mailto:summerschool2014@eadm.eu" target="_blank">summerschool2014@eadm.eu</a></p>
+<p align="center">by <strong>April 5th, 2014 </strong>with <strong>“EADM Summer School Application”</strong> in the subject line.</p>
+<p align="center">For further details you find the full call for applications <a href="/files/2014/02/The-EADM-JDM-Summer-School-for-PhD-Students.pdf">here.</a></p>
+<p align="center">----------------------------------------------------------</p>
+&nbsp;

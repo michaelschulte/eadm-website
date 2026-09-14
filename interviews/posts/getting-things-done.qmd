@@ -1,0 +1,9 @@
+---
+title: "Getting things done"
+date: 2014-09-15
+categories: ["EADM Interview"]
+---
+
+Utilizing little helpers to get our daily research work done become more important every year. We crowdsource the knowledge of our society's member in the <a title="The EADM Interview" href="http://eadm.eu/the-eadm-interview/">EADM Interview</a> on a monthly base. Now there is another source for such information. <a href="www.nature.com">Nature</a> started a series called <a href="http://www.nature.com/polopoly_fs/1.15810!/menu/main/topColumns/topLeftColumn/pdf/513006b.pdf">The digital Toolbox</a> in which software literacy is a central aim. Here is the first contribution on <a href="http://www.nature.com/news/how-to-tame-the-flood-of-literature-1.15806">How to tame the flood of literature </a>coming in every day.
+
+&nbsp;

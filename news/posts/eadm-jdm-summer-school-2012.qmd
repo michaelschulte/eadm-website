@@ -1,0 +1,15 @@
+---
+title: "EADM JDM Summer School 2012"
+date: 2013-05-22
+categories: ["News"]
+---
+
+The Psychology Department at the University of Essex, in association with the European Association of Decision Making, played host to the first Judgment and Decision Making Summer School at the end of August 2012. Current, and recently completed, PhD students from across Europe, researching any area in judgment and decision making, attended an 8 day programme put together by Dr Tim Rakow. The guest lecturers who attended were Dr. Glöckner (Max Planck Institute for Research on Collective Goods), Prof. Neil Stewart (University of Warwick) and Dr. Mandeep Dhami (University of Surrey).
+
+The program offered an eclectic view on the field of judgment and decision making, including methodological advances using eye-tracking devices, modelling of risky choice, introduction to Bayesian hypotheses testing, as well as real world applications in the legal and criminal fields. In addition to the lectures, the summer school also had practical workshops in order to give attendees a ‘hands-on’ experience with new equipment and software.
+
+The computer workshops offered an introduction to Bayesian analysis and model fitting using R and Matlab. Other workshops included a tutorial on setting up experiments and analysing eye-tracking data, as well as interactive workshop devoted to the critical review of the guidelines currently employed in the UK’s criminal justice system. The lecturers organised several sessions to discuss issues affecting new researchers such as the challenges associated with the peer-review process and carrying out research in an applied setting.
+
+The entire course was also complemented by excellent keynote speakers including Prof. Peter Ayton (City University London), Prof. Nigel Harvey (University College London), Dr. Mitch Callan (University of Essex), Dr. William Matthews (University of Essex) and Dr. Nick Sevdalis (Imperial College London), who delivered inspiring talks about their research.
+
+The summer school provided an excellent opportunity for new researchers to interact and get to know others who share similar interests in judgment and decision making through a medium of poster presentations, shared meals and exciting social events (including a trip to the Paralympics). We are confident that such an experience aided the generation of new exciting research ideas, as well as the prospects of new collaborations.

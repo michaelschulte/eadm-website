@@ -1,0 +1,178 @@
+---
+title: "Past Executive Boards"
+---
+
+<h3> <strong><span style="letter-spacing: 0.1em;">2023-2025</span></strong></h3>
+<ul>
+ 	<li>Eldad Yechiam</li>
+ 	<li>Mandeep K. Dhami</li>
+ 	<li>Shahar Ayal</li>
+ 	<li>Bernd Figner</li>
+ 	<li>Shaul Shalvi</li>
+ 	<li>Michael Schulte-Mecklenbeck</li>
+</ul>
+
+<hr />
+
+<h3> <strong><span style="letter-spacing: 0.1em;">2021-2023</span></strong></h3>
+<ul>
+ 	<li>Gaelle Vallee-Tourangeau</li>
+ 	<li>Eldad Yechiam</li>
+ 	<li>Michel Handgraaf</li>
+ 	<li>Shaul Shalvi</li>
+ 	<li>Michael Schulte-Mecklenbeck</li>
+</ul>
+
+<hr />
+
+<h3> <strong><span style="letter-spacing: 0.1em;">2019-2021</span></strong></h3>
+<ul>
+ 	<li>Ido Erev</li>
+ 	<li>Gaelle Vallee-Tourangeau</li>
+ 	<li>Michel Handgraaf</li>
+ 	<li>Eldad Yechiam</li>
+ 	<li>Michael Schulte-Mecklenbeck</li>
+</ul>
+
+<hr />
+
+<h3> <strong><span style="letter-spacing: 0.1em;">2017-2019</span></strong></h3>
+<ul>
+ 	<li>Andreas Glöckner</li>
+ 	<li>Ido Erev</li>
+ 	<li>Michel Handgraaf</li>
+ 	<li>Timothy J. Pleskac</li>
+ 	<li>Michael Schulte-Mecklenbeck</li>
+</ul>
+
+<hr />
+
+<h3> <strong><span style="letter-spacing: 0.1em;">2015-2017</span></strong></h3>
+<ul>
+ 	<li>Barbara Summers</li>
+ 	<li>Andreas Glöckner</li>
+ 	<li>Michel Handgraaf</li>
+ 	<li>Susann Fiedler</li>
+ 	<li>Michael Schulte-Mecklenbeck</li>
+</ul>
+
+<hr />
+
+<h3> <strong><span style="letter-spacing: 0.1em;">2013-2015</span></strong></h3>
+<ul>
+ 	<li>Cilia Witteman</li>
+ 	<li>Barbara Summers</li>
+ 	<li>Michel Handgraaf</li>
+ 	<li>Andreas Glöckner</li>
+ 	<li>Michael Schulte-Mecklenbeck</li>
+</ul>
+
+<hr />
+
+<h3> <strong><span style="letter-spacing: 0.1em;">2011-2013</span></strong></h3>
+<ul>
+ 	<li>Nicolao Bonini</li>
+ 	<li>Cilia Witteman</li>
+ 	<li>Michel Handgraaf</li>
+ 	<li>Barbara Summers</li>
+ 	<li>Michael Schulte-Mecklenbeck</li>
+</ul>
+
+<hr />
+
+<h3>2009-2011</h3>
+<ul>
+ 	<li>Ilana Ritov</li>
+ 	<li>Nicolao Bonini</li>
+ 	<li>Michel Handgraaf</li>
+ 	<li>Fergus Bolger</li>
+ 	<li>Gaëlle Villejoubert</li>
+</ul>
+
+<hr />
+
+<h3>2007-2009</h3>
+<ul>
+ 	<li>Robin Hogarth</li>
+ 	<li>Ilana Ritov</li>
+ 	<li>Cilia Witteman</li>
+ 	<li>Gaëlle Villejoubert</li>
+ 	<li>Rob Ranyard</li>
+</ul>
+
+<hr />
+
+<h3>2005-2007</h3>
+<ul>
+ 	<li>John Maule</li>
+ 	<li>Robin Hogarth</li>
+ 	<li>Cilia Witteman</li>
+ 	<li>Gaëlle Villejoubert</li>
+ 	<li>Nicolao Bonini</li>
+</ul>
+
+<hr />
+
+<h3>2003-2005</h3>
+<ul>
+ 	<li>Danielle Timmermans</li>
+ 	<li>John Maule</li>
+ 	<li>Pieter Koele</li>
+ 	<li>Myriam Welkenhuysen</li>
+ 	<li>Clare Harries</li>
+</ul>
+
+<hr />
+
+<h3>2001-2003</h3>
+<ul>
+ 	<li>Nigel Harvey</li>
+ 	<li>Danielle Timmermans</li>
+ 	<li>Pieter Koele</li>
+ 	<li>David Budescu</li>
+ 	<li>Clare Harries</li>
+</ul>
+
+<hr />
+
+<h3>1999-2001</h3>
+<ul>
+ 	<li>Karl Halvor Teigen</li>
+ 	<li>Nigel Harvey</li>
+ 	<li>Pieter Koele</li>
+ 	<li>David Budescu</li>
+ 	<li>Wibecke Brun</li>
+</ul>
+
+<hr />
+
+<h3>1997-1999</h3>
+<ul>
+ 	<li>Ola Svenson</li>
+ 	<li>Karl Halvor Teigen</li>
+ 	<li>Danielle Timmermans</li>
+ 	<li>Jose Kerstholt</li>
+ 	<li>Wibecke Brun</li>
+</ul>
+
+<hr />
+
+<h3>1995-1997</h3>
+<ul>
+ 	<li>Helmut Jungermann</li>
+ 	<li>Ola Svenson</li>
+ 	<li>Danielle Timmermans</li>
+ 	<li>John Maule</li>
+ 	<li>Jane Beattie</li>
+</ul>
+
+<hr />
+
+<h3>1993-1995</h3>
+<ul>
+ 	<li>Willem Albert Wagenaar</li>
+ 	<li>Helmut Jungermann</li>
+ 	<li>Danielle Timmermans</li>
+ 	<li>John Maule</li>
+ 	<li>Ola Svenson</li>
+</ul>

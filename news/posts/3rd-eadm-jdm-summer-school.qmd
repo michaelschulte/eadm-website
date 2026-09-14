@@ -1,0 +1,11 @@
+---
+title: "3rd EADM JDM Summer School"
+date: 2016-03-07
+categories: ["Summer School"]
+---
+
+The European Association for Decision Making (EADM) is pleased to announce its third Judgment and Decision Making (JDM) Summer School for PhD Students. It will take place between <strong>11-16 July 2016</strong> at the <strong>University of Amsterdam, The Netherlands</strong>. 
+
+The Summer School will consist of <strong>a weeklong program</strong> of courses covering issues of methodology in Judgment and Decision Making (JDM) research including theory building (Martijn van Zomeren, Groningen), cognitive modeling (Ido Erev, Technion), open science (Daniel Lakens, Eindhoven; Susann Fiedler, MPI Bonn), panel data analysis (Andreas Glöckner and Marc Jekel, Hagen), games (Ori Weisel, Nottingham; Shaul Shalvi, Amsterdam), and process tracing (Michael Schulte-Mecklenbeck, Bern; Martijn Willemsen, Eindhoven).
+
+<a href="http://eadm.eu/3rd-eadm-jdm-summer-school/eadm-summer-school-2016-program_for-website/"rel="attachment wp-att-1138">EADM Summer School 2016 Program</a>

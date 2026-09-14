@@ -1,0 +1,87 @@
+---
+title: "Executive Board"
+---
+
+<table border="0" cellpadding="10">
+<tbody>
+<tr>
+<td align="left" valign="center"><strong>President</strong></td>
+<td><a href="https://www.mdx.ac.uk/about-us/our-people/staff-directory/prof-mandeep-dhami/">Mandeep Dhami</a></td>
+<td>Middlesex University, London</td>
+</tr>
+<tr>
+<td><strong>President-Elect</strong></td>
+<td><a href="https://business.leeds.ac.uk/faculty/staff/1177/dr-joshua-weller">Joshua Weller</a></td>
+<td>Leeds University Business School</td>
+</tr>
+<tr>
+<td><strong>Member-at-large</strong></td>
+<td><a href="https://profiles.imperial.ac.uk/o.kostopoulou">Olga Kostopoulou</a></td>
+<td>Imperial College, London</td>
+</tr>
+<tr>
+<td><strong>Secretary</strong></td>
+<td><a href="https://www.uva.nl/en/profile/s/h/s.shalvi/s.shalvi.html?cb">Shaul Shalvi</a></td>
+<td>University of Amsterdam, The Netherlands</td>
+</tr>
+<tr>
+<td><strong>Treasurer</strong></td>
+<td><a href="https://www.ru.nl/en/people/figner-b">Bernd Figner</a></td>
+<td>Radboud University, The Netherlands</td>
+</tr>
+<tr>
+<td><strong>Website Editor</strong></td>
+<td><a href="https://www.schulte-mecklenbeck.com">Michael Schulte-Mecklenbeck</a></td>
+<td>University of Bern, Switzerland; Max Planck Institute for Human Development, Germany</td>
+</tr>
+
+
+</tbody>
+</table>
+
+
+<h1>Associated Board members</h1>
+<table border="0" cellpadding="10">
+<tbody>
+<tr>
+<td><strong>Community building</strong></td>
+<td><a href="https://www.coll.mpg.de/rima-maria-rahal" target="_blank" rel="noopener noreferrer">Rima-Maria Rahal</a></td>
+<td>Max Planck Institute for Research on Collective Goods, Germany</td>
+</tr>
+<tr>
+<td></td>
+<td><a href="https://www.esri.ie/people/martina-barjakova" rel="noopener noreferrer">Martina Barjaková</a></td>
+<td>The Economic and Social Research Institute, Ireland</td>
+</tr>
+<tr>
+<td><strong>Newsletter Editor</strong></td>
+<td><a href="https://scholar.google.co.il/citations?user=fqY_1KYAAAAJ&amp;hl=en">Bar Shlomo</a></td>
+<td>Ben Gurion University, Israel</td>
+</tr>
+<tr>
+<td align="left" valign="center"><strong>Website</strong></td>
+<td><a href="https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/psychologie/arbeitsbereiche/soziale-kognition-und-entscheidungsforschung/unsere-arbeitsgruppe/tobias-rebholz/" target="_blank" rel="noopener noreferrer">Tobias Rebholz</a></td>
+<td>University of Tübingen, Germany</td>
+</tr>
+<tr>
+<td><strong><a href="https://bsky.app/profile/eadmnews.bsky.social">Bluesky</a></strong></td>
+<td><a href="https://marta-mm.github.io">Marta Mangiarulo</a></td>
+<td>University of Leicester, UK</td>
+</tr>
+</tbody>
+</table>
+<h1>EADM/SJDM virtual symposium</h1>
+<table border="0" cellpadding="10">
+<tbody>
+<tr>
+<td><strong>Representative</strong></td>
+<td><a href="https://business.leeds.ac.uk/departments-marketing/staff/373/" target="_blank" rel="noopener noreferrer">Dionysius Ang</a></td>
+<td>Leeds University</td>
+</tr>
+<tr>
+<td><strong>Representative</strong></td>
+<td><a href="https://www.tilburguniversity.edu/staff/m-leib" target="_blank" rel="noopener noreferrer">Margarita Leib</a></td>
+<td>Tilburg University</td>
+</tr>
+</tbody>
+</table>

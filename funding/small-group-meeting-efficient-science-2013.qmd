@@ -1,0 +1,90 @@
+---
+title: "Small Group Meeting: Efficient Science 2013"
+---
+
+On Friday, July 26th, 2013, a one-day small-group meeting entitled <i>Efficient Science - Methodological Controversies in J/DM Research</i> was held at the Max Planck Institute for Research on Collective Goods in Bonn. The meeting was jointly sponsored by the European Association of Decision Making and the Max Planck Society.
+
+The small group meeting brought together researchers from the field of Judgment and Decision Making (J/DM) to reflect on the issues raised and the suggestions made in recent methodological debates in psychology. The specific aim was to assess the methodological situation in our field and, if necessary, to debate how our methodology can be improved so that science can be done more efficiently also in J/DM research. The problems and solutions discussed were grouped around the four main topics (1) Structural framework, (2) Design and data analysis, (3) Cumulative development of knowledge, and (4) Theory development.
+
+The day started with keynote presentations by Michael Birnbaum (California State University, Fullerton) and Joseph Simmons (University of Pennsylvania).  In his talks “Science of JDM as an Efficient Game of Mastermind” Michael Birnbaum demonstrated how to do efficient science by quickly narrowing down sets of hypotheses in as few steps as possible as in the game Mastermind. Besides showing similarities and differences, he exemplified how this approach can be realized in J/DM by testing critical properties of whole classes of theories. In the second keynote Joseph Simmons summarized recommendations to avoid a “false-positive psychology” and he provided further suggestions how to reach a positive true psychology. Both keynotes inspired constructive discussions and set the stage for the ten specific presentations that followed.
+
+In the (1) Structural Framework section, Christoph Engel (MPI Collective Goods, Bonn) presented a game-theoretic analysis of the incentive structures in science which showed different possibilities how to influence individuals behavior in this public-bad dilemma for example by including reputation effects or uncertainty about when the strategic interaction ends. Frank Renkewitz (University of Erfurt), demonstrated structural problems for significance testing with large samples that follow from the fact that effects are likely to vary randomly determined by unknown factors. In the (2) Design and data analysis section, Erich Witte (University Hamburg) presented his suggestion to clearly differentiate between research in a phase of discovery and in a later phase of justification. Clintin Davis-Stober (University of Missouri) demonstrated that our estimations in experimental studies are often not better than chance and called for substantially higher powered studies to reduce the problem. Michael Schulte-Mecklenbeck (MPI for Human Development, Berlin) highlighted in his talk that even minor changes in research paradigms can influence results to some degree. In the (3) Cumulative development of knowledge section, Mark Brandt (Tilburg University) suggested that authors should prepare replication packages including material and data for published papers and make them publicly available on their webpage as standard of good scientific practice. Christoph Stahl (University of Cologne) discussed the advantages of a data-blind peer review process and informed that several journal plan to or have already included the submission category of “registered reports” as one possibility for publication. Mirjam Jenny (MPI for Human Development, Berlin) summarized recent developments in the methodology debate and presented data from a survey indicating that researchers also in the field of J/DM are open to change but that there is some skepticism concerning the introduction of strict rules. In the (4) Theory development section, Andreas Glöckner (University Göttingen) argued that one of the most fundamental problems to be solved in order to make science efficient in J/DM is to improve our theories to be better specified and to more thoroughly check the quality and the empirical content of theories to avoid the problem of theory accumulation. Klaus Fiedler (University Heidelberg) highlighted the importance of embedding theories in more general theoretical frameworks. He thereby argued against the mere focus on statistical hypothesis testing of isolated effects and in favor of searching for general explanation mechanisms and for more theory-driven thinking instead of focusing on alpha levels only.
+
+Core insights and conclusion from the discussion were that (a) the generally problems identified in recent methodological debates also apply to J/DM (although perhaps partially to a smaller degree) and that the solutions suggested in other fields can basically be applied to J/DM as well. It was highlighted that (b) there is a need for educating young researchers that enter the field more intensely on methodology which should be implemented in summer schools. To achieve efficient science (c) there has to be more focus on general theoretical thinking, theory specification as well as theory testing and theory development. All researchers and institutions have (d) to contribute to change incentive structures so that high-quality research and good researchers are rewarded instead of rewarding pure quantity of output. This particularly concerns hiring committees, editors and reviewers of manuscripts and grant proposals. Finally, it became clear in the discussion that (e) all issues are intervened and that chances for success and advantages that could be potential gained are interdependent so that we have to move forward simultaneously in all respects to develop more efficient science.
+
+Schedule
+<table width="480" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td valign="top" width="119">9:20 – 10:20</td>
+<td valign="top" width="361">Keynote: Michael Birnbaum: Science of JDM as an Efficient Game of Mastermind</td>
+</tr>
+<tr>
+<td valign="top" width="119">10:35 – 11:35</td>
+<td valign="top" width="361">Keynote: Joseph Simmons: Positive True Psychology</td>
+</tr>
+<tr>
+<td valign="top" width="119">11:45 – 12:15</td>
+<td valign="top" width="361">Christoph Engel: Scientific Dishonesty As a Public Bad</td>
+</tr>
+<tr>
+<td valign="top" width="119">12:15 – 12:45</td>
+<td valign="top" width="361">Frank Renkewitz: Random findings, alpha inflation, overrated relevance and generalisability: Consequences of the random variation of true effect sizes.</td>
+</tr>
+<tr>
+<td valign="top" width="119">12:45 – 13:15</td>
+<td valign="top" width="361">Erich H. Witte: Statistical inference techniques: Context of discovery and context of justification in empirical sciences - The long way of a research program</td>
+</tr>
+<tr>
+<td valign="top" width="119">14:15 – 14:45</td>
+<td valign="top" width="361">Clintin Davis-Stober: When are our experimental findings better than a guess?</td>
+</tr>
+<tr>
+<td valign="top" width="119">14:45 – 15:15</td>
+<td valign="top" width="361">Michael Schulte-Mecklenbeck: How replicable are process measures in decision making? The impact of subtle search costs</td>
+</tr>
+<tr>
+<td valign="top" width="119">15:15 – 15:45</td>
+<td valign="top" width="361">Mark J. Brandt:  Advancing replicability and theory through replication recipes and replication packages</td>
+</tr>
+<tr>
+<td valign="top" width="119">16:15 – 16:35</td>
+<td valign="top" width="361">Christoph Stahl:  Data-blind peer review</td>
+</tr>
+<tr>
+<td valign="top" width="119">16:35 – 17:05</td>
+<td valign="top" width="361">Mirjam Jenny: Psychologists are open to change, yet wary of rules</td>
+</tr>
+<tr>
+<td valign="top" width="119">17:05 – 17:35</td>
+<td valign="top" width="361">Andreas Glöckner: The empirical content of theories in judgment and decision making: Shortcomings and remedies</td>
+</tr>
+<tr>
+<td valign="top" width="119">17:35 – 17:55</td>
+<td valign="top" width="361">Klaus Fiedler: How Important is Statistical Hypothesis Testing for the Quality of Science?</td>
+</tr>
+<tr>
+<td valign="top" width="119">&nbsp;</td>
+<td valign="top" width="361">Break</td>
+</tr>
+<tr>
+<td valign="top" width="119">18:00 – 19:30</td>
+<td valign="top" width="361">Discussion</td>
+</tr>
+</tbody>
+</table>
+&nbsp;
+
+Additionally to the two keynotes and ten presenters we had eleven guests without oral presentations, which made very valuable contributions in the discussion by asking critical questions, commenting on the suggestions provided and providing their opinions on various topics. Overall, 23 persons took part at this small group meeting which allowed for highly productive and intense discussions.
+
+In the view of the organizers, the small group meeting achieved its goal to extend the methodological debate to the field of J/DM and to develop new suggestions for making science in our field more efficient. The contributions nicely complemented each other and participants got a differentiated overview over current debates, controversies and viewpoints. The insights developed at the meeting will be summarized in a joint multi-authored methodological article describing the core arguments discussed at the meeting. We thank the European Association for Decision Making (EADM) for the generous financial support of the meeting without which realizing the meeting would not have been possible.
+
+<b>Organization committee</b>
+
+Susann Fiedler, <i>Max Planck Institute for Research on Collective Goods</i>
+
+Andreas Glöckner, <i>University of Göttingen &amp; Max Planck Institute for Research on Collective Goods</i>
+
+Klaus Fiedler, <i>University of Heidelberg</i>
+
+<i> </i>

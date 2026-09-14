@@ -1,0 +1,27 @@
+---
+title: "Minutes of the EADM Board meeting in Rovereto, Sunday August 23rd 2009"
+date: 2013-07-09
+categories: ["EADM Minutes"]
+---
+
+Present: Robin Hogarth, Ilana Ritov, Rob Ranyard, Gaelle Villejoubert, Nicolao Bonini, Fergus Bolger, Cilia Witteman
+<ol>
+	<li>The minutes of the 2007 board and business meetings are approved without changes</li>
+	<li>An overview is presented of the workshops in 2007 and 2008. We note that there have been fewer workshops than we would wish. We decide to propose in the business meeting to raise the maximum sponsorship (from € 2250 to 3000) to make it more attractive and to sponsor at most 3 workshops a year. Also we will promote organising workshops through the website, on which Gaelle will adapt the rules: No recurrent events, advertise through the website and the mailinglist, a lower fee for EADM members (plus the existing rules: applicant is a member etc).</li>
+	<li>The Financial report 2007 and 2008 are approved. Our income consists of membership fees, which are sometimes a hassle as well as expensive (banking costs) to cash in. We decide to propose in the business meeting that we ask € 3 extra, so that full members now pay € 30, and to raise student membership to € 15. We also decide to propose that people pay membership fees for 2 years while registering for Spudm. So there will be a last 1-year payment in 2010. Cilia will find out whether payment can be made through the website, using PayPal. Robin will contact Joshua Klayman to discuss the Jane Beattie travel award of € 500 that we provide for a European to travel to JDM.</li>
+	<li>Gaelle will propose Kingston for Spudm 2011. The committee will consist of herself, someone else from London (to contact through Nigel), Oppenheimer as the US member, Fergus as the EADM board member, and someone from the 2013 organising committee.</li>
+	<li>For Spudm 2013 we have no serious options yet; we will contact different people. (At the business meeting, Haifa is proposed; at the social dinner Barcelona comes up as a serious option)</li>
+	<li>The 2011 De Finetti committee will consist of Pieter Koele (chair), Benjamin Scheibehenne (this year’s winner), Mandeep Dhami and Rob Ranyard.</li>
+	<li>The 2011 Jane Beattie committee will consist of Ilana Ritov (chair), Marcel Zeelenberg, Ellen Peters and Nicolao Bonini.</li>
+	<li>The website needs more active use by members and more information from the web-masters. Gaelle takes care of the member-pages, Neda Kerimi of the ads, and Michael Schulte-Mecklenbeck of technical matters. Gaelle will ask other members in the business meeting to lend a hand, and ask all members to look at their personal data.</li>
+	<li>The new board members (Nicolao as president-elect and Fergus as member-at-large) are welcomed, and Robin and Rob are thanked for all their work in the past 2 years.</li>
+</ol>
+To Do
+<ol>
+	<li>put new workshop rules on website (Gaelle)</li>
+	<li>look into PayPal option (Cilia)</li>
+	<li>contact Joshua Klayman about Beattie travel award (Robin)</li>
+	<li>invite members to Spudm11 Kingston committee (Gaelle)</li>
+	<li>contact Barcelona member who proposed to host Spudm 2013; inform the board (Robin)</li>
+	<li>inform chairs of the De Finetti committee (Cilia) and Beattie committee (Ilana)</li>
+</ol>

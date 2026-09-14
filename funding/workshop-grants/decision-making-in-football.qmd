@@ -1,0 +1,39 @@
+---
+title: "Workshop 2008: Decision-making in Football"
+---
+
+<h1>Decision-making in Football</h1>
+The Economics and Psychology of Football: Analyses of Decision-Making in the World's Greatest Sport
+
+<em>Workshop organizers: Patric Andersson (Stockholm School of Economics), Martin Kocher (University of Munich), Matthias Sutter (University of Innsbruck and Gothenburg University) Carsten Schmidt (University of Mannheim).</em>
+<p align="justify">The rationale for organizing the workshop was that football is imbued with a wide range of complex judgmental tasks involving varying degrees of rationality and emotional reactions. Whereas some tasks require instantaneous responses in a stressful environment, other tasks involve assessment of probabilities under uncertainty. There exist also various beliefs about the nature of football that relate to the literature on judgment and decision-making. The vast amount of available (match) statistics makes it possible to analyse large sets of judgments and decisions as well as to rigorously evaluate beliefs about the nature of football. (For examples of such analyses, see the book “Myths and facts about football: <a href="http://www.c-s-p.org/Flyers/Myths-and-Facts-about-Football--The-Economics-and-Psychology-of-the-World-s-Greatest-Sport1-84718-622-X.htm" target="_blank">The economics and psychology of the World’s greatest sport</a> ” by Andersson, Ayton, &amp; Schmidt. Therefore, studying judgmental phenomena in and about football may not only enrich our knowledge of how decisions are made in natural settings, but also provide valuable empirical tests of the validity of existing theories.</p>
+
+<div align="justify">About 45 researchers from all around Europe attended the workshop that involved two keynote talks as well as presentations of 34 papers and four posters. The keynote talks were given by the former FIFA-referee Urs Meier and Professor Stefan Szymanski from Cass Business School, City University London. Meier gave an informative and vivid description of referee decision-making in practice. Among other things, he showed how certain events on the pitch (e.g., penalties) may influence the pulse of the referee and stressed the role of using intuitive processes. Szymanski lectured on the economics of major sporting events such as the Olympic game, FIFA World Cup and European Championship in football. He presented empirical results on whether such events and their outcome make people feel happier The 34 papers were organised around the following themes: (1) behaviour and decisions of players, (2) management of football clubs, (3) behaviour and decisions of referees, (4) betting on and predictions of football games, (5) microeconomics of football and (6) the role of geographical and quality factors on performance.</div>
+<div align="justify">Thanks to press-releases and attendance of journalists the workshop also received media coverage in some countries. Valuable help with public relations was gratefully obtained from Simon Maule and John Hood at Linstock Communications in London.  Papers presented during the conference will be eligible for publication in a special issue of the Journal of Economic Psychology. Details of the full programme can be found at <a href="http://www.uibk.ac.at/experiment/football2008/program" target="_blank">http://www.uibk.ac.at/experiment/football2008/program.</a></div>
+<div align="justify">
+<h1><span style="color: #ffffff;">..</span>
+<span style="color: #ffffff;">..</span></h1>
+<h1>Unravelling Decisions from Experience</h1>
+London – Saturday 5th January 2008
+
+<em>Workshop organizers: Tim Rakow &amp; Ben Newell</em>
+
+Thanks to financial support from EADM and ELSE (the Centre for Economic learning and Social Evolution), we were able to bring together about 30 researchers for nine presentations on the theme of decisions from experience.
+
+Some recent papers have encouraged JDM-researchers to reconsider experience-based decision making – risky choice tasks where the pay-offs are not described, but must be learned from observation. Such tasks were common in research the 1950s and 60s when mechanisms such as information acquisition and learning, and phenomena such as probability matching, were prominent in JDM research. However, in the years that followed, research on risky choice tended to focus more on decisions-from-description: situations where the payoffs and probabilities associated with each option are given explicitly to the decision maker. The workshop gave participants the opportunity to explore new data and recent insights into a number of different features of decisions from experience:
+<ul>
+	<li>The “description-experience gap” – the difference in patterns of choice that have been observed between decisions from experience and decisions from description, and the explanations for it.</li>
+	<li>Individual differences in decisions from experience, such as the variability in exploratory behaviour and its relationship to other individual difference measures.</li>
+	<li>Models of sampling and choice in decisions-from-experience.</li>
+	<li>The impact upon choice of alternative or additional representations of past experience.</li>
+</ul>
+The day successfully summarised the state of current research in this area – with work being presented from groups based in Israel, Spain, Switzerland, the UK, Australia and the USA. New data and alternative explanations were explored, and, by the end of the day, an informal “agenda” for future research had emerged. Included among these issues for further investigation were:
+<ul>
+	<li><span style="font-family: Wingdings; font-size: small;">§</span>  Seeking meaningful extensions of current research that generalise to tasks outside the laboratory (e.g., field experiments, applications, and the examination of complex outcomes).</li>
+	<li><span style="font-family: Wingdings; font-size: small;">§</span>  Determining the size of the description-experience gap when sampling error in experience-based choices is removed or controlled.</li>
+	<li><span style="font-family: Wingdings; font-size: small;">§</span>  Incorporating further psychological components into research on experience-based choice (problem solving, information search, stopping rules, and learning mechanisms).</li>
+</ul>
+Interested members should also watch out for a forthcoming Special Issue of the <i><span style="font-size: medium;">Journal of Behavioral Decision Making</span></i> on Experience-Based Decision-Making.
+<h1></h1>
+<h1></h1>
+</div>

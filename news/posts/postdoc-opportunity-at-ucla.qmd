@@ -1,0 +1,25 @@
+---
+title: "Postdoc Opportunity at UCLA"
+date: 2013-05-23
+categories: ["Jobs"]
+---
+
+<b>Postdoctoral Research Fellowship: Uncertainty Lab at UCLA &amp; Consumer Credit Research Institute</b>
+
+The Uncertainty Laboratory at UCLA (PI: Craig R. Fox, <a href="http://www.fox-lab.org">www.fox-lab.org</a>) and the Consumer Credit Research Institute (PI: Christopher Trepel, <a href="http://encoreccri.org">encoreccri.org</a>) are seeking applications for 1-2 postdoctoral research fellowships to investigate topics in behavior decision research, especially as applied to consumer financial decision making.  Although the postdocs will be fully funded by the CCRI they will be administered by the UCLA Anderson School of Management.
+
+<b>Uncertainty Lab at UCLA (Los Angeles, CA)</b>
+The Uncertainty Laboratory research group investigates judgment and decision making under uncertainty, dynamics of decisiveness, and applications of behavioral decision research to health and public policy.  We use a variety of methods including surveys, laboratory and field experiments, analysis of archival data, and neuroimaging.  The position will primarily entail working with Dr. Fox but will also provide opportunities for independent research and/or work with other members of the Interdisciplinary Group in Behavioral Decision Making at UCLA (see <a href="http://www.anderson.ucla.edu/x2271.xml">http://www.anderson.ucla.edu/x2271.xml</a>).
+
+<b>Consumer Credit Research Institute (San Diego, CA)</b>
+The CCRI is dedicated to understanding financially distressed consumer behavior. In collaboration with experts from both industry and academia, we apply tools and methods from statistics, psychology, and economics to answer fundamental questions about financial decision-making. The CCRI was launched in June 2011 by Encore Capital Group (NASDAQ: ECPG), and benefits from the company’s industry-leading consumer credit database and analytic focus. Our relationship with low- and middle-income Americans provides a unique perspective on household consumption and saving behaviors, and we hope to advance thinking in the areas of public policy, financial education, and business operations. More information about the CCRI is available at <a href="http://www.encoreccri.org">www.encoreccri.org</a>.
+
+<b>Role(s) and Desired Qualifications</b>
+We are broadly interested in financial decision-making, but are particularly interested in understanding the causes and effects of financial distress.  Through surveys, economic games, and neuroimaging, we are conducting experimental field studies of prime and subprime consumer behavior, exploring the impact of macroeconomic factors on consumer decision-making and credit availability, and leveraging our proprietary database (containing tens of millions of US consumers) to build a taxonomy of financial health.  Postdocs will be expected to spend approximately half of their research time collaborating on financial decision making projects with Drs. Fox and Trepel, with the aim of publishing in peer-reviewed journals. Postdocs will be based at UCLA but are expected to also spend at least a few days per month working with CCRI staff in San Diego.
+
+Successful applicants will have broad interests in and knowledge of behavioral decision research, strong experimental and statistical training, and a track record of completing outstanding peer-reviewed research.  A Ph.D. in psychology, behavioral economics, behavioral finance, marketing, organizational behavior, or a related behavioral discipline must be completed prior to starting this position.  Significant experience with survey instruments and design will be very helpful. Finally, successful applicants will have strong statistical training, with working knowledge of most or all of the following: logistic regression, generalized linear models, structural equation modeling, categorical data analyses, ANOVA and regression models.
+
+The position is available as early as June 2013 and, subject to performance, is eligible to be renewed on an annual basis.  Salary will be commensurate with experience, and additional funding will be provided to defray the cost of health benefits and professional travel.  High-performing candidates may be offered a (purely voluntary) private sector role with Encore Capital Group.  Thus, this role is appropriate for researchers intending to pursue careers in either academia or industry.
+
+<b>Instructions for Applying</b>
+For full consideration, please submit an application by May 3, 2013 (however we will accept applications until the position(s) are filled).  Applicants should send a single .pdf attachment that includes a curriculum vitae, statement of purpose outlining your research interests and goals, and list of at least three references.  Please e-mail applications to <a href="mailto:marco.alvarado@anderson.ucla.edu">marco.alvarado@anderson.ucla.edu</a> with “UCLA/CCRI postdoc” in the subject line.

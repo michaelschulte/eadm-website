@@ -1,0 +1,39 @@
+---
+title: "The EADM Interview: Nathaniel Phillips"
+date: 2015-03-01
+categories: ["EADM Interview"]
+---
+
+<a href="/images/2014/11/IMG_9572.jpg"><img class="aligncenter size-full wp-image-998" src="/images/2014/11/IMG_9572.jpg" alt="Nathaniel Phillips" width="2823" height="1882" /></a><strong>Who are you, and what do you do?</strong>
+
+My name is Nathaniel Phillips and I am a post-doctoral researcher at <a href="http://www.spds.uni-konstanz.de/">SPDS</a> (Social Psychology and Decision Sciences) at the University of Konstanz in Germany. Thematically, I am interested in decisions under uncertainty, with a focus on information search, impression formation, and decision making. In other words, “How can organisms with limited time and cognitive limitations make good decisions in uncertain environments?" Methodologically, I try to use computational cognitive modelling, Bayesian graphical modelling, and agent-based simulations (I thank two summer schools, Lewandowsky and Farrell’s Computational Cognitive Modelling school and Wagenmakers and Lee’s Bayesian modelling school for introducing me to these techniques).
+
+<strong>What do you consider your most important research tool(s) on your computer?</strong>
+
+This is an easy one: Amazon mechanical turk (<a href="https://www.mturk.com/mturk/welcome">mTurk</a>), and <a href="http://www.r-project.org/">R</a> (through <a href="http://www.rstudio.com/">RStudio</a>). These two research tools completely changed how I envision psychological research. The mTurk allows virtually anyone (well, with an American bank account…) to obtain high quality data inexpensively from a highly diverse participant population. The mTurk has freed me from the physical and monetary demands of a computer lab, and has allowed me to program and conduct experiments in English while working in a non-English speaking city.
+
+One note about the mTurk - some of my colleagues have wondered whether or not the low cost of mTurk data will lead to an explosion of a theoretical, <a href="http://www.ncbi.nlm.nih.gov/pubmed/22006061">p-hacked</a> results. Indeed, if it only costs 5c per participant to collect data, why not run 64 conditions and only report the ones with significant results? Of course, p-hacking and the file-drawer problem existed long before the mTurk, but certainly the low cost of the mTurk makes this easier. However, mTurk p-hackers have a problem: anyone who questions the validity of their results can quickly and cheaply try to replicate the results using the exact same experimental materials on the exact same participant population. In short, if the original result was the result of a cheap mTurk p-hack, it can be rectified by an equally cheap mTurk replication.
+
+The second most important research tool I have is <a href="http://www.r-project.org/">R</a>. Like most psychology students, my first stats courses used SPSS and I used SPSS through my Masters degree. At the beginning of my PhD, when I realised that all the senior researchers were using <a href="http://de.mathworks.com/">Matlab</a> or R, I decided to make the switch to R (if for no other reason than to fit in). The first couple of months learning R were brutal - I went from feeling very comfortable with stats to a feeling like a complete beginner. That was definitely a hit to my ego, but after a few months of persistence and SPSS-reflex resistance, I made the complete switch and have been appreciating R more and more ever since.
+
+There are just so many benefits to R and virtually no disadvantages (relative to SPSS, I’m sure some <a href="www.python.org">Python</a> and Matlab users will find some drawbacks). R is free, constantly updated, allows you to make gorgeous plots, and is widely used by people working in all areas of research. However, I think the single best benefit of R is research transparency and replicability. Unlike SPSS analyses, R code can be easily stored and shared with others. If a colleague, or your notoriously forgetful future self wants to know how you conducted a certain analyses, just send them your code (properly commented of course).
+
+I firmly believe that all undergraduate psychology students should be taught R from day-1 and should never be exposed to SPSS. So why aren’t we teaching students R? When I posed this question to one senior statistics instructor, he responded: “we can’t teach undergraduate students R because they won’t be able to or won’t want to use it.” Interesting … by the same argument, we should not teach statistics to psychology students.
+
+I am confident that most students will learn how to conduct statistical analyses in R much faster than in SPSS. If a student can type “cor(x,y)” then she can calculate a correlation coefficient. If he can type “lm(y ~ x1 + x2 + x3)” he can conduct multiple regression. Bayesian stats? Not possible in SPSS and no problem in R, just type “BESTmcmc(x,y)” using Kruschke’s BEST R package and you’ve got a Bayesian "t-test” (see Kruschke, 2010). Additionally, because you can easily simulate data in R, you can easily program examples of important topics such as the central limit theorem and <em>show</em> students that it works.
+
+Speaking of R, I recently started learning how to write in <a href="http://en.wikipedia.org/wiki/LaTeX">Latex</a> using <a href="https://www.statistik.lmu.de/~leisch/Sweave/">Sweave</a> in RStudio and am kicking myself for not learning it earlier. For those who don’t know, Sweave is a way to incorporate R code into a Latex document. What’s really great about this setup is that it allows you embed your R analyses directly into your written document. For example, in Sweave you can write “The mean response time of distracted participants was \Sexpr{mean(response.time)}” where the result in \Sexpr{} is printed in plain text. The main benefit of Sweave is that it makes your analyses completely transparent to others, and your future self! If you use Sweave, you’ll never look back on an old document and wonder “How did I calculate that p-value?!” (not that you should be calculating p-values anyway…see <a href="http://www.ejwagenmakers.com/2007/pValueProblems.pdf">Wagenmakers, 2007</a>). You can always look at the Latex source code and see exactly where every analysis came from. For those that are interested in learning how to use Sweave, I recommend reading the short paper “<a href="https://tug.org/pracjourn/2008-1/zahn/zahn.pdf">Learning to Sweave in APA Style</a>” by Ista Zahn
+
+<strong>What do you consider your most important research tool(s) outside of your computer?</strong>
+
+A moleskin journal and a mechanical pencil (with lots of erasers)
+
+<strong>What is your favorite tip for getting writing done?</strong>
+
+I think the best way to get writing done is to have firm deadlines and scheduled writing times. I learned these and many other great tips from Silviia’s book “<a href="http://www.amazon.de/How-Write-Lot-Practical-Productive/dp/1591477433">How to Write a Lot</a>”
+
+<a href=" www.nathanieldphillips.com" target="_blank">Nathaniel's webpage</a>
+
+Nathaniel's favorite paper:
+
+<a href="http://dx.doi.org/10.1016/j.cognition.2014.06.006" target="_blank">Phillips, N.D., Hertwig, R., Kareev, Y. &amp; Avrahami, J. (2014). Rivals in the dark: How competition influences search in decisions under uncertainty. <em>Cognition</em>, 133 (1), 104-119.</a>
