@@ -1,5 +1,6 @@
 ---
 title: "Iain D. Gilchrist"
+date: 2014-06-27
 ---
 
 <a href="/images/2014/05/IMG_1772c.jpg"><img class="aligncenter wp-image-844 " src="/images/2014/05/IMG_1772c.jpg" alt="IMG_1772c" width="403" height="601" /></a>

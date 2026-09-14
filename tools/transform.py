@@ -58,9 +58,9 @@ def yaml_quote(value: str) -> str:
     return value.replace("\\", "\\\\").replace('"', '\\"')
 
 
-def build_frontmatter(item, categories_by_post_id):
+def build_frontmatter(item, categories_by_post_id, section):
     lines = ["---", f'title: "{yaml_quote(item["title"])}"']
-    if item["type"] == "post":
+    if item["type"] == "post" or section.endswith("/posts"):
         lines.append(f"date: {item['date'][:10]}")
         cats = sorted(categories_by_post_id.get(item["id"], set()))
         if cats:
@@ -113,7 +113,7 @@ def main():
         content = rewrite_wp_uploads_links(content, UPLOADS_ROOT, IMAGES_OUT, FILES_OUT)
         content = rewrite_internal_links(content, slug_to_path)
 
-        frontmatter = build_frontmatter(item, categories_by_post_id)
+        frontmatter = build_frontmatter(item, categories_by_post_id, section)
         (out_dir / f"{filename}.qmd").write_text(f"{frontmatter}\n\n{content}\n")
         written.append((item, section, filename))
 

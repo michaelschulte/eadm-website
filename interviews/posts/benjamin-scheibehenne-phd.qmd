@@ -1,5 +1,6 @@
 ---
 title: "Benjamin Scheibehenne"
+date: 2014-06-27
 ---
 
 <a href="/images/2014/05/Portrait1_small.noShadow.jpg"><img class="aligncenter size-full wp-image-840" src="/images/2014/05/Portrait1_small.noShadow.jpg" alt="Portrait1_small.noShadow" width="2362" height="1413" /></a>

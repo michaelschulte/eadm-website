@@ -1,5 +1,6 @@
 ---
 title: "Eyal Peer"
+date: 2014-05-29
 ---
 
 <a href="/images/2014/05/eyalpeer.jpg"><img class="aligncenter wp-image-830" src="/images/2014/05/eyalpeer.jpg" alt="Eyal Peer" width="400" height="406" /></a>

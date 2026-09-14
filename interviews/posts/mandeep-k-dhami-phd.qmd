@@ -1,5 +1,6 @@
 ---
 title: "Mandeep K. Dhami"
+date: 2014-04-30
 ---
 
 <p style="text-align: justify;"><a href="/images/2014/02/Mandeep-Dhami.jpg"><img class="aligncenter wp-image-742 size-large" style="width: 573px;" src="/images/2014/02/Mandeep-Dhami.jpg" alt="Mandeep Dhami" width="584" height="388" /></a></p>
