@@ -70,7 +70,7 @@ website:
         text: Newsletter Archive
       - href: interviews/index.qmd
         text: "EADM Interview"
-  page-footer: "[Contact](contact.qmd)"
+  page-footer: "[Contact](/contact.qmd)"
 
 format:
   html:
