@@ -3,3 +3,6 @@ _site/
 /tools/_extracted/
 .DS_Store
 __pycache__/
+
+/.quarto/
+**/*.quarto_ipynb
