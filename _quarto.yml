@@ -84,7 +84,11 @@ website:
         text: Newsletter Archive
       - href: interviews/index.qmd
         text: "EADM Interview"
-  page-footer: "[Contact](/contact.qmd)"
+    right:
+      - icon: github
+        href: "https://github.com/michaelschulte/eadm-website"
+        aria-label: GitHub repository
+  page-footer: "[Contact](/contact.qmd) · [Source on GitHub](https://github.com/michaelschulte/eadm-website)"
 
 format:
   html:
