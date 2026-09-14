@@ -1,0 +1,51 @@
+name: Publish site to GitHub Pages
+
+# Renders the Quarto site and deploys it to
+# https://michaelschulte.github.io/eadm-website/ on every push to master.
+# It deploys a Pages artifact rather than committing the ~450MB built site
+# to a gh-pages branch, so the repository doesn't grow with each deploy.
+
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Let an in-progress deploy finish; a newer push queues behind it.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          # Pinned to the version the site is developed with locally.
+          version: 1.9.37
+
+      # The preview profile (_quarto-preview.yml) adds a noindex tag so the
+      # preview stays out of search results while eadm.eu runs WordPress.
+      - name: Render site
+        run: quarto render --profile preview
+
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5

@@ -1,0 +1,9 @@
+# Profile for the GitHub Pages preview build, merged over _quarto.yml when
+# rendering with `quarto render --profile preview` (the publish workflow
+# does this). It keeps the preview out of search results so it doesn't
+# compete with eadm.eu. A robots.txt can't do that here: crawlers only read
+# it at the domain root, not under the /eadm-website/ project path.
+format:
+  html:
+    include-in-header:
+      text: '<meta name="robots" content="noindex">'

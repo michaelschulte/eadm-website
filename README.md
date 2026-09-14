@@ -10,6 +10,20 @@ quarto render
 quarto preview
 ```
 
+## Deployment
+
+Every push to `master` publishes the site to a preview on GitHub Pages:
+**https://michaelschulte.github.io/eadm-website/** (eadm.eu itself still
+serves the WordPress site). The workflow in
+`.github/workflows/publish.yml` renders with Quarto and deploys a Pages
+artifact; progress shows under the repository's **Actions** tab, where a
+deploy can also be re-run by hand ("Run workflow").
+
+CI renders with the `preview` profile (`_quarto-preview.yml`), which adds
+a `noindex` tag to every page so the preview stays out of search results.
+When the site moves to eadm.eu, drop `--profile preview` from the workflow
+and set the custom domain in the repository's Pages settings.
+
 ## Changing the design
 
 The design is built around the original EADM logo (the WordPress site's
