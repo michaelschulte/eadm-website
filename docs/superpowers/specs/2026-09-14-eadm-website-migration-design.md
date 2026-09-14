@@ -51,8 +51,8 @@ canonical copy rather than migrated twice:
 - Three near-identical "About EADM" pages (IDs 93, 331, 404 — two are
   byte-identical, the third an earlier near-duplicate draft of the same text)
   → one canonical About page.
-- 14 bio pages under the private "The EADM Interview" parent page are
-  word-for-word duplicates of 14 posts in the "EADM Interview" category → the
+- 15 bio pages under the private "The EADM Interview" parent page are
+  word-for-word duplicates of 15 posts in the "EADM Interview" category → the
   blog posts are kept (used for the Interview listing), the duplicate bio
   pages are dropped.
 - Genuine cruft is dropped: the WordPress-default German "Beispiel-Seite"
@@ -103,10 +103,18 @@ reproducibility, but not part of the served site) does the conversion:
    escaped JSON in one shot per table, avoiding hand-rolled SQL-value parsing.
 2. Build a slug → new-relative-path map for every migrated page/post, from
    the curated content plan in §3–4.
-3. For each item's HTML content: run it through Pandoc (`pandoc -f html -t
-   markdown`, already installed locally alongside Quarto) to get clean
-   Markdown, including proper handling of the `<table>`-based Executive
-   Board / Past Conferences pages.
+3. For each item's stored content: WordPress's classic editor stores most
+   content as blank-line-separated plain text with a few embedded HTML tags
+   (`<strong>`, `<a>`, `<table>`, `<img>`), relying on the `wpautop` filter to
+   turn blank lines into `<p>` tags at render time — the raw text is *not*
+   valid standalone HTML (verified: feeding it to Pandoc's HTML reader
+   collapses paragraphs, since bare blank lines are insignificant HTML
+   whitespace). Since this same blank-line convention is already valid
+   Markdown, and Quarto/Pandoc's Markdown-to-HTML renderer passes embedded
+   raw HTML (tables, links, images) straight through untouched (verified),
+   the content needs no HTML→Markdown conversion pass at all — it is used
+   near-verbatim as the `.qmd` body, with only the targeted regex rewrites
+   in steps 4–5 applied.
 4. Rewrite internal links (`https://eadm.eu/<slug>/...`) to the new relative
    Quarto paths using the slug map; leave external links untouched.
 5. Rewrite `wp-content/uploads/...` media references to the local `images/`
