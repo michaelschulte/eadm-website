@@ -1,0 +1,4 @@
+_site/
+.quarto/
+/tools/_extracted/
+.DS_Store

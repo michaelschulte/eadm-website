@@ -1,0 +1,82 @@
+project:
+  type: website
+  brand: _brand.yml
+
+website:
+  title: "EADM"
+  site-url: "https://eadm.eu"
+  description: "The European Association for Decision Making"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - text: About EADM
+        menu:
+          - href: about/index.qmd
+            text: About EADM
+          - href: about/mission-statement.qmd
+            text: Mission Statement
+          - href: about/code-of-conduct.qmd
+            text: Code of Conduct
+          - href: about/executive-board.qmd
+            text: Executive Board
+          - href: about/past-executive-boards.qmd
+            text: Past Executive Boards
+          - href: presidents-column/index.qmd
+            text: "President's Column"
+          - href: contact.qmd
+            text: Contact
+      - text: Membership
+        menu:
+          - href: membership/index.qmd
+            text: Membership
+          - href: membership/mailing-list.qmd
+            text: Mailing List
+      - text: Funding
+        menu:
+          - href: funding/index.qmd
+            text: EADM Funding
+          - href: funding/jane-beattie-travel-scholarship.qmd
+            text: Jane Beattie Travel Scholarship
+          - href: funding/workshop-grants/index.qmd
+            text: Workshop Grants
+          - href: funding/summer-school/index.qmd
+            text: EADM Summer School
+      - text: Prizes
+        menu:
+          - href: prizes/index.qmd
+            text: Prizes
+          - href: prizes/de-finetti-prize.qmd
+            text: De Finetti Award
+          - href: prizes/jane-beattie-award.qmd
+            text: Jane Beattie Scientific Recognition Award
+          - href: prizes/eadm-lifetime-contribution-award.qmd
+            text: Lifetime Contribution Award
+      - text: SPUDM
+        menu:
+          - href: spudm/index.qmd
+            text: SPUDM
+          - href: spudm/history.qmd
+            text: History
+          - href: spudm/past-conferences.qmd
+            text: Past Conferences
+          - href: spudm/spudm-2013.qmd
+            text: "SPUDM 2013"
+          - href: spudm/images.qmd
+            text: "SPUDM Images"
+      - href: news/index.qmd
+        text: News
+      - href: newsletter/index.qmd
+        text: Newsletter Archive
+      - href: interviews/index.qmd
+        text: "EADM Interview"
+  page-footer: "[Contact](contact.qmd)"
+
+format:
+  html:
+    theme:
+      light: [zephyr, styles.scss]
+      dark: [darkly, styles.scss]
+    toc: false
+    grid:
+      body-width: 850px

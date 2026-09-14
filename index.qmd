@@ -1,0 +1,17 @@
+---
+title: "EADM — European Association for Decision Making"
+---
+
+The European Association for Decision Making (EADM) is an interdisciplinary
+organisation dedicated to the study of normative, descriptive, and
+prescriptive theories of decision making. It has its origins in a Research
+Conference on Subjective Probability, organised in 1969 by Wendt, Stael von
+Holstein and Vlek in Hamburg, and was formally founded in August 1993.
+
+## Get involved
+
+- [About EADM](about/index.qmd) — history, mission, and the Executive Board
+- [Membership](membership/index.qmd) — who can join and how
+- [SPUDM](spudm/index.qmd) — the Association's biennial conference
+- [News](news/index.qmd) and the [EADM Interview](interviews/index.qmd) series
+- [Prizes](prizes/index.qmd) and [Funding](funding/index.qmd) opportunities
