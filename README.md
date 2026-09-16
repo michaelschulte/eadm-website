@@ -12,7 +12,7 @@ quarto preview
 
 ## Deployment
 
-Every push to `master` publishes the site to a preview on GitHub Pages:
+Every push to `main` publishes the site to a preview on GitHub Pages:
 **https://michaelschulte.github.io/eadm-website/** (eadm.eu itself still
 serves the WordPress site). The workflow in
 `.github/workflows/publish.yml` renders with Quarto and deploys a Pages

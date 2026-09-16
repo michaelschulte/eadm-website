@@ -1,13 +1,13 @@
 name: Publish site to GitHub Pages
 
 # Renders the Quarto site and deploys it to
-# https://michaelschulte.github.io/eadm-website/ on every push to master.
+# https://michaelschulte.github.io/eadm-website/ on every push to main.
 # It deploys a Pages artifact rather than committing the ~450MB built site
 # to a gh-pages branch, so the repository doesn't grow with each deploy.
 
 on:
   push:
-    branches: [master]
+    branches: [main]
   workflow_dispatch:
 
 permissions:
