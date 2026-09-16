@@ -399,7 +399,12 @@ main.content img.eadm-hero-logo {
     font-size: 1.2rem;
     margin: 0 0 0.4rem;
 
-    a {
+    // :not(.anchorjs-link) is load-bearing. Quarto's anchor.js injects a
+    // second <a> into every `.anchored` heading, so a bare `a` selector
+    // stretches that one over the card as well. Being later in the DOM it
+    // paints on top and takes the click, sending it to the heading's own
+    // #fragment instead of the linked page -- i.e. the card looks dead.
+    a:not(.anchorjs-link) {
       color: $eadm-ink;
       text-decoration: none;
 
@@ -410,6 +415,12 @@ main.content img.eadm-hero-logo {
         inset: 0;
       }
     }
+  }
+
+  // A paragraph anchor on a navigation card is meaningless, and it would
+  // otherwise sit on top of the card overlay.
+  .anchorjs-link {
+    display: none;
   }
 
   p {
