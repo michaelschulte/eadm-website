@@ -87,10 +87,6 @@ website:
             text: News
           - href: newsletter/index.qmd
             text: Newsletter Archive
-    right:
-      - icon: github
-        href: "https://github.com/michaelschulte/eadm-website"
-        aria-label: GitHub repository
   page-footer:
     left: "The European Association for Decision Making"
     right: "[Contact](/contact.qmd) · [Code of Conduct](/about/code-of-conduct.qmd)"

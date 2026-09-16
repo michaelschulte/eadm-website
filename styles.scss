@@ -86,12 +86,15 @@ $eadm-header-gutter: 1.5rem;
   flex-shrink: 0; // never crop the logo when space is tight
 }
 
-// Quarto parks the menus hard against the logo via `me-auto`, and adds a
-// second .navbar-nav (`ms-auto`) for the right-hand icon list. Giving both
-// lists margin-left:auto would split the free space between them and open a
-// gap inside the group, so only the first list gets the auto margin; the
-// second is pinned to it. The brand keeps a real margin as a floor, so the
-// logo can never end up flush against "About EADM" when space runs short.
+// Quarto parks the menus hard against the logo via `me-auto`, so the menu
+// list takes the auto margin instead and carries the group right. The brand
+// keeps a real margin as a floor, so the logo can never end up flush against
+// "About EADM" when space runs short.
+//
+// The `ms-auto` rule looks dead: Quarto only emits that second .navbar-nav
+// when `navbar.right` is set, and it currently isn't. It stays because
+// re-adding a right-hand item would otherwise give two lists an auto margin,
+// splitting the free space between them and reopening a gap mid-group.
 @include media-breakpoint-up(xl) {
   .navbar .navbar-brand-container {
     margin-left: 0;
