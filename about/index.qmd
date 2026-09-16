@@ -8,4 +8,5 @@ It has it origins in a Research Conference on Subjective Probability, organised 
 
 ## Related reading
 
+- [President's Column](/presidents-column/index.qmd) — regular columns from the EADM President.
 - [Does anyone know what's going on out there?](does-anyone-know-whats-going-on-out-there.qmd) — a historical essay by Robin Hogarth.

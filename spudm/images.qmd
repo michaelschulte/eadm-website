@@ -1,6 +1,0 @@
----
-title: "SPUDM Images"
----
-
-Photographs from past EADM and SPUDM conferences are collected in the
-[EADM/SPUDM photo gallery](http://gallery.eadm.eu).

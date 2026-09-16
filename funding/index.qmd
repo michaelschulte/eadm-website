@@ -2,8 +2,43 @@
 title: "EADM Funding"
 ---
 
-EADM supports its members through travel scholarships, workshop grants, and summer schools.
+EADM puts its membership fees back into the field. The Association funds
+individual travel through the Jane Beattie Memorial Travel Scholarship, funds
+meetings through its workshop grants, and trains the next generation of
+researchers through the EADM Summer School.
 
-## Related
+## Jane Beattie Memorial Travel Scholarship
 
-- [Small Group Meeting: Efficient Science 2013](small-group-meeting-efficient-science-2013.qmd)
+The Beattie Scholarship subsidises travel between Europe and North America for
+scholarly activity in judgment and decision research, broadly defined.
+Attending the SPUDM or the annual SJDM meeting is one example of a qualifying
+activity, but by no means the only one. The fund was established in memory of
+SJDM and EADM member Jane Beattie and her contributions to the field, and is
+sponsored jointly by both associations — EADM sponsors the awards made to its
+own members, including student members.
+
+[About the scholarship and how to apply](jane-beattie-travel-scholarship.qmd)
+
+## Workshop grants
+
+To keep the field active in the two-year gap between SPUDM conferences, EADM
+sponsors up to two workshops or similar events per year, each to a maximum of
+EUR 3,000. The main organiser must be a full EADM member, the meeting must be
+open to EADM members at a reduced fee, and a report has to be published on this
+website afterwards. Applications go to the Treasurer by **31 January**, and a
+decision follows the board meeting in mid-March of the same year.
+
+[Full conditions, and reports from past workshops](workshop-grants/index.qmd)
+
+## EADM Summer School
+
+The Summer School is a week-long residential course for PhD students and pre-
+and early post-doctoral researchers, hosted roughly every two years by a
+European institution — so far Essex, Bonn, Amsterdam, Salzburg and Berlin. Its
+focus is methodological rather than topical: past programmes have covered open
+science, replicability and reproducibility, cognitive and Bayesian modelling,
+process tracing and eye-tracking, and the design and analysis of decision
+experiments. Each edition is taught by invited faculty from across the
+association and concludes with a published report.
+
+[Reports from past summer schools](summer-school/index.qmd)

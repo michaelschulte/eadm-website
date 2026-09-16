@@ -21,16 +21,91 @@
 // Navbar
 // ---------------------------------------------------------------------------
 
+// The bar's background still spans the viewport; only its contents are
+// held in a wide centred container, so the logo sits at a consistent
+// left margin instead of hard against the window edge. The container is
+// deliberately wider than the 850px body column: the header reads as site
+// chrome rather than as part of the page.
+$eadm-header-width: 1200px;
+$eadm-header-gutter: 1.5rem;
+
 .navbar {
-  border-bottom: 3px solid $eadm-red;
-  box-shadow: 0 2px 14px rgba(0, 0, 0, 0.06);
+  border-bottom: 1px solid $eadm-border;
   padding-top: 0.55rem;
   padding-bottom: 0.55rem;
+}
+
+// Content scrolls under the bar, so the bar is slightly translucent and
+// blurs what passes beneath it. Browsers without backdrop-filter keep the
+// opaque $navbar-bg set by the theme.
+@supports (backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px)) {
+  .navbar {
+    background-color: rgba($navbar-bg, 0.85) !important;
+    -webkit-backdrop-filter: saturate(180%) blur(12px);
+    backdrop-filter: saturate(180%) blur(12px);
+  }
+}
+
+// No position rule here on purpose: Quarto already renders the header as
+// `<header class="headroom fixed-top">` and reserves its height with
+// `body.nav-fixed { padding-top: 64px }`. Overriding that to `sticky` puts
+// the header back in flow, and the reserved 64px becomes a white gap above
+// the bar.
+
+// Lift the bar off the page only once there is something scrolled under it.
+// Scroll-driven animations are Chromium-only today; elsewhere the hairline
+// border alone separates the bar, which is the intended resting state anyway.
+@keyframes eadm-header-lift {
+  from {
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0);
+  }
+
+  to {
+    box-shadow: 0 2px 14px rgba(0, 0, 0, 0.08);
+  }
+}
+
+@supports (animation-timeline: scroll()) {
+  @media (prefers-reduced-motion: no-preference) {
+    header#quarto-header {
+      animation: eadm-header-lift linear both;
+      animation-timeline: scroll();
+      animation-range: 0 4rem;
+    }
+  }
+}
+
+.navbar .navbar-container {
+  max-width: $eadm-header-width;
+  margin-inline: auto;
+  padding-inline: $eadm-header-gutter;
 }
 
 .navbar .navbar-brand {
   margin-right: 1.5rem;
   flex-shrink: 0; // never crop the logo when space is tight
+}
+
+// Quarto parks the menus hard against the logo via `me-auto`, and adds a
+// second .navbar-nav (`ms-auto`) for the right-hand icon list. Giving both
+// lists margin-left:auto would split the free space between them and open a
+// gap inside the group, so only the first list gets the auto margin; the
+// second is pinned to it. The brand keeps a real margin as a floor, so the
+// logo can never end up flush against "About EADM" when space runs short.
+@include media-breakpoint-up(xl) {
+  .navbar .navbar-brand-container {
+    margin-left: 0;
+    margin-right: 2rem;
+  }
+
+  .navbar .navbar-nav.me-auto {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+  }
+
+  .navbar .navbar-nav.ms-auto {
+    margin-left: 0 !important;
+  }
 }
 
 .navbar img.navbar-logo {
@@ -44,7 +119,7 @@
   font-weight: 500;
 }
 
-@include media-breakpoint-up(lg) {
+@include media-breakpoint-up(xl) {
   .navbar .navbar-nav .nav-link {
     padding-left: 0.7rem;
     padding-right: 0.7rem;
@@ -57,32 +132,45 @@
   }
 }
 
-// Collapsed navbar on phones: hamburger, logo and the toggle/search icons
-// share one row, so the logo must be smaller.
+// Collapsed navbar (below xl). Bootstrap gives the container
+// `justify-content: space-between`, which is invisible on a phone where the
+// row is full but strews the hamburger, logo and icons across a wide
+// collapsed bar. Pack everything to the left instead and send one auto
+// margin -- on the tools, with Quarto's own auto margin on the search box
+// zeroed so the two don't each claim half the slack -- to carry the icon
+// pair to the right.
+@include media-breakpoint-down(xl) {
+  .navbar .navbar-container {
+    justify-content: flex-start;
+  }
+
+  .navbar .navbar-brand-container {
+    margin-left: 0.75rem !important;
+    margin-right: 0 !important;
+  }
+
+  .navbar .quarto-navbar-tools {
+    margin-left: auto;
+  }
+
+  .navbar #quarto-search {
+    margin-left: 0;
+  }
+}
+
+// On phones the hamburger, logo and the toggle/search icons share one row,
+// so the logo must be smaller.
 @include media-breakpoint-down(sm) {
+  .navbar .navbar-container {
+    padding-inline: 1rem;
+  }
+
   .navbar .navbar-brand {
     margin-right: 0.5rem;
   }
 
   .navbar img.navbar-logo {
     height: 26px;
-  }
-}
-
-// Between the collapse breakpoint and xl the six menus plus logo only just
-// fit, so tighten spacing and shrink the logo a little.
-@include media-breakpoint-between(lg, xl) {
-  .navbar .navbar-brand {
-    margin-right: 0.75rem;
-  }
-
-  .navbar img.navbar-logo {
-    height: 30px;
-  }
-
-  .navbar .navbar-nav .nav-link {
-    padding-left: 0.45rem;
-    padding-right: 0.45rem;
   }
 }
 
@@ -213,7 +301,7 @@ main.content table {
 }
 
 // ---------------------------------------------------------------------------
-// Listings (News, EADM Interview, President's Column)
+// Listings (News, President's Column)
 // ---------------------------------------------------------------------------
 
 .quarto-listing-default .quarto-post {
@@ -357,15 +445,28 @@ main.content img.eadm-hero-logo {
 // Footer
 // ---------------------------------------------------------------------------
 
-.nav-footer {
+// Quarto paints the footer background on .nav-footer itself, so constraining
+// that element would shrink the dark band to the container width and leave
+// white margins beside it. The band and its red rule move out to the wrapping
+// <footer>; .nav-footer stays as the inner, header-aligned row.
+footer.footer {
+  background-color: $footer-bg;
   border-top: 3px solid $eadm-red;
+}
+
+.nav-footer {
+  background-color: transparent;
   padding-top: 1.1rem;
   padding-bottom: 1.1rem;
 
-  // Line the footer text up with the navbar logo above.
-  @include media-breakpoint-up(md) {
-    padding-left: 1.9rem;
-    padding-right: 1.9rem;
+  // Line the footer text up with the navbar logo above by reusing the
+  // header's container, rather than guessing at a padding that matches.
+  max-width: $eadm-header-width;
+  margin-inline: auto;
+  padding-inline: $eadm-header-gutter;
+
+  @include media-breakpoint-down(sm) {
+    padding-inline: 1rem;
   }
 
   a {

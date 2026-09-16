@@ -22,12 +22,14 @@ website:
   description: "The European Association for Decision Making"
   favicon: images/brand/favicon.png
   navbar:
-    # The logo links home, so there's no separate "Home" item. Six top-level
-    # items keep the bar on one line down to the lg breakpoint (992px).
+    # The logo links home, so there's no separate "Home" item. Six dropdown
+    # menus plus the logo and the three tool icons need ~950px of bar, so the
+    # hamburger takes over below xl (1200px) rather than lg -- at lg the row
+    # fits only by leaving no gap at all between the logo and "About EADM".
     logo: images/brand/eadm-mark.png
     logo-alt: "EADM home"
     title: false
-    collapse-below: lg
+    collapse-below: xl
     left:
       - text: About EADM
         menu:
@@ -41,6 +43,10 @@ website:
             text: Executive Board
           - href: about/past-executive-boards.qmd
             text: Past Executive Boards
+          # Lives at /presidents-column/ rather than under about/: moving the
+          # directory would break the permalinks of all twelve columns.
+          - href: presidents-column/index.qmd
+            text: "President's Column"
           - href: contact.qmd
             text: Contact
       - text: Membership
@@ -75,29 +81,19 @@ website:
             text: SPUDM
           - href: spudm/history.qmd
             text: History
-          - href: spudm/past-conferences.qmd
-            text: Past Conferences
-          - href: spudm/spudm-2013.qmd
-            text: "SPUDM 2013"
-          - href: spudm/images.qmd
-            text: "SPUDM Images"
       - text: News
         menu:
           - href: news/index.qmd
             text: News
           - href: newsletter/index.qmd
             text: Newsletter Archive
-          - href: interviews/index.qmd
-            text: "EADM Interview"
-          - href: presidents-column/index.qmd
-            text: "President's Column"
     right:
       - icon: github
         href: "https://github.com/michaelschulte/eadm-website"
         aria-label: GitHub repository
   page-footer:
     left: "The European Association for Decision Making"
-    right: "[Contact](/contact.qmd) · [Source on GitHub](https://github.com/michaelschulte/eadm-website)"
+    right: "[Contact](/contact.qmd) · [Code of Conduct](/about/code-of-conduct.qmd)"
 
 format:
   html:

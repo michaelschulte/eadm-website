@@ -9,8 +9,3 @@ Members pay a reduced SPUDM conference fee, which is linked to the membership fe
 <strong>Becoming or extending EADM membership regularly can be done during the registration to SPUDM (once every two years)!</strong>
 
 Currently, the only way to become EADM member is in the context of a SPUDM conference (i.e., via membership registration on an upcoming SPUDM conference web page).
-
-## Payment
-
-- [Membership Payment](membership-payment.qmd)
-- [Membership Payment Instructions](membership-payment-instructions.qmd)
