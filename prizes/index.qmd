@@ -1,9 +1,116 @@
 ---
 title: "Prizes"
+# The three prizes used to be separate pages. Keep their old URLs alive so
+# links from the WordPress era and from elsewhere still land here.
+aliases:
+  - /prizes/de-finetti-prize.html
+  - /prizes/de-finetti-prize/
+  - /prizes/jane-beattie-award.html
+  - /prizes/jane-beattie-award/
+  - /prizes/eadm-lifetime-contribution-award.html
+  - /prizes/eadm-lifetime-contribution-award/
 ---
 
-EADM recognizes outstanding contributions to the field through the following prizes and awards.
+EADM recognizes outstanding contributions to the field through three prizes and awards. Open a prize to read the eligibility rules, the submission requirements and the list of former winners.
 
-- [De Finetti Award](de-finetti-prize.qmd)
-- [Jane Beattie Scientific Recognition Award](jane-beattie-award.qmd)
-- [Lifetime Contribution Award](eadm-lifetime-contribution-award.qmd)
+<details class="eadm-prize" id="de-finetti">
+<summary>
+<span class="eadm-prize-title">De Finetti Award</span>
+<span class="eadm-prize-lead">Since 1995, EADM's prize for outstanding research by a PhD student: EUR 750, a certificate and a talk at the next SPUDM.</span>
+</summary>
+<div class="eadm-prize-body">
+
+The European Association for Decision Making's de Finetti Award has, since 1995, recognized outstanding research by PhD students in the area of decision making. The winner will receive a prize of 750 Euros and a certificate, and will be asked to make a presentation at the upcoming SPUDM conference.
+
+Eligibility is limited to PhD students who had not completed their PhD by the time of the previous SPUDM conference. The student must be the sole or first author, and the work should primarily represent the student's contribution. For co-authored papers, a signed statement (PDF) from the co-author(s) is required, confirming that the student is the primary source of ideas and the main author of this paper. Both published and unpublished papers are eligible for submission. However, dissertation format will not be considered, though articles based on a dissertation are encouraged. Each applicant may submit only one paper.
+
+**Submission requirements:** (a) the paper, (b) a statement (400 words or less) outlining the candidate's academic status and containing a brief summary of the scientific contribution of the submitted paper, (c) a letter from co-authors (if applicable).
+
+#### Former winners {.unnumbered}
+
+| Year | Winner | Affiliation |
+|:-----|:-------|:------------|
+| 2023 | Christian T. Elbæk | Aarhus University, Denmark |
+| 2021 | Mark Himmelstein | Fordham University, USA |
+| 2019 | Christina Leuker | Max Planck Institute for Human Development, Berlin, Germany |
+| 2017 | Johann Majer | Leuphana University, Germany |
+| 2015 | Jared Hotaling | University of Basel, Switzerland |
+| 2013 | Dan Raphael Schley | Ohio State University, USA |
+| 2011 | Shoham Choshen-Hillel | Hebrew University of Jerusalem, Israel |
+| 2009 | Benjamin Scheibehenne | University of Basel, Switzerland |
+| 2007 | Xianchi Dai | INSEAD, France |
+| 2005 | Loran Nordgren | Universiteit van Amsterdam, The Netherlands |
+| 2003 | Greg Barron | Technion - Israel Institute of Technology, Israel |
+| 2001 | Martijn Willemsen | Eindhoven Technical University, The Netherlands |
+| 2001 | Nicola Bown | University of Leeds, United Kingdom |
+| 1999 | Mandeep K. Dhami | City University London, United Kingdom |
+| 1997 | Johanna Kordes-de Vaal | Vrije Universiteit Amsterdam, The Netherlands |
+| 1995 | Peter Roelofsma | Vrije Universiteit Amsterdam, The Netherlands |
+
+: {.eadm-winners tbl-colwidths="[12,33,55]"}
+
+</div>
+</details>
+
+<details class="eadm-prize" id="jane-beattie">
+<summary>
+<span class="eadm-prize-title">Jane Beattie Scientific Recognition Award</span>
+<span class="eadm-prize-lead">Created in 2006 in memory of Jane Beattie, it honours innovation in decision research by scholars 5 to 10 years post-PhD: EUR 1,000, a certificate and a talk at SPUDM.</span>
+</summary>
+<div class="eadm-prize-body">
+
+In 2006, EADM created the Jane Beattie Scientific Recognition Award to honour the memory of our late colleague, Jane Beattie. The award is intended for researchers who have recently completed the first stages of their careers – defined operationally by those who are 5 to 10 years post-PhD. The award will be for a research paper that deals with the topic of decision making as broadly understood within the SPUDM tradition.
+
+The award is bestowed in recognition of "innovation in decision research", as broadly understood within the SPUDM tradition. To be eligible for this award, candidates must have completed their PhDs no sooner than 5 years before the end of the most recent SPUDM meeting and no more than 10 years before the same date.
+
+Winners will receive a prize of 1,000 euros, a certificate, and be asked to make a presentation of their research at SPUDM.
+
+**Submission requirements:** (a) a statement of 500 words or less that makes the case for the candidate's innovation, (b) one paper in which the innovation is presented for a scientific audience, (c) a copy of the candidate's curriculum vitae, and (d) a statement as to when, and from where, the candidate received their PhD.
+
+#### Former winners {.unnumbered}
+
+| Year | Winner | Affiliation | Committee |
+|:-----|:-------|:------------|:----------|
+| 2023 | Lukasz Walasek | University of Warwick, Great Britain | Eldad Yechiam (chair), Gaelle Vallee-Tourangeau, Michael Schulte-Mecklenbeck |
+| 2021 | Sudeep Bhatia | University of Pennsylvania, United States | Ido Erev (chair), Shaul Shalvi, Mandeep Dhami, Bettina von Helversen, Thomas Wallsten |
+| 2019 | Shaul Shalvi | University of Amsterdam, The Netherlands | Andreas Glöckner (chair), Mehdi Moussaid, Arndt Bröder, Peter Ayton, Cilia Witteman |
+| 2017 | Mehdi Moussaïd | Max Planck Institute for Human Development, Germany | Barbara Summers (chair), Timothy J. Pleskac, Nigel Harvey, Eldad Yechiam |
+| 2015 | Timothy J. Pleskac | Max Planck Institute for Human Development, Germany | Cilia Witteman (chair), Mirta Galesic, Fergus Bolger, Anton Kühberger |
+| 2013 | Mirta Galesic | Max Planck Institute for Human Development, Germany | Nicolao Bonini (chair), Fergus Bolger, Danny Oppenheimer, Barbara Fasolo |
+| 2011 | Danny Oppenheimer | UCLA Anderson School of Management, United States | Ilana Ritov (chair), Marcel Zeelenberg, Ellen Peters, Nicolao Bonini |
+| 2009 | Ellen Peters | Decision Research, Oregon, United States | Robin Hogarth (chair), Marcel Zeelenberg, Nigel Harvey, Ilana Ritov |
+| 2007 | Marcel Zeelenberg | Tilburg University, The Netherlands | Robin Hogarth (chair), Nigel Harvey, Oswald Huber |
+
+: {.eadm-winners tbl-colwidths="[8,20,30,42]"}
+
+</div>
+</details>
+
+<details class="eadm-prize" id="lifetime-contribution">
+<summary>
+<span class="eadm-prize-title">Lifetime Contribution Award</span>
+<span class="eadm-prize-lead">Recognises exceptional, sustained service to the decision-making community by researchers 20 or more years post-PhD: free lifetime membership, a certificate and a talk at SPUDM.</span>
+</summary>
+<div class="eadm-prize-body">
+
+The EADM Lifetime Contribution Award is bestowed in recognition of lifetime contribution which is broadly considered as: contribution to the decision-making community by "exceptional service to the community of decision-making researchers", as broadly understood within the EADM tradition. This includes, but is not limited to, the mentoring and supervising of students and early career scholars who have proceeded to have independent, successful careers in the field; valorization of own or others' research to have positive impact beyond the field (including other fields and/or policy and practice); and making a sustained and enduring contribution to EADM (e.g., through organization of EADM-related events including SPUDM and service to the JDM journal).
+
+Eligible candidates need to be 20 years or more post-PhD and to have presented in SPUDM or other EADM events at least three times during the past 15 years.
+
+Winners will receive a lifetime (free) membership in EADM, a certificate, and will be asked to make a presentation of their research or a historical perspective at SPUDM.
+
+**Importantly:** nomination is by the candidate or by another person on their behalf.
+
+**Submission requirements:** for self-submissions, please send your CV and a 1-2 page (maximum) justification letter. To submit the candidacy of another person, please send just a 1-2 page (maximum) justification letter.
+
+#### Former winners {.unnumbered}
+
+| Year | Winner | Affiliation |
+|:-----|:-------|:------------|
+| [2025](/files/2025/11/Lifetime2025_Teigen.pdf) | Karl Halvor Teigen | University of Oslo, Norway |
+| 2023 | Robin M. Hogarth | Universitat Pompeu Fabra, Spain |
+
+: {.eadm-winners tbl-colwidths="[12,33,55]"}
+
+</div>
+</details>

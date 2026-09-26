@@ -65,16 +65,8 @@ website:
             text: Workshop Grants
           - href: funding/summer-school/index.qmd
             text: EADM Summer School
-      - text: Prizes
-        menu:
-          - href: prizes/index.qmd
-            text: Prizes
-          - href: prizes/de-finetti-prize.qmd
-            text: De Finetti Award
-          - href: prizes/jane-beattie-award.qmd
-            text: Jane Beattie Scientific Recognition Award
-          - href: prizes/eadm-lifetime-contribution-award.qmd
-            text: Lifetime Contribution Award
+      - href: prizes/index.qmd
+        text: Prizes
       - text: SPUDM
         menu:
           - href: spudm/index.qmd
