@@ -56,7 +56,7 @@ title: "Executive Board"
 <tr>
 <td><strong>Newsletter Editor</strong></td>
 <td><a href="https://scholar.google.co.il/citations?user=fqY_1KYAAAAJ&amp;hl=en">Bar Shlomo</a><br><a href="mailto:barsh@tauex.tau.ac.il">barsh@tauex.tau.ac.il</a></td>
-<td>Ben Gurion University, Israel</td>
+<td>Tel Aviv University, Israel</td>
 </tr>
 <tr>
 <td><strong><a href="https://bsky.app/profile/eadmnews.bsky.social">Bluesky</a></strong></td>
