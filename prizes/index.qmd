@@ -26,6 +26,17 @@ Eligibility is limited to PhD students who had not completed their PhD by the ti
 
 **Submission requirements:** (a) the paper, (b) a statement (400 words or less) outlining the candidate's academic status and containing a brief summary of the scientific contribution of the submitted paper, (c) a letter from co-authors (if applicable).
 
+#### About Bruno de Finetti {.unnumbered}
+
+<div class="eadm-bio">
+<!-- Photo slot: add <img src="/images/prizes/bruno-de-finetti.jpg" alt="Portrait of Bruno de Finetti" class="eadm-bio-photo" width="160" height="200"> here once a photo is available. -->
+<div class="eadm-bio-text">
+
+Bruno de Finetti (1906–1985) was an Italian probabilist and actuary, born in Innsbruck. He worked for the insurer Assicurazioni Generali in Trieste before holding chairs at the University of Trieste and, from 1954, at the University of Rome. He is best known for the subjective, or Bayesian, interpretation of probability: a probability is the degree of belief of a coherent person, expressed through the odds they would accept in a bet. His representation theorem on exchangeable events remains a cornerstone of Bayesian statistics. The early SPUDM conferences drew inspiration from his work, and EADM's award for the best PhD paper carries his name.
+
+</div>
+</div>
+
 #### Former winners {.unnumbered}
 
 | Year | Winner | Affiliation |
@@ -66,6 +77,17 @@ The award is bestowed in recognition of "innovation in decision research", as br
 Winners will receive a prize of 1,000 euros, a certificate, and be asked to make a presentation of their research at SPUDM.
 
 **Submission requirements:** (a) a statement of 500 words or less that makes the case for the candidate's innovation, (b) one paper in which the innovation is presented for a scientific audience, (c) a copy of the candidate's curriculum vitae, and (d) a statement as to when, and from where, the candidate received their PhD.
+
+#### About Jane Beattie {.unnumbered}
+
+<div class="eadm-bio">
+<!-- Photo slot: add <img src="/images/prizes/jane-beattie.jpg" alt="Portrait of Jane Beattie" class="eadm-bio-photo" width="160" height="200"> here once a photo is available. -->
+<div class="eadm-bio-text">
+
+Jane Beattie was a British decision researcher. After graduate work in psychology at the University of Pennsylvania she became Assistant Professor of Behavioral Science at the University of Chicago Graduate School of Business and a member of its Center for Decision Research, before returning to England as a Lecturer in Experimental Psychology at the University of Sussex. Her research asked how people make difficult decisions, including work on regret, decision attitude and the effect of incentives on risky choice. She served on the EADM Executive Board from 1995 to 1997 and died of cancer in March 1997, aged 36. SJDM and EADM remember her through the Jane Beattie Memorial Travel Scholarship, and EADM through this award.
+
+</div>
+</div>
 
 #### Former winners {.unnumbered}
 
