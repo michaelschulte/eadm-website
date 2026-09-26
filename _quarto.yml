@@ -21,6 +21,9 @@ website:
   site-url: "https://eadm.eu"
   description: "The European Association for Decision Making"
   favicon: images/brand/favicon.png
+  # Google Analytics 4 property. Quarto injects the standard gtag.js snippet
+  # into every page's <head>; the preview build carries it too.
+  google-analytics: "G-4RKCS8NQPR"
   navbar:
     # The logo links home, so there's no separate "Home" item. Six dropdown
     # menus plus the logo and the three tool icons need ~950px of bar, so the
