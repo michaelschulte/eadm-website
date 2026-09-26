@@ -55,7 +55,7 @@ title: "Executive Board"
 </tr>
 <tr>
 <td><strong>Newsletter Editor</strong></td>
-<td><a href="mailto:barsh@tauex.tau.ac.il">Bar Shlomo</a></td>
+<td><a href="https://scholar.google.co.il/citations?user=fqY_1KYAAAAJ&amp;hl=en">Bar Shlomo</a><br><a href="mailto:barsh@tauex.tau.ac.il">barsh@tauex.tau.ac.il</a></td>
 <td>Ben Gurion University, Israel</td>
 </tr>
 <tr>
