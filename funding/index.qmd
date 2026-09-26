@@ -1,44 +1,88 @@
 ---
 title: "EADM Funding"
+# The three funding schemes used to be separate pages. Keep their old URLs
+# alive so links from the WordPress era and from elsewhere still land here.
+# The workshop and summer-school reports themselves remain separate pages.
+aliases:
+  - /funding/jane-beattie-travel-scholarship.html
+  - /funding/jane-beattie-travel-scholarship/
+  - /funding/workshop-grants/index.html
+  - /funding/summer-school/index.html
 ---
 
-EADM puts its membership fees back into the field. The Association funds
-individual travel through the Jane Beattie Memorial Travel Scholarship, funds
-meetings through its workshop grants, and trains the next generation of
-researchers through the EADM Summer School.
+EADM puts its membership fees back into the field through three funding schemes: individual travel, workshops in the years between SPUDM conferences, and a summer school for early-career researchers. Open a scheme to read the conditions, how to apply and the reports from past events.
 
-## Jane Beattie Memorial Travel Scholarship
+<details class="eadm-prize" id="jane-beattie-travel-scholarship">
+<summary>
+<span class="eadm-prize-title">Jane Beattie Memorial Travel Scholarship</span>
+<span class="eadm-prize-lead">Sponsored jointly with SJDM, it subsidises travel between Europe and North America for scholarly activity in judgment and decision research.</span>
+</summary>
+<div class="eadm-prize-body">
 
-The Beattie Scholarship subsidises travel between Europe and North America for
-scholarly activity in judgment and decision research, broadly defined.
-Attending the SPUDM or the annual SJDM meeting is one example of a qualifying
-activity, but by no means the only one. The fund was established in memory of
-SJDM and EADM member Jane Beattie and her contributions to the field, and is
-sponsored jointly by both associations — EADM sponsors the awards made to its
-own members, including student members.
+**For travel from Europe to the United States or from the United States to Europe.**
 
-[About the scholarship and how to apply](jane-beattie-travel-scholarship.qmd)
+The Beattie Scholarship is sponsored jointly by the Society for Judgment and Decision Making (SJDM) and the European Association for Decision Making. On behalf of both organizations, we invite applications for awards from the Jane Beattie Memorial Fund. The fund was established in memory of SJDM and EADM member Jane Beattie and her contributions to judgment and decision research.
 
-## Workshop grants
+The purpose of the fund is to provide scholarships to subsidize travel to North America or Europe for purposes of scholarly activity by a foreign scholar in the area of judgment and decision research, broadly defined. Attendance at the annual SJDM meeting or SPUDM meeting is one example of an activity that would be appropriate for support, but by no means the only one. All scholars outside of the destination are eligible to apply.
 
-To keep the field active in the two-year gap between SPUDM conferences, EADM
-sponsors up to two workshops or similar events per year, each to a maximum of
-EUR 3,000. The main organiser must be a full EADM member, the meeting must be
-open to EADM members at a reduced fee, and a report has to be published on this
-website afterwards. Applications go to the Treasurer by **31 January**, and a
-decision follows the board meeting in mid-March of the same year.
+EADM sponsors the awards made to its own members, including student members, so applicants should be sure to indicate whether they are EADM members.
 
-[Full conditions, and reports from past workshops](workshop-grants/index.qmd)
+</div>
+</details>
 
-## EADM Summer School
+<details class="eadm-prize" id="workshop-grants">
+<summary>
+<span class="eadm-prize-title">Workshop Grants</span>
+<span class="eadm-prize-lead">Up to two workshops a year, each with up to EUR 3,000, to keep the field active between SPUDM conferences; applications are due by 31 January.</span>
+</summary>
+<div class="eadm-prize-body">
 
-The Summer School is a week-long residential course for PhD students and pre-
-and early post-doctoral researchers, hosted roughly every two years by a
-European institution — so far Essex, Bonn, Amsterdam, Salzburg and Berlin. Its
-focus is methodological rather than topical: past programmes have covered open
-science, replicability and reproducibility, cognitive and Bayesian modelling,
-process tracing and eye-tracking, and the design and analysis of decision
-experiments. Each edition is taught by invited faculty from across the
-association and concludes with a published report.
+To stimulate activities in the two-year gap between SPUDM conferences, EADM sponsors up to two workshops or similar events per year, up to a maximum of EUR 3,000, to be decided upon per proposal.
 
-[Reports from past summer schools](summer-school/index.qmd)
+The workshop has to meet the following requirements:
+
+1. The main organiser of the event must be a full EADM member.
+2. The meeting should be advertised on the EADM website and the EADM mailing list.
+3. EADM members should be offered a reduced fee for attendance.
+4. The organisers of the meeting should acknowledge the financial support of EADM in their advertisements and publications.
+5. The meeting should in principle be open to EADM members at a reduced fee, but the local organiser has the final say about the maximum number of participants.
+6. The organiser should submit a budget to the Treasurer of EADM, clearly indicating how the EADM money will be used.
+7. A report about the meeting, containing at least the abstracts of presented (main) papers, must be published on the EADM website.
+
+Direct your application for funding a workshop to the [Treasurer](mailto:treasurer@eadm.eu) via email. **Deadline for applications** is 31 January. A decision will be communicated after the board meeting in mid-March of the same year.
+
+Applications should include the title of the workshop/event, provisional date, location, organisers, background, aims and objectives, provisional schedule, itemised budget, additional sources of support, and references.
+
+#### Past workshops {.unnumbered}
+
+- [Workshop 2025: Psychological and Economic Perspectives of Economic Inequality](workshop-grants/workshop-2025-economic-inequality.qmd)
+- [Workshop 2019: Determinants and Consequences of Poverty](workshop-grants/workshop-grants-2019.qmd)
+- [Workshop 2016: EGPROC, Bonn](workshop-grants/egproc-bonn-2016.qmd)
+- [Workshop 2013: JDM workshop for young researchers](workshop-grants/jdm-workshop-2013.qmd)
+- [Workshop 2012: EGPROC, Bolton](workshop-grants/european-group-of-process-tracing-studies.qmd)
+- [Workshop 2010: Intuition: Methods and Recent Findings](workshop-grants/intuition-methods-and-recent-findings.qmd)
+- [Workshop 2009: Environmental Decisions: Risks and Uncertainties](workshop-grants/environmental-decisions-risks-and-uncertainties.qmd)
+- [Workshop 2008: Decision-making in Football](workshop-grants/decision-making-in-football.qmd)
+
+</div>
+</details>
+
+<details class="eadm-prize" id="summer-school">
+<summary>
+<span class="eadm-prize-title">EADM Summer School</span>
+<span class="eadm-prize-lead">A week-long residential methods course for PhD students and early post-docs, hosted roughly every two years by a European institution.</span>
+</summary>
+<div class="eadm-prize-body">
+
+The Summer School is a week-long residential course for PhD students and pre- and early post-doctoral researchers, hosted roughly every two years by a European institution: so far Essex, Bonn, Amsterdam, Salzburg and Berlin. Its focus is methodological rather than topical. Past programmes have covered open science, replicability and reproducibility, cognitive and Bayesian modelling, process tracing and eye-tracking, and the design and analysis of decision experiments. Each edition is taught by invited faculty from across the association and concludes with a published report.
+
+#### Reports from past summer schools {.unnumbered}
+
+- [2024 Summer School Berlin](/files/2025/03/EADMSummerSchool_NussbergerWulff_LLMBehavioralScience2024.pdf)
+- [2018 Summer School Salzburg](summer-school/2018-salzburg.qmd)
+- [2016 Summer School Amsterdam](/files/2013/06/EADM_SummerSchool_2016_Report.pdf)
+- [2014 Summer School Bonn](/files/2013/06/2014_EADM_SummerSchool_2014_Report.pdf)
+- [2012 Summer School Essex](/files/2013/06/2012_EADM-JDM-Summer-School-2012-Report.pdf)
+
+</div>
+</details>

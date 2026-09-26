@@ -1,0 +1,23 @@
+---
+title: "EADM Newsletter, Spring 2026"
+date: 2026-04-08
+categories: ["Newsletter"]
+image: /images/2026/04/eadm-newsletter-2026-04.png
+image-alt: "Cover page of the EADM Newsletter, Spring 2026"
+---
+
+The Spring 2026 issue of the EADM Newsletter, with a column from the
+President and an overview of the summer school and workshops EADM is
+funding this year. In this issue:
+
+1. Building Capacity in Decision Science – Mandeep K. Dhami
+2. EADM-Funded Summer School and Workshops
+    - 11th Behavioural Science Summer School: Understanding and Influencing Decisions
+    - Decision Making Across the Lifespan: Judgments and Preferences
+    - Overcoming the 'Double Standard' in Decision Research: How can we achieve representative sampling of stimuli and tasks?
+    - European Group of Process Tracing Studies (EGPROC) Conference
+
+[![](/images/2026/04/eadm-newsletter-2026-04.png){.eadm-newsletter-cover fig-alt="Cover page of the EADM Newsletter, Spring 2026"}](/files/2026/04/Newsletter-Spring-2026-EADM.pdf)
+
+[Read the full newsletter (PDF)](/files/2026/04/Newsletter-Spring-2026-EADM.pdf) ·
+[Newsletter archive](/newsletter/index.qmd)

@@ -1,13 +1,7 @@
 ---
-# No `title`: the full logo <h1> below is the page heading (a title would
-# add a second heading above it; the body class hooks the home styles).
 pagetitle: "EADM — European Association for Decision Making"
 body-classes: eadm-home
 ---
-
-```{=html}
-<h1><img src="images/brand/eadm-logo.jpg" class="eadm-hero-logo" width="1000" height="222" alt="EADM — The European Association for Decision Making"></h1>
-```
 
 ::: {.eadm-hero}
 

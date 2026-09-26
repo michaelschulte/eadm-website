@@ -161,7 +161,7 @@ $eadm-header-gutter: 1.5rem;
   }
 }
 
-// On phones the hamburger, logo and the toggle/search icons share one row,
+// On phones the hamburger, logo and the search icon share one row,
 // so the logo must be smaller.
 @include media-breakpoint-down(sm) {
   .navbar .navbar-container {
@@ -456,12 +456,14 @@ main.content img.eadm-hero-logo {
 }
 
 // ---------------------------------------------------------------------------
-// Prizes accordion
+// Prizes and funding accordion
 // ---------------------------------------------------------------------------
 
-// Each prize on /prizes/ is a native <details>: the summary shows the name
-// and a one-sentence lead, the body holds the full rules and the winners.
-// Styled to match .eadm-card; all three start collapsed.
+// Each prize on /prizes/ and each funding scheme on /funding/ is a native
+// <details>: the summary shows the name and a one-sentence lead, the body
+// holds the full rules plus the winners or past reports. Styled to match
+// .eadm-card; every section starts collapsed. (The class names say "prize"
+// because the prizes page came first; /funding/ reuses them unchanged.)
 .eadm-prize {
   border: 1px solid $eadm-border;
   border-left: 4px solid $eadm-red;
@@ -588,4 +590,21 @@ footer.footer {
   a {
     color: #f6f5f3;
   }
+}
+
+// ---------------------------------------------------------------------------
+// Newsletter posts
+// ---------------------------------------------------------------------------
+
+// Each newsletter post shows a screenshot of the issue's cover page, linked
+// to the PDF. A full A4 page at body width would dwarf the text, so it's
+// capped and framed like a sheet of paper.
+main.content img.eadm-newsletter-cover {
+  display: block;
+  max-width: 420px;
+  width: 100%;
+  margin: 1.5rem auto;
+  border: 1px solid $eadm-border;
+  border-radius: 0.5rem;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
 }

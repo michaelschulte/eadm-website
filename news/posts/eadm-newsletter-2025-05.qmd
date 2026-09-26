@@ -1,0 +1,20 @@
+---
+title: "EADM Newsletter, May 2025"
+date: 2025-05-20
+categories: ["Newsletter"]
+image: /images/2025/05/eadm-newsletter-2025-05.png
+image-alt: "Cover page of the EADM Newsletter, May 2025"
+---
+
+The May 2025 issue of the EADM Newsletter, ahead of SPUDM 2025 in Lucca.
+In this issue:
+
+1. SPUDM 2025 update
+2. EADM Election update
+3. SJDM/EADM virtual symposium
+4. Explore the Judgment and Decision Making Journal
+
+[![](/images/2025/05/eadm-newsletter-2025-05.png){.eadm-newsletter-cover fig-alt="Cover page of the EADM Newsletter, May 2025"}](/files/2025/11/EADM-Newsletter_May2025.pdf)
+
+[Read the full newsletter (PDF)](/files/2025/11/EADM-Newsletter_May2025.pdf) ·
+[Newsletter archive](/newsletter/index.qmd)

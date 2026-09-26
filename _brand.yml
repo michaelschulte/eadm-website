@@ -21,7 +21,16 @@ logo:
 
 # The palette is sampled from that logo: the red "eadm" blocks, the black
 # decision-path box and the off-white/gray of the original page. Links use
-# a deeper (light) or softer (dark) red so text/link pairs meet WCAG AA.
+# a deeper red so text/link pairs meet WCAG AA.
+#
+# The site currently ships light-only. Quarto builds a dark theme and a
+# navbar toggle automatically as soon as a colour has a `dark:` variant, so
+# the dark values are parked below each entry as comments (they pair with
+# styles-dark.scss). To bring dark mode back, turn each entry into
+#   primary:
+#     light: eadm-red-deep
+#     dark: eadm-red-soft
+# and so on, and re-enable the dark theme in _quarto.yml.
 color:
   palette:
     eadm-red: "#d03030"
@@ -36,19 +45,11 @@ color:
     eadm-mist: "#e6e4e1"
     eadm-mist-muted: "#a8a6a3"
     red: eadm-red
-  primary:
-    light: eadm-red-deep
-    dark: eadm-red-soft
-  secondary:
-    light: eadm-gray
-    dark: eadm-mist-muted
+  primary: eadm-red-deep        # dark: eadm-red-soft
+  secondary: eadm-gray          # dark: eadm-mist-muted
   danger: eadm-red
-  foreground:
-    light: eadm-charcoal
-    dark: eadm-mist
-  background:
-    light: "#ffffff"
-    dark: eadm-night
+  foreground: eadm-charcoal     # dark: eadm-mist
+  background: "#ffffff"         # dark: eadm-night
 
 typography:
   fonts:
@@ -68,9 +69,7 @@ typography:
     family: Outfit
     weight: 600
     line-height: 1.2
-    color:
-      light: eadm-ink
-      dark: eadm-mist
+    color: eadm-ink               # dark: eadm-mist
   link:
     color: primary
     weight: 500

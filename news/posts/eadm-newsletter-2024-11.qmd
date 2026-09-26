@@ -1,0 +1,21 @@
+---
+title: "EADM Newsletter, November 2024"
+date: 2024-11-04
+categories: ["Newsletter"]
+image: /images/2024/11/eadm-newsletter-2024-11.png
+image-alt: "Cover page of the EADM Newsletter, November 2024"
+---
+
+The November 2024 issue of the EADM Newsletter, with the call for award
+nominations and the SPUDM 2025 call for papers. In this issue:
+
+1. EADM Awards: call for nominations
+2. EADM open vacancies
+3. SPUDM 2025 Lucca, Italy: call for papers
+4. Funding available, please apply
+5. Updating EADM's bylaws – update
+
+[![](/images/2024/11/eadm-newsletter-2024-11.png){.eadm-newsletter-cover fig-alt="Cover page of the EADM Newsletter, November 2024"}](/files/2025/03/2024_November_Newsletter.pdf)
+
+[Read the full newsletter (PDF)](/files/2025/03/2024_November_Newsletter.pdf) ·
+[Newsletter archive](/newsletter/index.qmd)

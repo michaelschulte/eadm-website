@@ -1,0 +1,27 @@
+---
+title: "EADM Newsletter, June 2024"
+date: 2024-07-03
+categories: ["Newsletter"]
+image: /images/2024/06/eadm-newsletter-2024-06.png
+image-alt: "Cover page of the EADM Newsletter, June 2024"
+---
+
+The first issue of EADM's revived newsletter. The board plans to publish
+it every June and December to keep members up to date between SPUDM
+meetings. In this issue:
+
+1. Introducing EADM's revived newsletter
+2. SPUDM 2023 Vienna, Austria
+3. SPUDM 2025 Lucca, Italy
+4. EADM open vacancies
+5. EADM Summer School 2024
+6. EGPROC 2024
+7. Funding available, please apply!
+8. Update on publishing at JDM
+9. EADM's new code of conduct
+10. Updating EADM's bylaws – your input needed
+
+[![](/images/2024/06/eadm-newsletter-2024-06.png){.eadm-newsletter-cover fig-alt="Cover page of the EADM Newsletter, June 2024"}](/files/2024/07/2024_June_Newsletter.pdf)
+
+[Read the full newsletter (PDF)](/files/2024/07/2024_June_Newsletter.pdf) ·
+[Newsletter archive](/newsletter/index.qmd)

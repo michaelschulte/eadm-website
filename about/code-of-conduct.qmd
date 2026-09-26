@@ -1,9 +1,6 @@
 ---
 title: "Code of conduct"
 ---
-
-<a href="https://eadm.eu/eadm_logo_normal-tiff-2/"><img class="aligncenter size-full wp-image-397" src="/images/2013/08/EADM_logo_normal1.tiff" alt="" /></a>
-
 The European Association for Decision Making (EADM) is committed to diversity, equity, the professional exchange of ideas, and respectful treatment of all members. We will not tolerate discrimination or harassment of any type, including that based on gender, gender identity, gender expression, race, ethnicity, national origin, religion, citizenship status, age, sexual orientation, disability, or their intersection.
 
 This Code of Conduct sets forth our commitment to providing a safe and inclusive environment at EADM-sponsored events (including all scientific meetings, summer schools, and symposia). All members of EADM are expected to:

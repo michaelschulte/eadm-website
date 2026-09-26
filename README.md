@@ -36,9 +36,11 @@ favicon.
   `favicon.png` are crops of it.
 - **Colors and fonts** — edit `_brand.yml`. Colours have light and dark
   variants; fonts are Google Fonts (Inter for text, Outfit for headings).
-- **Per-mode palette** — `styles-light.scss` / `styles-dark.scss` set the
-  navbar, footer, card and border colours for each mode. Their hex values
-  mirror `_brand.yml`, so change both together.
+- **Palette** — `styles-light.scss` sets the navbar, footer, card and
+  border colours. Its hex values mirror `_brand.yml`, so change both
+  together. The site currently ships light-only (no theme toggle);
+  `styles-dark.scss` is kept for later and the comment above `theme:` in
+  `_quarto.yml` shows how to re-enable the dark mode and toggle.
 - **Layout and components** — `styles.scss` holds the shared rules: navbar,
   page titles, tables, listing cards, the home-page hero and card grid, and
   the footer.

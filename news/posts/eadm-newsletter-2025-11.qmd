@@ -1,0 +1,25 @@
+---
+title: "EADM Newsletter, November 2025"
+date: 2025-11-25
+categories: ["Newsletter"]
+image: /images/2025/11/eadm-newsletter-2025-11.png
+image-alt: "Cover page of the EADM Newsletter, November 2025"
+---
+
+The November 2025 issue of the EADM Newsletter looks back at SPUDM 2025
+in Lucca and honours Karl Halvor Teigen with the EADM Lifetime
+Contribution Award. In this issue:
+
+1. SPUDM 2025 Summary
+    - Reflections from the EADM President – Mandeep K Dhami
+    - Students' Perspectives on SPUDM 2025
+2. EADM Lifetime Contribution Award – Karl Halvor Teigen
+3. The Brunswik Society 31st International Meeting (Virtual)
+4. Judgment and Decision-Making Journal – Call for co-editor
+5. Recent Publications in Judgment and Decision Making
+6. New Funding
+
+[![](/images/2025/11/eadm-newsletter-2025-11.png){.eadm-newsletter-cover fig-alt="Cover page of the EADM Newsletter, November 2025"}](/files/2025/11/Newsletter-Nov-2025-EADM.pdf)
+
+[Read the full newsletter (PDF)](/files/2025/11/Newsletter-Nov-2025-EADM.pdf) ·
+[Newsletter archive](/newsletter/index.qmd)

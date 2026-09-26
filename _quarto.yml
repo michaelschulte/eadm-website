@@ -55,16 +55,8 @@ website:
             text: Membership
           - href: membership/mailing-list.qmd
             text: Mailing List
-      - text: Funding
-        menu:
-          - href: funding/index.qmd
-            text: EADM Funding
-          - href: funding/jane-beattie-travel-scholarship.qmd
-            text: Jane Beattie Travel Scholarship
-          - href: funding/workshop-grants/index.qmd
-            text: Workshop Grants
-          - href: funding/summer-school/index.qmd
-            text: EADM Summer School
+      - href: funding/index.qmd
+        text: Funding
       - href: prizes/index.qmd
         text: Prizes
       - text: SPUDM
@@ -87,11 +79,15 @@ format:
   html:
     # "brand" must be listed explicitly: without it _brand.yml gets the
     # lowest priority and the Bootswatch theme's own colours and fonts win.
-    # styles-light/-dark set per-mode palette variables; styles.scss holds
-    # the rules shared by both.
-    theme:
-      light: [cosmo, brand, styles-light.scss, styles.scss]
-      dark: [cosmo, brand, styles-dark.scss, styles.scss]
+    # styles-light.scss sets the palette variables; styles.scss holds the
+    # layout and component rules. A single (light) theme, so there is no
+    # dark toggle in the navbar. styles-dark.scss is kept for later: to
+    # bring the toggle back, replace the list with
+    #   light: [cosmo, brand, styles-light.scss, styles.scss]
+    #   dark:  [cosmo, brand, styles-dark.scss, styles.scss]
+    # and restore the dark colour variants commented out in _brand.yml
+    # (Quarto builds a dark theme and the toggle from those on its own).
+    theme: [cosmo, brand, styles-light.scss, styles.scss]
     toc: false
     grid:
       body-width: 850px
