@@ -45,6 +45,8 @@ De Finetti's insistence that probability and utility describe how a reasonable p
 
 | Year | Winner | Affiliation |
 |:-----|:-------|:------------|
+| 2025 | Linh Vu | University of Amsterdam, The Netherlands |
+| 2025 | Shahar Hechtlinger | Max Planck Institute for Human Development, Berlin, Germany |
 | 2023 | Christian T. Elbæk | Aarhus University, Denmark |
 | 2021 | Mark Himmelstein | Fordham University, USA |
 | 2019 | Christina Leuker | Max Planck Institute for Human Development, Berlin, Germany |
@@ -101,6 +103,7 @@ Jane Beattie was an active member of both SJDM and EADM and served on the EADM E
 
 | Year | Winner | Affiliation | Committee |
 |:-----|:-------|:------------|:----------|
+| 2025 | Shoham Choshen-Hillel | Hebrew University of Jerusalem, Israel | |
 | 2023 | Lukasz Walasek | University of Warwick, Great Britain | Eldad Yechiam (chair), Gaelle Vallee-Tourangeau, Michael Schulte-Mecklenbeck |
 | 2021 | Sudeep Bhatia | University of Pennsylvania, United States | Ido Erev (chair), Shaul Shalvi, Mandeep Dhami, Bettina von Helversen, Thomas Wallsten |
 | 2019 | Shaul Shalvi | University of Amsterdam, The Netherlands | Andreas Glöckner (chair), Mehdi Moussaid, Arndt Bröder, Peter Ayton, Cilia Witteman |
