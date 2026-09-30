@@ -7,15 +7,16 @@ EADM maintains a mailing list for its members.
 To subscribe, please fill in the form below. Please use a valid institutional email address. Every request is checked and validated by hand by the <a href="mailto:michael@eadm.eu">webmaster</a> before you are added to the list, so it may take a moment until your subscription is active.
 
 ```{=html}
-<!-- The site is static, so FormSubmit (formsubmit.co) relays each request to
-the webmaster by email. FormSubmit shows a captcha after "Subscribe" is
-pressed; _honey is a hidden honeypot field that catches simple bots. -->
-<form id="mailing-list-form" action="https://formsubmit.co/michael@eadm.eu" method="POST" class="my-4" style="max-width: 36rem;">
-  <input type="hidden" name="_subject" value="EADM mailing list: subscription request">
-  <input type="hidden" name="_template" value="table">
-  <input type="hidden" name="_captcha" value="true">
-  <input type="text" name="_honey" style="display: none;" tabindex="-1" autocomplete="off">
-  <input type="hidden" name="_next" id="mailing-list-next">
+<!-- The site is static, so Web3Forms (web3forms.com) relays each request to
+the webmaster by email. The access key is tied to michael@eadm.eu and is meant
+to be public. The hCaptcha widget must be solved before the form submits, and
+botcheck is a hidden honeypot field that catches simple bots. -->
+<form id="mailing-list-form" action="https://api.web3forms.com/submit" method="POST" class="my-4" style="max-width: 36rem;">
+  <input type="hidden" name="access_key" value="YOUR_WEB3FORMS_ACCESS_KEY">
+  <input type="hidden" name="subject" value="EADM mailing list: subscription request">
+  <input type="hidden" name="from_name" value="EADM website">
+  <input type="checkbox" name="botcheck" style="display: none;" tabindex="-1" autocomplete="off">
+  <input type="hidden" name="redirect" id="mailing-list-redirect">
   <div class="mb-3">
     <label for="ml-family-name" class="form-label">Family name</label>
     <input type="text" class="form-control" id="ml-family-name" name="Family name" autocomplete="family-name" required>
@@ -32,13 +33,15 @@ pressed; _honey is a hidden honeypot field that catches simple bots. -->
     <label for="ml-affiliation" class="form-label">Affiliation</label>
     <input type="text" class="form-control" id="ml-affiliation" name="Affiliation" autocomplete="organization" required>
   </div>
+  <div class="h-captcha mb-3" data-captcha="true"></div>
   <button type="submit" class="btn btn-primary">Subscribe</button>
 </form>
 
+<script src="https://web3forms.com/client/script.js" async defer></script>
 <script>
-  // FormSubmit needs an absolute URL to return to, and the site runs both on
+  // Web3Forms needs an absolute URL to return to, and the site runs both on
   // the GitHub Pages preview and on eadm.eu, so it is built at runtime.
-  document.getElementById("mailing-list-next").value =
+  document.getElementById("mailing-list-redirect").value =
     new URL("mailing-list-thanks.html", window.location.href).href;
 </script>
 ```
