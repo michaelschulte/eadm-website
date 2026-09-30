@@ -12,7 +12,7 @@ the webmaster by email. The access key is tied to michael@eadm.eu and is meant
 to be public. The hCaptcha widget must be solved before the form submits, and
 botcheck is a hidden honeypot field that catches simple bots. -->
 <form id="mailing-list-form" action="https://api.web3forms.com/submit" method="POST" class="my-4" style="max-width: 36rem;">
-  <input type="hidden" name="access_key" value="YOUR_WEB3FORMS_ACCESS_KEY">
+  <input type="hidden" name="access_key" value="d5580530-f99a-4387-b0cc-3d678b094cfe">
   <input type="hidden" name="subject" value="EADM mailing list: subscription request">
   <input type="hidden" name="from_name" value="EADM website">
   <input type="checkbox" name="botcheck" style="display: none;" tabindex="-1" autocomplete="off">
