@@ -138,12 +138,12 @@ Winners will receive a lifetime (free) membership in EADM, a certificate, and wi
 
 #### Former winners {.unnumbered}
 
-| Year | Winner | Affiliation |
-|:-----|:-------|:------------|
-| [2025](/files/2025/11/Lifetime2025_Teigen.pdf) | Karl Halvor Teigen | University of Oslo, Norway |
-| 2023 | Robin M. Hogarth | Universitat Pompeu Fabra, Spain |
+| Year | Winner | Affiliation | Committee |
+|:-----|:-------|:------------|:----------|
+| [2025](/files/2025/11/Lifetime2025_Teigen.pdf) | Karl Halvor Teigen | University of Oslo, Norway | Mandeep K. Dhami (chair), Ido Erev, Laura Macchi |
+| 2023 | Robin M. Hogarth | Universitat Pompeu Fabra, Spain | |
 
-: {.eadm-winners tbl-colwidths="[12,33,55]"}
+: {.eadm-winners tbl-colwidths="[8,20,30,42]"}
 
 </div>
 </details>
