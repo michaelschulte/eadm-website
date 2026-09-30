@@ -43,28 +43,28 @@ De Finetti's insistence that probability and utility describe how a reasonable p
 
 #### Former winners {.unnumbered}
 
-| Year | Winner | Affiliation |
-|:-----|:-------|:------------|
-| 2025 | Linh Vu | University of Amsterdam, The Netherlands |
-| 2025 | Shahar Hechtlinger | Max Planck Institute for Human Development, Berlin, Germany |
-| 2023 | Christian T. Elbæk | Aarhus University, Denmark |
-| 2021 | Mark Himmelstein | Fordham University, USA |
-| 2019 | Christina Leuker | Max Planck Institute for Human Development, Berlin, Germany |
-| 2017 | Johann Majer | Leuphana University, Germany |
-| 2015 | Jared Hotaling | University of Basel, Switzerland |
-| 2013 | Dan Raphael Schley | Ohio State University, USA |
-| 2011 | Shoham Choshen-Hillel | Hebrew University of Jerusalem, Israel |
-| 2009 | Benjamin Scheibehenne | University of Basel, Switzerland |
-| 2007 | Xianchi Dai | INSEAD, France |
-| 2005 | Loran Nordgren | Universiteit van Amsterdam, The Netherlands |
-| 2003 | Greg Barron | Technion - Israel Institute of Technology, Israel |
-| 2001 | Martijn Willemsen | Eindhoven Technical University, The Netherlands |
-| 2001 | Nicola Bown | University of Leeds, United Kingdom |
-| 1999 | Mandeep K. Dhami | City University London, United Kingdom |
-| 1997 | Johanna Kordes-de Vaal | Vrije Universiteit Amsterdam, The Netherlands |
-| 1995 | Peter Roelofsma | Vrije Universiteit Amsterdam, The Netherlands |
+| Year | Winner | Affiliation | Committee |
+|:-----|:-------|:------------|:----------|
+| 2025 | Linh Vu | University of Amsterdam, The Netherlands | Shahar Ayal, Christian T. Elbæk, Claire Heard, Esther Kaufmann |
+| 2025 | Shahar Hechtlinger | Max Planck Institute for Human Development, Berlin, Germany | Shahar Ayal, Christian T. Elbæk, Claire Heard, Esther Kaufmann |
+| 2023 | Christian T. Elbæk | Aarhus University, Denmark | |
+| 2021 | Mark Himmelstein | Fordham University, USA | |
+| 2019 | Christina Leuker | Max Planck Institute for Human Development, Berlin, Germany | |
+| 2017 | Johann Majer | Leuphana University, Germany | |
+| 2015 | Jared Hotaling | University of Basel, Switzerland | |
+| 2013 | Dan Raphael Schley | Ohio State University, USA | |
+| 2011 | Shoham Choshen-Hillel | Hebrew University of Jerusalem, Israel | |
+| 2009 | Benjamin Scheibehenne | University of Basel, Switzerland | |
+| 2007 | Xianchi Dai | INSEAD, France | |
+| 2005 | Loran Nordgren | Universiteit van Amsterdam, The Netherlands | |
+| 2003 | Greg Barron | Technion - Israel Institute of Technology, Israel | |
+| 2001 | Martijn Willemsen | Eindhoven Technical University, The Netherlands | |
+| 2001 | Nicola Bown | University of Leeds, United Kingdom | |
+| 1999 | Mandeep K. Dhami | City University London, United Kingdom | |
+| 1997 | Johanna Kordes-de Vaal | Vrije Universiteit Amsterdam, The Netherlands | |
+| 1995 | Peter Roelofsma | Vrije Universiteit Amsterdam, The Netherlands | |
 
-: {.eadm-winners tbl-colwidths="[12,33,55]"}
+: {.eadm-winners tbl-colwidths="[8,20,30,42]"}
 
 </div>
 </details>
