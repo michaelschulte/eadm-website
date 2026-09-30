@@ -6,4 +6,4 @@ If you would like to post an announcement about a call for papers, a workshop, a
 
 Contact the EADM Treasurer: <a href="mailto:treasurer@eadm.eu">treasurer@eadm.eu</a>,  for any query related to your membership.
 
-Please see <a href = 'https://eadm.eu/mailinglist/'>the mailinglist page</a> for instructions on how to subscribe to the EADM mailing list.
+Please see <a href="membership/mailing-list.qmd">the mailing list page</a> for instructions on how to subscribe to the EADM mailing list.

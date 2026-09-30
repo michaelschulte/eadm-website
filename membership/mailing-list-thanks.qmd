@@ -1,0 +1,10 @@
+---
+title: "Mailing List"
+search: false
+---
+
+Thank you! Your subscription request has been sent.
+
+The <a href="mailto:michael@eadm.eu">webmaster</a> will check and validate your request by hand, so it may take a moment until you are added to the mailing list.
+
+<a href="mailing-list.qmd">Back to the mailing list page</a>
