@@ -639,3 +639,32 @@ main.content img.eadm-newsletter-cover {
   border-radius: 0.5rem;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
 }
+
+// ---------------------------------------------------------------------------
+// Conference keynote speakers
+// ---------------------------------------------------------------------------
+
+// A row of round portraits with the speaker's name underneath; wraps to
+// fewer columns on narrow screens.
+.eadm-keynotes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1.5rem;
+  margin: 1.5rem 0;
+  text-align: center;
+}
+
+.eadm-keynote {
+  p {
+    margin: 0.5rem 0 0;
+    font-weight: 600;
+  }
+
+  img {
+    width: 160px;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid $eadm-border;
+  }
+}
