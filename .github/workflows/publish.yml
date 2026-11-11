@@ -8,9 +8,9 @@ name: Publish site to GitHub Pages
 # Before rendering, it turns newly uploaded newsletter PDFs
 # (files/YYYY/MM/EADM-Newsletter-YYYY-MM.pdf) into an archive entry, a
 # cover image and a News post (.github/scripts/add_newsletters.py) and
-# commits those back to main. The post text comes from the Claude API and
-# needs the ANTHROPIC_API_KEY repository secret; without it the post gets
-# a short generic text. A commit pushed with the workflow's own token
+# commits those back to main. The post text comes from the OpenAI API and
+# needs the OPENAI_API_KEY repository secret; without it the post gets a
+# short generic text. A commit pushed with the workflow's own token
 # does not start another run, so this cannot loop.
 
 on:
@@ -53,11 +53,11 @@ jobs:
       - name: Add newsletter posts, archive entries and covers
         if: steps.newsletters.outputs.pending == 'true'
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
           sudo apt-get update -qq
           sudo apt-get install -y -qq poppler-utils
-          python3 -m pip install --quiet anthropic
+          python3 -m pip install --quiet openai
           python3 .github/scripts/add_newsletters.py
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

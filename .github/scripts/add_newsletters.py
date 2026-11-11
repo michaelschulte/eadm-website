@@ -10,9 +10,9 @@ does not link to yet, this script:
 2. adds a line for the issue at the top of ``newsletter/index.qmd``;
 3. writes ``news/posts/eadm-newsletter-YYYY-MM.qmd`` in the format of
    the earlier newsletter posts. The intro sentence and the "In this
-   issue" list are written by the Claude API from the PDF; without an
-   ANTHROPIC_API_KEY, or if the call fails, the post gets a short
-   generic text instead, so publishing never blocks on the API.
+   issue" list are written by the OpenAI API from the PDF; without an
+   OPENAI_API_KEY, or if the call fails, the post gets a short generic
+   text instead, so publishing never blocks on the API.
 
 Detection compares files on disk with the archive page rather than a git
 diff, so running it again does nothing, and a missed run catches up.
@@ -41,7 +41,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 ARCHIVE = Path("newsletter/index.qmd")
 PDF_RE = re.compile(r"^files/(\d{4})/(\d{2})/EADM-Newsletter-(\d{4})-(\d{2})\.pdf$")
-MODEL = "claude-opus-5-5"
+MODEL = "gpt-5.5"  # override with the OPENAI_MODEL environment variable
 
 
 @dataclass(frozen=True)
@@ -133,7 +133,7 @@ def render_cover(root: Path, issue: Issue) -> None:
 
 
 # --------------------------------------------------------------------------
-# Summary from the Claude API
+# Summary from the OpenAI API
 
 SYSTEM = """\
 You write the short News-page announcement for a new issue of the EADM
@@ -171,16 +171,17 @@ nominations and the SPUDM 2025 call for papers.
 
 
 def summarize(root: Path, issue: Issue):
-    """Return (intro, contents) from Claude, or None to use the generic text."""
-    if not os.environ.get("ANTHROPIC_API_KEY"):
-        print("note: ANTHROPIC_API_KEY not set; using the generic post text",
+    """Return (intro, contents) from the OpenAI API, or None to use the
+    generic text."""
+    if not os.environ.get("OPENAI_API_KEY"):
+        print("note: OPENAI_API_KEY not set; using the generic post text",
               file=sys.stderr)
         return None
     try:
-        import anthropic
+        import openai
         from pydantic import BaseModel
     except ImportError:
-        print("note: the anthropic package is not installed; "
+        print("note: the openai package is not installed; "
               "using the generic post text", file=sys.stderr)
         return None
 
@@ -193,40 +194,35 @@ def summarize(root: Path, issue: Issue):
         contents: list[Section]
 
     pdf_b64 = base64.standard_b64encode((root / issue.pdf).read_bytes()).decode()
-    client = anthropic.Anthropic()
+    model = os.environ.get("OPENAI_MODEL") or MODEL
+    client = openai.OpenAI()
     try:
-        response = client.beta.messages.parse(
-            model=MODEL,
-            max_tokens=16000,
-            output_config={"effort": "medium"},
-            # If a safety classifier declines, the API retries the request
-            # on Anthropic's recommended fallback model.
-            betas=["server-side-fallback-2026-07-01"],
-            fallbacks="default",
-            system=SYSTEM,
-            messages=[{
+        response = client.responses.parse(
+            model=model,
+            instructions=SYSTEM,
+            input=[{
                 "role": "user",
                 "content": [
-                    {"type": "document",
-                     "source": {"type": "base64", "media_type": "application/pdf",
-                                "data": pdf_b64}},
-                    {"type": "text",
+                    {"type": "input_file",
+                     "filename": Path(issue.pdf).name,
+                     "file_data": f"data:application/pdf;base64,{pdf_b64}"},
+                    {"type": "input_text",
                      "text": f"This is the {issue.month_year} issue. "
                              "Write its announcement."},
                 ],
             }],
-            output_format=Summary,
+            text_format=Summary,
         )
-    except anthropic.APIError as e:
-        print(f"warning: Claude API call failed ({e}); "
+    except openai.OpenAIError as e:
+        print(f"warning: OpenAI API call failed ({e}); "
               "using the generic post text", file=sys.stderr)
         return None
-    if response.stop_reason != "end_turn" or response.parsed_output is None:
-        print(f"warning: Claude API stopped with {response.stop_reason} "
-              f"(request {response._request_id}); using the generic post text",
-              file=sys.stderr)
+    s = response.output_parsed
+    if response.status != "completed" or s is None:
+        print(f"warning: OpenAI API returned status {response.status} "
+              f"(response {response.id}) without a summary; "
+              "using the generic post text", file=sys.stderr)
         return None
-    s = response.parsed_output
     if not s.intro.strip() or not s.contents:
         return None
     return s.intro.strip(), [(c.title.strip(), [x.strip() for x in c.subitems])
@@ -283,7 +279,7 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--list", action="store_true",
                     help="only print the pending PDFs, change nothing")
     ap.add_argument("--no-ai", action="store_true",
-                    help="use the generic post text instead of the Claude API")
+                    help="use the generic post text instead of the OpenAI API")
     ap.add_argument("--date", type=dt.date.fromisoformat,
                     default=dt.date.today(), help="post date (YYYY-MM-DD)")
     ap.add_argument("--root", type=Path, default=ROOT, help=argparse.SUPPRESS)

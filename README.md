@@ -13,11 +13,11 @@ After the merge, the publish workflow runs
 `.github/scripts/add_newsletters.py`, which adds the issue to the
 newsletter archive, renders page one as the cover image, writes a News
 post and commits all three to `main` before the site is built. The
-post's intro and "In this issue" list are written by the Claude API from
-the PDF; this needs an `ANTHROPIC_API_KEY` repository secret (Settings →
-Secrets and variables → Actions). Without it the post gets a one-line
-generic text. Check the generated post after each issue and edit it if
-needed; the script never overwrites an existing post. Run
+post's intro and "In this issue" list are written by the OpenAI API
+(`gpt-5.5`) from the PDF; this needs an `OPENAI_API_KEY` repository
+secret (Settings → Secrets and variables → Actions). Without it the post
+gets a one-line generic text. Check the generated post after each issue
+and edit it if needed; the script never overwrites an existing post. Run
 `python3 -m pytest .github/scripts` for the script's tests.
 
 ## Rendering locally

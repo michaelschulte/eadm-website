@@ -98,6 +98,6 @@ def test_post_with_summary_matches_existing_format():
 
 
 def test_summary_falls_back_without_api_key(site, monkeypatch):
-    monkeypatch.delenv("ANTHROPIC_API_KEY", raising=False)
+    monkeypatch.delenv("OPENAI_API_KEY", raising=False)
     issue = an.Issue(2026, 4, "files/2026/04/Newsletter-Spring-2026-EADM.pdf")
     assert an.summarize(site, issue) is None
