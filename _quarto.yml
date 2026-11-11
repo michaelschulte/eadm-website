@@ -10,6 +10,8 @@ project:
     - "*.qmd"
     - "*.md"
     - "!docs/"
+    # Repository guide for contributors (shown by GitHub), not a site page.
+    - "!CONTRIBUTING.md"
   # All 73 PDF attachments are vendored into files/ deliberately, including
   # ones no kept page links to. Quarto only copies *referenced* resources,
   # so without this 22 of them would sit in the repo but never deploy.

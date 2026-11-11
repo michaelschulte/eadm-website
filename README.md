@@ -3,6 +3,11 @@
 Quarto rebuild of the [EADM](https://eadm.eu) (European Association for
 Decision Making) website, migrated from its WordPress export.
 
+## Adding content
+
+To add a newsletter issue (PDF) through a pull request, see
+[CONTRIBUTING.md](CONTRIBUTING.md).
+
 ## Rendering locally
 
 ```bash
