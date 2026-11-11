@@ -12,11 +12,20 @@ project:
     - "!docs/"
     # Repository guide for contributors (shown by GitHub), not a site page.
     - "!CONTRIBUTING.md"
+    # files/ is a submodule with its own contributor guide; nothing in it
+    # is a site page.
+    - "!files/"
   # All 73 PDF attachments are vendored into files/ deliberately, including
   # ones no kept page links to. Quarto only copies *referenced* resources,
   # so without this 22 of them would sit in the repo but never deploy.
+  # files/ is a git submodule (michaelschulte/eadm-website-files); the
+  # negations keep its git metadata and contributor guide off the site.
   resources:
     - files/
+    - "!files/.git"
+    - "!files/.gitignore"
+    - "!files/.github/"
+    - "!files/*.md"
 
 website:
   title: "EADM"

@@ -5,11 +5,17 @@ Decision Making) website, migrated from its WordPress export.
 
 ## Adding content
 
-To add a newsletter issue (PDF) through a pull request, see
-[CONTRIBUTING.md](CONTRIBUTING.md).
+`files/` is a git submodule,
+[eadm-website-files](https://github.com/michaelschulte/eadm-website-files),
+so writers can push PDFs without access to this repository; see
+[CONTRIBUTING.md](CONTRIBUTING.md). Clone with `--recurse-submodules`, or
+run `git submodule update --init` in an existing clone. The publish
+workflow always builds with that repo's latest `main` and commits the
+updated pointer here. A push there starts the publish workflow (the files
+repo's `SITE_DEPLOY_TOKEN` secret); an hourly scheduled run is the fallback.
 
-Contributors only upload `files/YYYY/MM/EADM-Newsletter-YYYY-MM.pdf`.
-After the merge, the publish workflow runs
+Contributors only upload `YYYY/MM/EADM-Newsletter-YYYY-MM.pdf` to the
+files repository. On the next build, the publish workflow runs
 `.github/scripts/add_newsletters.py`, which adds the issue to the
 newsletter archive, renders page one as the cover image, writes a News
 post and commits all three to `main` before the site is built. The

@@ -12,11 +12,21 @@ name: Publish site to GitHub Pages
 # needs the OPENAI_API_KEY repository secret; without it the post gets a
 # short generic text. A commit pushed with the workflow's own token
 # does not start another run, so this cannot loop.
+#
+# files/ is a git submodule (michaelschulte/eadm-website-files) so
+# writers can push PDFs without access to this repository. Each build
+# uses that repo's latest main and commits the updated submodule pointer
+# back here. Pushes to the files repo start this workflow through its own
+# deploy-site.yml (via workflow_dispatch). As a fallback, should that
+# token expire, an hourly scheduled run builds whenever the files repo
+# has moved on from the pinned commit.
 
 on:
   push:
     branches: [main]
   workflow_dispatch:
+  schedule:
+    - cron: "17 * * * *"
 
 permissions:
   contents: read
@@ -29,14 +39,43 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  # Scheduled runs only build when eadm-website-files has commits that
+  # main doesn't point to yet; pushes and manual runs always build.
+  changes:
+    runs-on: ubuntu-latest
+    outputs:
+      build: ${{ steps.check.outputs.build }}
+    steps:
+      - uses: actions/checkout@v7
+        if: github.event_name == 'schedule'
+
+      - id: check
+        run: |
+          if [ "${{ github.event_name }}" != "schedule" ]; then
+            echo "build=true" >> "$GITHUB_OUTPUT"; exit 0
+          fi
+          pinned=$(git ls-tree HEAD files | awk '{print $3}')
+          latest=$(git ls-remote https://github.com/michaelschulte/eadm-website-files.git refs/heads/main | cut -f1)
+          echo "pinned $pinned, latest $latest"
+          if [ -n "$latest" ] && [ "$pinned" != "$latest" ]; then
+            echo "build=true" >> "$GITHUB_OUTPUT"
+          fi
+
   build:
+    needs: changes
+    if: needs.changes.outputs.build == 'true'
     runs-on: ubuntu-latest
     # Job-level permissions replace the top-level ones for this job:
-    # it needs to push the generated newsletter files back to main.
+    # it pushes the files/ pointer and generated newsletter files to main.
     permissions:
       contents: write
     steps:
       - uses: actions/checkout@v7
+        with:
+          submodules: true
+
+      - name: Use latest files/ from eadm-website-files
+        run: git submodule update --remote files
 
       - name: Look for new newsletter PDFs
         id: newsletters
@@ -59,10 +98,22 @@ jobs:
           sudo apt-get install -y -qq poppler-utils
           python3 -m pip install --quiet openai
           python3 .github/scripts/add_newsletters.py
+
+      - name: Commit the files/ pointer and newsletter files
+        env:
+          PENDING: ${{ steps.newsletters.outputs.pending }}
+        run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add newsletter/index.qmd news/posts images
-          git commit -m "Newsletter: add the archive entry, cover and News post for new issues"
+          git add files
+          if [ "$PENDING" = "true" ]; then
+            git add newsletter/index.qmd news/posts images
+            msg="Newsletter: add the archive entry, cover and News post for new issues"
+          else
+            msg="files: update to eadm-website-files $(git -C files rev-parse --short HEAD)"
+          fi
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "$msg"
           git pull --rebase
           git push
 
