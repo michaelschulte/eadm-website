@@ -44,13 +44,52 @@ def test_nothing_pending_in_the_real_repository():
 def test_finds_new_pdf_and_ignores_listed_and_misnamed(site, capsys):
     upload(site, "files/2026/11/EADM-Newsletter-2026-11.pdf")
     upload(site, "files/2026/11/Newsletter Autumn.pdf")
-    upload(site, "files/2026/12/EADM-Newsletter-2026-11.pdf")  # wrong folder
     upload(site, "files/2026/11/conference-flyer.pdf")  # not a newsletter
     assert an.find_pending(site) == [
         an.Issue(2026, 11, "files/2026/11/EADM-Newsletter-2026-11.pdf")]
     err = capsys.readouterr().err
-    assert "Newsletter Autumn.pdf" in err and "2026/12" in err
+    assert "Newsletter Autumn.pdf" in err
     assert "flyer" not in err
+
+
+@pytest.mark.parametrize("rel", [
+    "files/2026/11/EADM-Newsletter-2026-11.pdf.pdf",  # Windows hid ".pdf"
+    "files/2026/11/EADM-Newsletter-2026-11.PDF",
+    "files/2026/04/EADM-Newsletter-2026-11.pdf",      # wrong month folder
+    "files/2026/EADM-Newsletter-2026-11.pdf.pdf",     # no month folder
+    "files/EADM-Newsletter-2026-11.pdf",              # no folders at all
+])
+def test_accepts_doubled_extension_and_wrong_folder_where_it_is(site, rel):
+    upload(site, rel)
+    assert an.find_pending(site) == [an.Issue(2026, 11, rel)]
+
+
+def test_same_issue_uploaded_twice_is_added_once(site, capsys):
+    upload(site, "files/2026/04/EADM-Newsletter-2026-11.pdf.pdf")
+    upload(site, "files/2026/EADM-Newsletter-2026-11.pdf.pdf")
+    upload(site, "files/2026/11/EADM-Newsletter-2026-11.pdf")
+    # The copy at the expected path wins over misplaced ones.
+    assert an.find_pending(site) == [
+        an.Issue(2026, 11, "files/2026/11/EADM-Newsletter-2026-11.pdf")]
+    err = capsys.readouterr().err
+    assert "2026/04/EADM-Newsletter-2026-11.pdf.pdf" in err
+    assert "files/2026/EADM-Newsletter-2026-11.pdf.pdf" in err
+
+
+def test_issue_already_in_archive_under_another_path_is_skipped(site, capsys):
+    archive = site / "newsletter/index.qmd"
+    archive.write_text(archive.read_text().replace(
+        "---\n\n", '---\n\n<a href="/files/2026/11/EADM-Newsletter-2026-11.pdf">'
+        "2026 November</a>\n\n", 1))
+    upload(site, "files/2026/04/EADM-Newsletter-2026-11.pdf.pdf")
+    assert an.find_pending(site) == []
+    assert "already in the archive" in capsys.readouterr().err
+
+
+def test_impossible_month_is_skipped(site, capsys):
+    upload(site, "files/2026/13/EADM-Newsletter-2026-13.pdf")
+    assert an.find_pending(site) == []
+    assert "2026-13" in capsys.readouterr().err
 
 
 @pytest.mark.skipif(not shutil.which("pdftoppm"), reason="needs pdftoppm")

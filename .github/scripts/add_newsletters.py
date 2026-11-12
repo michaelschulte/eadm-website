@@ -2,8 +2,9 @@
 and a News post.
 
 Contributors only upload ``files/YYYY/MM/EADM-Newsletter-YYYY-MM.pdf``
-(see CONTRIBUTING.md). For every such PDF that ``newsletter/index.qmd``
-does not link to yet, this script:
+(see CONTRIBUTING.md); a doubled ``.pdf.pdf`` or a different folder is
+tolerated (see find_pending). For every issue that ``newsletter/index.qmd``
+does not list yet, this script:
 
 1. renders page one as ``images/YYYY/MM/eadm-newsletter-YYYY-MM.png``
    (needs ``pdftoppm`` from poppler-utils);
@@ -40,7 +41,9 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 ARCHIVE = Path("newsletter/index.qmd")
-PDF_RE = re.compile(r"^files/(\d{4})/(\d{2})/EADM-Newsletter-(\d{4})-(\d{2})\.pdf$")
+# File name only; folders are checked separately. Accepts ".pdf.pdf" and
+# any case of the extension.
+NAME_RE = re.compile(r"^EADM-Newsletter-(\d{4})-(\d{2})(?:\.pdf)+$", re.IGNORECASE)
 MODEL = "gpt-5.5"  # override with the OPENAI_MODEL environment variable
 
 
@@ -76,28 +79,59 @@ class Issue:
 
 
 def find_pending(root: Path) -> list[Issue]:
-    """PDFs that follow the naming rule but are not in the archive yet,
-    oldest first. Misnamed PDFs are reported and skipped."""
+    """PDFs named EADM-Newsletter-YYYY-MM.pdf whose issue is not in the
+    archive yet, oldest first.
+
+    Uploads are forgiving where the intent is clear: a doubled extension
+    (``.pdf.pdf``, from Windows hiding ".pdf") or a PDF outside
+    ``files/YYYY/MM/`` is used where it is, since this repository can't
+    rename files in the files/ submodule. The issue's year and month come
+    from the file name. If the same issue was uploaded more than once,
+    the copy at the expected path wins, else the first in sorted order.
+    Other names are reported and skipped."""
     archive = (root / ARCHIVE).read_text(encoding="utf-8")
-    pending = []
-    for path in sorted((root / "files").glob("*/*/*.pdf")):
-        rel = path.relative_to(root).as_posix()
-        if "newsletter" not in path.name.lower() or f"/{rel}" in archive:
+    found: dict[tuple[int, int], list[str]] = {}
+    for path in sorted((root / "files").rglob("*")):
+        name = path.name.lower()
+        if not (path.is_file() and name.endswith(".pdf") and "newsletter" in name):
             continue
-        m = PDF_RE.match(rel)
+        rel = path.relative_to(root).as_posix()
+        if f"/{rel}" in archive:
+            continue
+        m = NAME_RE.match(path.name)
         if not m:
             # Old PDFs with other names are all linked from the archive
             # already, so anything reaching this point is a new upload.
             print(f"warning: skipping {rel}: name must be "
-                  "files/YYYY/MM/EADM-Newsletter-YYYY-MM.pdf", file=sys.stderr)
+                  "EADM-Newsletter-YYYY-MM.pdf", file=sys.stderr)
             continue
-        year, month, year2, month2 = m.groups()
-        if (year, month) != (year2, month2) or not 1 <= int(month) <= 12:
-            print(f"warning: skipping {rel}: folder and file name "
-                  "must name the same year and month", file=sys.stderr)
+        year, month = int(m[1]), int(m[2])
+        if not 1 <= month <= 12:
+            print(f"warning: skipping {rel}: {m[1]}-{m[2]} is not a month",
+                  file=sys.stderr)
             continue
-        pending.append(Issue(int(year), int(month), rel))
-    return sorted(pending, key=lambda i: (i.year, i.month))
+        found.setdefault((year, month), []).append(rel)
+
+    pending = []
+    for (year, month), paths in sorted(found.items()):
+        issue = Issue(year, month, "")
+        expected = f"files/{year}/{month:02d}/EADM-Newsletter-{year}-{month:02d}.pdf"
+        if f">{issue.archive_label}</a>" in archive or (root / issue.post).exists():
+            for rel in paths:
+                print(f"warning: skipping {rel}: the {issue.month_year} issue "
+                      "is already in the archive", file=sys.stderr)
+            continue
+        chosen = expected if expected in paths else paths[0]
+        if chosen != expected:
+            print(f"note: using {chosen} where it is; the expected name "
+                  f"is {expected}", file=sys.stderr)
+        for rel in paths:
+            if rel != chosen:
+                print(f"warning: skipping {rel}: another copy of the "
+                      f"{issue.month_year} issue, {chosen}, is used",
+                      file=sys.stderr)
+        pending.append(Issue(year, month, chosen))
+    return pending
 
 
 # --------------------------------------------------------------------------
