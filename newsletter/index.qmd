@@ -2,6 +2,8 @@
 title: "Newsletter Archive"
 ---
 
+<a href="/files/2026/11/EADM-Newsletter-2026-11.pdf">2026 November</a>
+
 <a href="/files/2026/04/Newsletter-Spring-2026-EADM.pdf">Spring 2026</a>
 
 <a href="/files/2025/11/Newsletter-Nov-2025-EADM.pdf">2025 November</a>
